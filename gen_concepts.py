@@ -3,7 +3,7 @@
 import os, re
 
 SRC = os.path.expanduser("~/workspace/aduan/duanyongping-kb/01-投资概念")
-DST = os.path.expanduser("~/workspace/aduan/site/concept")
+DST = os.path.expanduser("~/workspace/aduan/docs/concept")
 os.makedirs(DST, exist_ok=True)
 
 CSS = """* { margin: 0; padding: 0; box-sizing: border-box; }

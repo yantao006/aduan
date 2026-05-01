@@ -7,7 +7,7 @@ import yaml
 from pathlib import Path
 
 KB_DIR = Path("/Users/yantao006/workspace/aduan/duanyongping-kb")
-SITE_DIR = Path("/Users/yantao006/workspace/aduan/site")
+SITE_DIR = Path("/Users/yantao006/workspace/aduan/docs")
 
 # ── Slug mapping ──────────────────────────────────────────────
 def slugify(title):
