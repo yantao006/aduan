@@ -5,26 +5,26 @@
   if (!list || !search) return;
 
   const knownUrls = {
-    '苹果': '/concept/苹果.html',
-    '茅台': '/concept/茅台.html',
-    '网易': '/concept/网易.html',
-    '拼多多': '/concept/拼多多.html',
-    '腾讯': '/company/tencent.html',
-    'OPPO': '/company/oppo.html',
-    'vivo': '/company/vivo.html',
-    '步步高': '/company/bbk.html',
-    '富国银行': '/company/wells-fargo.html',
-    '巴菲特': '/person/buffett.html',
-    '芒格': '/person/munger.html',
-    '黄峥': '/person/huangzheng.html',
-    '丁磊': '/person/dinglei.html',
-    '陈明永': '/person/chenmingyong.html',
-    '沈炜': '/person/shenwei.html',
-    '金志江': '/person/jinzhijiang.html',
-    '方三文': '/person/fangsanwen.html',
-    '格雷厄姆': '/person/graham.html',
-    '王石': '/person/wangshi.html',
-    'Stop Doing List': '/concept/stop-doing-list.html',
+    '苹果': 'concept/苹果.html',
+    '茅台': 'concept/茅台.html',
+    '网易': 'concept/网易.html',
+    '拼多多': 'concept/拼多多.html',
+    '腾讯': 'company/tencent.html',
+    'OPPO': 'company/oppo.html',
+    'vivo': 'company/vivo.html',
+    '步步高': 'company/bbk.html',
+    '富国银行': 'company/wells-fargo.html',
+    '巴菲特': 'person/buffett.html',
+    '芒格': 'person/munger.html',
+    '黄峥': 'person/huangzheng.html',
+    '丁磊': 'person/dinglei.html',
+    '陈明永': 'person/chenmingyong.html',
+    '沈炜': 'person/shenwei.html',
+    '金志江': 'person/jinzhijiang.html',
+    '方三文': 'person/fangsanwen.html',
+    '格雷厄姆': 'person/graham.html',
+    '王石': 'person/wangshi.html',
+    'Stop Doing List': 'concept/stop-doing-list.html',
   };
 
   const externalLinks = {
@@ -81,8 +81,8 @@
 
   function nodeUrl(id, kind) {
     if (knownUrls[id]) return knownUrls[id];
-    if (kind === 'concept') return '/concept/' + slugify(id) + '.html';
-    if (kind === 'case') return '/concept/' + slugify(id) + '.html';
+    if (kind === 'concept') return 'concept/' + slugify(id) + '.html';
+    if (kind === 'case') return 'concept/' + slugify(id) + '.html';
     return null;
   }
 
