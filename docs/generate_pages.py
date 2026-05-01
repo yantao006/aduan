@@ -76,7 +76,7 @@ def md_to_html(md_text):
         # Try to find type
         for t in ['concept', 'company', 'person', 'sdl']:
             if slug in SLUG_MAP.get(t, {}):
-                url = f'/{t}/{slug}.html'
+                url = f'{t}/{slug}.html'
                 return f'<a href="{url}" class="wikilink">{display}</a>'
         return f'<span class="wikilink-missing">{display}</span>'
     html = re.sub(r'\[\[([^\]]+)\]\]', wiki_replacer, html)
@@ -149,15 +149,15 @@ def md_to_html(md_text):
 # ── HTML page wrapper ─────────────────────────────────────────
 def page_wrapper(title, content, active_nav='', extra_head=''):
     nav_items = [
-        ('/', '🏠 首页'),
-        ('/concepts.html', '📚 投资概念'),
-        ('/companies.html', '🏢 企业与品牌'),
-        ('/people.html', '👤 关键人物'),
-        ('/stop-doing.html', '🚫 Stop Doing List'),
-        ('/graph.html', '🕸️ 知识图谱'),
+        ('index.html', '🏠 首页'),
+        ('concepts.html', '📚 投资概念'),
+        ('companies.html', '🏢 企业与品牌'),
+        ('people.html', '👤 关键人物'),
+        ('stop-doing.html', '🚫 Stop Doing List'),
+        ('graph.html', '🕸️ 知识图谱'),
     ]
     nav_html = '\n'.join([
-        f'<a href="{p}" class="nav-item{" active" if p == active_nav or (p != "/" and active_nav.startswith(p.rstrip(".html"))) else ""}">{l}</a>'
+        f'<a href="{p}" class="nav-item{" active" if p == active_nav or (p != "index.html" and active_nav.startswith(p.rstrip(".html"))) else ""}">{l}</a>'
         for p, l in nav_items
     ])
     return f'''<!DOCTYPE html>
@@ -318,7 +318,7 @@ companies_page = f'''
 <p class="subtitle">共 {len(companies)} 家企业，段永平投资或经营相关的公司</p>
 {company_list}
 '''
-write_page("companies.html", "企业与品牌", companies_page, active_nav='/companies.html')
+write_page("companies.html", "企业与品牌", companies_page, active_nav='companies.html')
 
 # ═══════════════════════════════════════════════════════════════
 # 2. INDIVIDUAL COMPANY PAGES
@@ -360,7 +360,7 @@ for c in companies:
 </div>
 {related_html}
 '''
-    write_page(f"company/{c['slug']}.html", c['title'], company_page, active_nav='/companies.html')
+    write_page(f"company/{c['slug']}.html", c['title'], company_page, active_nav='companies.html')
 
 # ═══════════════════════════════════════════════════════════════
 # 3. PEOPLE INDEX
@@ -381,7 +381,7 @@ people_page = f'''
 <p class="subtitle">共 {len(people)} 位关键人物，对段永平思想产生重要影响的人</p>
 {people_list}
 '''
-write_page("people.html", "关键人物", people_page, active_nav='/people.html')
+write_page("people.html", "关键人物", people_page, active_nav='people.html')
 
 # ═══════════════════════════════════════════════════════════════
 # 4. INDIVIDUAL PERSON PAGES
@@ -423,7 +423,7 @@ for p in people:
 </div>
 {related_html}
 '''
-    write_page(f"person/{p['slug']}.html", p['title'], person_page, active_nav='/people.html')
+    write_page(f"person/{p['slug']}.html", p['title'], person_page, active_nav='people.html')
 
 # ═══════════════════════════════════════════════════════════════
 # 5. STOP DOING LIST HUB (from README.md)
@@ -452,7 +452,7 @@ sdl_page += '''
   </div>
 </div>
 '''
-write_page("stop-doing.html", "Stop Doing List", sdl_page, active_nav='/stop-doing.html')
+write_page("stop-doing.html", "Stop Doing List", sdl_page, active_nav='stop-doing.html')
 
 # ═══════════════════════════════════════════════════════════════
 # 6. INDIVIDUAL SDL CARD PAGES
@@ -501,7 +501,7 @@ for s in sdl_items:
   <a href="/stop-doing.html">← 返回 Stop Doing List</a>
 </div>
 '''
-    write_page(f"stop-doing/{s['slug']}.html", s['title'], sdl_card_page, active_nav='/stop-doing.html')
+    write_page(f"stop-doing/{s['slug']}.html", s['title'], sdl_card_page, active_nav='stop-doing.html')
 
 # ═══════════════════════════════════════════════════════════════
 # 7. SEARCH INDEX (update with SDL individual pages)
@@ -513,28 +513,28 @@ for item in companies:
     search_index.append({
         't': item['title'],
         'y': '企业',
-        'p': f'/company/{item["slug"]}.html',
+        'p': f'company/{item["slug"]}.html',
         'b': item['body_raw'][:500].replace('\n', ' ').strip(),
     })
 for item in people:
     search_index.append({
         't': item['title'],
         'y': '人物',
-        'p': f'/person/{item["slug"]}.html',
+        'p': f'person/{item["slug"]}.html',
         'b': item['body_raw'][:500].replace('\n', ' ').strip(),
     })
 for item in sdl_items:
     search_index.append({
         't': item['title'],
         'y': '不为清单',
-        'p': f'/stop-doing/{item["slug"]}.html',
+        'p': f'stop-doing/{item["slug"]}.html',
         'b': item['body_raw'][:500].replace('\n', ' ').strip(),
     })
 # Add SDL hub
 search_index.append({
     't': 'Stop Doing List · 不为清单',
     'y': '不为清单',
-    'p': '/stop-doing.html',
+    'p': 'stop-doing.html',
     'b': sdl_readme_body[:500].replace('\n', ' ').strip(),
 })
 
