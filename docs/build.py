@@ -945,9 +945,11 @@ def home_page() -> str:
     <div><h2>思想年表</h2><p>关键年份、概念和案例。</p></div>
     <a class="text-link" href="timeline.html">进入完整年表</a>
   </div>
-  <div class="timeline-track" aria-label="关键事件时间轴">
-    <div class="track-line"></div>
-    {ticks}
+  <div class="timeline-scroll" aria-label="关键事件时间轴">
+    <div class="timeline-track">
+      <div class="track-line"></div>
+      {ticks}
+    </div>
   </div>
   <div class="event-strip">{event_cards}</div>
 </section>

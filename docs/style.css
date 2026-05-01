@@ -17,6 +17,11 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
 body {
   margin: 0;
   color: var(--text);
@@ -215,6 +220,12 @@ p { margin: 0; }
   align-items: end;
   padding: 30px 2px 26px;
 }
+.hero > *,
+.split-section > *,
+.detail-grid > *,
+.section-head > * {
+  min-width: 0;
+}
 .hero-copy,
 .page-hero p,
 .section-head p,
@@ -328,10 +339,18 @@ section {
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
+.timeline-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 4px 0 18px;
+  padding: 0 2px 10px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-color: rgba(138, 122, 100, .35) transparent;
+}
 .timeline-track {
   position: relative;
   height: 76px;
-  margin: 4px 0 18px;
+  min-width: 640px;
 }
 .track-line {
   position: absolute;
@@ -366,6 +385,8 @@ section {
   position: absolute;
   left: 50%;
   bottom: 34px;
+  width: 5ch;
+  text-align: center;
   transform: translateX(-50%);
   color: var(--brown);
   font: 12px ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -1113,29 +1134,29 @@ th {
   }
   .top-nav {
     display: none;
-    position: fixed;
-    top: 74px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 50;
-    flex-direction: column;
-    gap: 0;
-    padding: 12px 20px;
-    background: rgba(247, 241, 230, .97);
-    backdrop-filter: blur(14px);
-    overflow-y: auto;
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    align-items: stretch;
+    padding: 10px 0 2px;
+    border-top: 1px solid rgba(216, 199, 168, .65);
   }
   .top-nav.open {
-    display: flex;
+    display: grid;
   }
   .nav-link {
-    padding: 14px 12px;
-    border-bottom: 1px solid rgba(138, 122, 100, .15);
-    font-size: 16px;
+    display: grid;
+    place-items: center;
+    min-height: 42px;
+    padding: 8px 10px;
+    border: 1px solid rgba(184, 134, 11, .22);
+    border-radius: 8px;
+    background: rgba(251, 247, 238, .62);
+    font-size: 15px;
   }
   .nav-link.active {
-    border-bottom-color: var(--gold);
+    border-color: rgba(184, 134, 11, .58);
+    background: rgba(255, 250, 241, .9);
   }
   .site-header {
     grid-template-columns: 1fr auto auto;
@@ -1144,6 +1165,7 @@ th {
   }
   .search-shell {
     grid-column: 1 / -1;
+    min-width: 0;
   }
   h1,
   .page-hero.compact h1 {
@@ -1173,8 +1195,17 @@ th {
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
   }
+  .timeline-scroll {
+    margin: 2px calc(50% - 50vw) 18px;
+    padding: 0 16px 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+  }
   .timeline-track {
     height: 100px;
+    min-width: 720px;
+    margin-inline: 56px;
   }
   .timeline-dot {
     top: 30px;
@@ -1182,10 +1213,18 @@ th {
     height: 13px;
   }
   .timeline-dot span {
-    bottom: 24px;
-    font-size: 10px;
-    transform: translateX(-50%) rotate(-45deg);
-    transform-origin: left bottom;
+    display: none;
+    bottom: 22px;
+    font-size: 11px;
+    transform: translateX(-50%);
+    transform-origin: center bottom;
+  }
+  .timeline-dot:nth-of-type(1) span,
+  .timeline-dot:nth-of-type(5) span,
+  .timeline-dot:nth-of-type(10) span,
+  .timeline-dot:nth-of-type(15) span,
+  .timeline-dot:nth-of-type(20) span {
+    display: block;
   }
   .track-line {
     top: 36px;
@@ -1216,6 +1255,8 @@ th {
   .event-strip {
     grid-auto-columns: 86vw;
     gap: 14px;
+    margin-right: calc(50% - 50vw);
+    padding-right: 16px;
   }
   .event-card {
     padding: 16px;
@@ -1255,6 +1296,7 @@ th {
   }
   .brand {
     gap: 8px;
+    min-width: 0;
   }
   .brand-mark {
     width: 36px;
@@ -1263,9 +1305,11 @@ th {
   }
   .brand strong {
     font-size: 16px;
+    line-height: 1.25;
   }
   .brand small {
     font-size: 10px;
+    line-height: 1.35;
   }
   .hamburger {
     width: 36px;
@@ -1276,6 +1320,20 @@ th {
   main,
   .site-footer {
     width: min(100vw - 24px, 1280px);
+  }
+  .hero {
+    padding: 22px 0 20px;
+  }
+  .hero-copy {
+    font-size: 16px;
+    overflow-wrap: anywhere;
+  }
+  .today-quote {
+    min-height: 190px;
+    padding: 18px 20px;
+  }
+  .today-quote blockquote {
+    font-size: 18px;
   }
   h1,
   .page-hero.compact h1 {
@@ -1308,6 +1366,8 @@ th {
   }
   .timeline-track {
     height: 88px;
+    min-width: 700px;
+    margin-inline: 56px;
   }
   .timeline-dot {
     top: 26px;
@@ -1316,9 +1376,9 @@ th {
   }
   .timeline-dot span {
     bottom: 20px;
-    font-size: 9px;
-    transform: translateX(-50%) rotate(-50deg);
-    transform-origin: left bottom;
+    font-size: 10px;
+    transform: translateX(-50%);
+    transform-origin: center bottom;
   }
   .track-line {
     top: 31px;
