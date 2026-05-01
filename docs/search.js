@@ -13,7 +13,7 @@
 
   function loadIndex() {
     if (index) return Promise.resolve(index);
-    return fetch("/search-index.json")
+    return fetch("search-index.json")
       .then((response) => response.json())
       .then((data) => {
         index = data;

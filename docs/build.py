@@ -20,7 +20,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 KB_DIR = ROOT / "duanyongping-kb"
 ANALYSIS_DIR = KB_DIR / "00-analysis"
-SITE_DIR = ROOT / "site"
+SITE_DIR = ROOT / "docs"
 
 
 def read_text(path: Path) -> str:
@@ -557,8 +557,8 @@ def url_for_title(title: str, kind_hint: str | None = None) -> str | None:
         return None
     folder = {"concept": "concept", "company": "company", "person": "person", "sdl": "stop-doing"}.get(item["kind"])
     if item["kind"] == "sdl":
-        return f"/stop-doing/{item['slug']}.html"
-    return f"/{folder}/{item['slug']}.html"
+        return f"stop-doing/{item['slug']}.html"
+    return f"{folder}/{item['slug']}.html"
 
 
 def infer_source_date(source: str, path: Path | None = None) -> str:
@@ -623,7 +623,7 @@ def register_source(source: str, quote: str | None = None) -> dict[str, Any]:
         "path": path if path_exists else None,
         "title": title or "未命名资料",
         "date": date,
-        "url": f"/sources/{slug}.html",
+        "url": f"sources/{slug}.html",
         "excerpts": [quote] if quote else [],
     }
     source_registry[source] = info
@@ -718,15 +718,17 @@ def search_box() -> str:
 """
 
 
-def page(title: str, body: str, active: str = "") -> str:
+def page(title: str, body: str, active: str = "", current_path: str = "index.html") -> str:
+    depth = len(Path(current_path).parent.parts)
+    base_href = "./" if depth == 0 else "../" * depth
     nav = [
-        ("/", "首页", "home"),
-        ("/timeline.html", "思想年表", "timeline"),
-        ("/concepts.html", "核心概念", "concepts"),
-        ("/companies.html", "企业档案", "companies"),
-        ("/people.html", "人物关系", "people"),
-        ("/stop-doing.html", "不为清单", "sdl"),
-        ("/graph.html", "知识图谱", "graph"),
+        ("index.html", "首页", "home"),
+        ("timeline.html", "思想年表", "timeline"),
+        ("concepts.html", "核心概念", "concepts"),
+        ("companies.html", "企业档案", "companies"),
+        ("people.html", "人物关系", "people"),
+        ("stop-doing.html", "不为清单", "sdl"),
+        ("graph.html", "知识图谱", "graph"),
     ]
     nav_html = "".join(
         f'<a class="nav-link {"active" if key == active else ""}" href="{href}">{label}</a>'
@@ -738,13 +740,14 @@ def page(title: str, body: str, active: str = "") -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(title)} · 段永平投资知识库</title>
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/style.css">
+  <base href="{base_href}">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="/">
-      <img class="brand-mark" src="/assets/logo.svg" alt="" width="46" height="46">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="assets/logo.svg" alt="" width="46" height="46">
       <span><strong>段永平投资知识库</strong><small>理解本质，做时间的朋友</small></span>
     </a>
     <nav class="top-nav">{nav_html}</nav>
@@ -754,7 +757,7 @@ def page(title: str, body: str, active: str = "") -> str:
   <footer class="site-footer">
     <span>基于公开演讲、博客、访谈、雪球问答整理。频次统计仅作线索，不构成投资建议。</span>
   </footer>
-  <script src="/search.js"></script>
+  <script src="search.js"></script>
 </body>
 </html>"""
 
@@ -762,7 +765,7 @@ def page(title: str, body: str, active: str = "") -> str:
 def write_page(path: str, title: str, content: str, active: str = "") -> None:
     out = SITE_DIR / path
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(page(title, content, active), encoding="utf-8")
+    out.write_text(page(title, content, active, path), encoding="utf-8")
     print(f"wrote {path}")
 
 
@@ -891,7 +894,7 @@ def home_page() -> str:
     today = today_pool[today_index] if today_pool else {}
     top_concepts = [c for c in concepts if concept_evolution.get(c["title"], {}).get("core_for_timeline")]
     concept_cards = "".join(
-        f"""<a class="concept-tile" href="/concept/{c['slug']}.html">
+        f"""<a class="concept-tile" href="concept/{c['slug']}.html">
           <span>{html.escape(concept_card_kicker(c['title']))}</span>
           <strong>{html.escape(clean_title(c['title']))}</strong>
           <small>{html.escape(concept_card_line(c['title']))}</small>
@@ -904,7 +907,7 @@ def home_page() -> str:
           <time>{e['year']}</time>
           <h3>{html.escape(e['title'])}</h3>
           <p>{html.escape(e['summary'])}</p>
-          <a href="/timeline.html#year-{e['year']}">展开这一年</a>
+          <a href="timeline.html#year-{e['year']}">展开这一年</a>
         </article>"""
         for e in events
     )
@@ -913,7 +916,7 @@ def home_page() -> str:
         for e in events
     )
     companies_html = "".join(
-        f"""<a class="mini-card" href="/company/{c['slug']}.html">
+        f"""<a class="mini-card" href="company/{c['slug']}.html">
           <span>{html.escape(company_card_kicker(c['title']))}</span>
           <strong>{html.escape(clean_title(c['title']))}</strong>
           <small>{html.escape(company_card_line(c['title']))}</small>
@@ -938,7 +941,7 @@ def home_page() -> str:
 <section class="timeline-panel">
   <div class="section-head">
     <div><h2>思想年表</h2><p>关键年份、概念和案例。</p></div>
-    <a class="text-link" href="/timeline.html">进入完整年表</a>
+    <a class="text-link" href="timeline.html">进入完整年表</a>
   </div>
   <div class="timeline-track" aria-label="关键事件时间轴">
     <div class="track-line"></div>
@@ -949,24 +952,24 @@ def home_page() -> str:
 
 <section class="split-section">
   <div>
-    <div class="section-head"><div><h2>核心概念</h2><p>高频概念与关键出处。</p></div><a class="text-link" href="/concepts.html">查看全部</a></div>
+    <div class="section-head"><div><h2>核心概念</h2><p>高频概念与关键出处。</p></div><a class="text-link" href="concepts.html">查看全部</a></div>
     <div class="concept-grid">{concept_cards}</div>
   </div>
   <aside class="paper-note start-note">
     <h2>从这里开始</h2>
     <div class="quick-links">
-      <a href="/concept/买股票就是买公司.html"><span>2010</span><strong>买股票就是买公司</strong></a>
-      <a href="/concept/stop-doing-list.html"><span>2018</span><strong>Stop Doing List</strong></a>
-      <a href="/company/apple.html"><span>2011</span><strong>苹果案例</strong></a>
+      <a href="concept/买股票就是买公司.html"><span>2010</span><strong>买股票就是买公司</strong></a>
+      <a href="concept/stop-doing-list.html"><span>2018</span><strong>Stop Doing List</strong></a>
+      <a href="company/apple.html"><span>2011</span><strong>苹果案例</strong></a>
     </div>
   </aside>
 </section>
 
 <section>
-  <div class="section-head"><div><h2>企业案例</h2><p>网易、苹果、茅台、拼多多、GE。</p></div><a class="text-link" href="/companies.html">查看全部</a></div>
+  <div class="section-head"><div><h2>企业案例</h2><p>网易、苹果、茅台、拼多多、GE。</p></div><a class="text-link" href="companies.html">查看全部</a></div>
   <div class="mini-grid">{companies_html}</div>
 </section>
-<script src="/timeline.js"></script>
+<script src="timeline.js"></script>
 """
 
 
@@ -1018,7 +1021,7 @@ def concepts_page() -> str:
     sections = ""
     for category, group in sorted(groups.items()):
         cards = "".join(
-            f"""<a class="archive-card" href="/concept/{c['slug']}.html">
+            f"""<a class="archive-card" href="concept/{c['slug']}.html">
               <span>{html.escape('公司 / 案例' if category == '投资案例' else concept_card_kicker(c['title']))}</span>
               <h3>{html.escape(clean_title(c['title']))}</h3>
               <p>{html.escape(concept_card_line(c['title']))}</p>
@@ -1087,7 +1090,7 @@ def concept_page(concept: dict[str, Any]) -> str:
 
 def companies_page() -> str:
     cards = "".join(
-        f"""<a class="archive-card wide" href="/company/{c['slug']}.html">
+        f"""<a class="archive-card wide" href="company/{c['slug']}.html">
           <span>{html.escape(company_card_kicker(c['title']))}</span>
           <h3>{html.escape(clean_title(c['title']))}</h3>
           <p>{html.escape(company_card_line(c['title']))}</p>
@@ -1162,7 +1165,7 @@ def company_page(company: dict[str, Any]) -> str:
 
 def people_page() -> str:
     cards = "".join(
-        f"""<a class="archive-card" href="/person/{p['slug']}.html">
+        f"""<a class="archive-card" href="person/{p['slug']}.html">
           <span>{html.escape(p['category'])}</span>
           <h3>{html.escape(clean_title(p['title']))}</h3>
           <p>{html.escape(person_card_line(p['title'], p.get('relationship','')))}</p>
@@ -1207,7 +1210,7 @@ def sdl_page() -> str:
         if not group:
             continue
         cards = "".join(
-            f"""<a class="sdl-card" href="/stop-doing/{s['slug']}.html">
+            f"""<a class="sdl-card" href="stop-doing/{s['slug']}.html">
               <span>#{s['sdl_number']}</span>
               <h3>{html.escape(clean_title(s['title']))}</h3>
               <p>{html.escape(sdl_summary(s))}</p>
@@ -1279,7 +1282,7 @@ def graph_page() -> str:
   </div>
   <div id="graph-list" class="graph-list"></div>
 </section>
-<script src="/graph.js"></script>
+<script src="graph.js"></script>
 """
 
 
@@ -1319,7 +1322,7 @@ def write_source_pages() -> None:
                 register_source(source)
     source_registry_filtered = {source: info for source, info in source_registry.items() if source_has_content(info)}
     for source, info in list(source_registry_filtered.items()):
-        path = info["url"].lstrip("/")
+        path = info["url"]
         write_page(path, info["title"], source_page(info), "")
     cards = "".join(
         f"""<a class="archive-card" href="{info['url']}">
@@ -1350,7 +1353,7 @@ def build_search_index() -> None:
                 {
                     "t": clean_title(item["title"]),
                     "y": label,
-                    "p": f"/{prefix}/{item['slug']}.html",
+                    "p": f"{prefix}/{item['slug']}.html",
                     "b": re.sub(r"\s+", " ", item["body"])[:700],
                 }
             )
