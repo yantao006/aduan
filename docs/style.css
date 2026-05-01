@@ -1174,9 +1174,21 @@ th {
     white-space: nowrap;
   }
   .timeline-track {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    min-width: 640px;
+    height: 100px;
+  }
+  .timeline-dot {
+    top: 30px;
+    width: 13px;
+    height: 13px;
+  }
+  .timeline-dot span {
+    bottom: 24px;
+    font-size: 10px;
+    transform: translateX(-50%) rotate(-45deg);
+    transform-origin: left bottom;
+  }
+  .track-line {
+    top: 36px;
   }
   .year-rail {
     display: flex;
@@ -1218,13 +1230,15 @@ th {
   .graph-tabs {
     width: 100%;
     flex-wrap: nowrap;
+    gap: 6px;
   }
   .graph-tabs button {
     flex: 1;
     text-align: center;
     font-size: 14px;
-    padding: 8px 6px;
-    min-height: 40px;
+    padding: 10px 6px;
+    min-height: 44px;
+    white-space: nowrap;
   }
 }
 
@@ -1292,6 +1306,23 @@ th {
   .event-strip {
     grid-auto-columns: 90vw;
   }
+  .timeline-track {
+    height: 88px;
+  }
+  .timeline-dot {
+    top: 26px;
+    width: 11px;
+    height: 11px;
+  }
+  .timeline-dot span {
+    bottom: 20px;
+    font-size: 9px;
+    transform: translateX(-50%) rotate(-50deg);
+    transform-origin: left bottom;
+  }
+  .track-line {
+    top: 31px;
+  }
   .graph-tools {
     flex-direction: column;
     gap: 10px;
@@ -1302,12 +1333,15 @@ th {
   .graph-tabs {
     width: 100%;
     flex-wrap: nowrap;
+    gap: 6px;
   }
   .graph-tabs button {
     flex: 1;
     text-align: center;
     font-size: 13px;
-    padding: 8px 6px;
-    min-height: 40px;
+    padding: 10px 4px;
+    min-height: 44px;
+    white-space: nowrap;
+    line-height: 1.3;
   }
 }
