@@ -1,0 +1,1675 @@
+meta:
+  purpose: 概念页的演变轨迹数据。核心概念可直接用于页面；非核心概念作为待人工精修底稿。
+  core_concepts:
+  - 买股票就是买公司
+  - 未来现金流折现
+  - 能力圈
+  - 护城河
+  - 本分
+  - 平常心
+  - Stop Doing List (不为清单)
+  - 商业模式
+  generated_at: '2026-05-01'
+concepts:
+  买股票就是买公司:
+    category: 投资哲学
+    first_seen: 2010-03
+    last_seen: 2026-03
+    mentioned_count: 394
+    core_for_timeline: true
+    frequency_peak_years:
+    - year: 2019
+      count: 170
+    - year: 2025
+      count: 149
+    - year: 2020
+      count: 115
+    - year: 2011
+      count: 108
+    - year: 2013
+      count: 104
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：在网易博客中系统阐述，将「买股票就是买公司」作为投资核心理念的第一条，与「未来现金流折现」「能力圈」等一同构成投资框架。
+    - period: 2012-2018
+      summary: 中期（2012-2018）：在《投资的信仰》中将此概念升华为「信仰」，强调「买股票就是买公司，句号！」。
+    - period: 2019-2026
+      summary: 近期（2019-2026）：在雪球访谈中反复确认，表述始终一致从未改变。2025年与方三文对话中再次强调这就是其投资理念的全部精髓。
+    representative_quotes:
+    - '"买股票就是买公司，买公司就是买公司的未来现金流折现，句号！这就是我说的所谓的信仰的意思，或者说我是从骨子里相信，不会因为任何影响而动摇。"'
+    - '"直到我看了老巴（巴菲特）的东西，其实啥也没看，就看到那一句话：''买股票就是买公司''。我就突然明白了，这句话就够了。"'
+    - '"用一句话来概括你的投资理念的话，是不是就是''买股票就是买公司''？是的，没有了，这就够了。但是后面那句话是：你要看懂公司。这个很难。"'
+    related_concepts:
+    - 未来现金流折现
+    - 能力圈
+    - right business right people right price
+    related_companies:
+    - 网易
+    - 苹果
+    - 茅台
+    - 腾讯
+    - GE
+    - 万科
+    related_people:
+    - 巴菲特
+    - 芒格
+    - 方三文
+    source_card: duanyongping-kb/01-投资概念/01-买股票就是买公司.md
+  未来现金流折现:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2025-10
+    mentioned_count: 281
+    core_for_timeline: true
+    frequency_peak_years:
+    - year: 2010
+      count: 482
+    - year: 2019
+      count: 440
+    - year: 2012
+      count: 276
+    - year: 2011
+      count: 217
+    - year: 2025
+      count: 209
+    phases:
+    - period: 2010-2011
+      summary: 早期（2010-2011）：在网易博客中系统讨论DCF，写有《现金流量折现法》专文，讨论折现率等技术话题。
+    - period: 2012-2015
+      summary: 中期（2012-2015）：在《投资的信仰》《复习一下》中将DCF升华为「买股票就是买公司」的自然延伸，强调思维框架而非技术工具。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：坚持DCF框架，明确批驳市盈率决定论。2025年访谈中再次确认「决定投资不是由市盈率来决定的，是由你未来的现金流来决定的」。
+    representative_quotes:
+    - '"未来现金流的折现不是算法，是思维方式，不要企图拿计算器去算出来。当然，拿计算器算一下也没什么错。"'
+    - '"公司未来现金流的折现就是公司的内在价值。应该在公司股价低于其内在价值时买入。"'
+    - '"宁要模糊的精确，也不要精确的模糊。我觉得这就是毛估估的意思。"'
+    related_concepts:
+    - 买股票就是买公司
+    - 能力圈
+    - 毛估估
+    - right business right people right price
+    related_companies:
+    - 苹果
+    - 茅台
+    - 网易
+    - GE
+    - 万科
+    related_people:
+    - 巴菲特
+    - 芒格
+    - 马克思
+    source_card: duanyongping-kb/01-投资概念/02-未来现金流折现.md
+  能力圈:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2026-03
+    mentioned_count: 643
+    core_for_timeline: true
+    frequency_peak_years:
+    - year: 2012
+      count: 242
+    - year: 2010
+      count: 206
+    - year: 2019
+      count: 189
+    - year: 2013
+      count: 136
+    - year: 2011
+      count: 122
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：与「不懂不做」紧密关联，作为投资的基本前提来阐述。
+    - period: 2013-2018
+      summary: 中期（2013-2018）：2018年斯坦福交流中提出「诚实对自己」的能力圈定义，将安全边际与能力圈融合，提出「安全边际实际上应该是能力圈而不仅仅是价格」的创新解读。
+    - period: 2019-2026
+      summary: 近期（2019-2026）：能力圈范围逐渐扩大（开始研究英伟达），但核心原则不变。2025年访谈中频繁引用，强调「看不懂就不碰」。
+    representative_quotes:
+    - '"知道自己的能力圈有多大往往比自己能力圈有多大要重要的多！"'
+    - '"能力圈不是拿金箍棒在地上画个圈，说待在里面不要出去，外面有妖怪。能力圈是：诚实对自己，知之为知之，不知为不知。"'
+    - '"不懂不做是一个人判断公司内在价值的必要前提（不是充分的）。"'
+    related_concepts:
+    - 不懂不做
+    - 安全边际
+    - 未来现金流折现
+    related_companies:
+    - 苹果
+    - 茅台
+    - 网易
+    - 谷歌
+    - 银行
+    related_people:
+    - 巴菲特
+    - 芒格
+    source_card: duanyongping-kb/01-投资概念/03-能力圈.md
+  安全边际:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2025-10
+    mentioned_count: 429
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 375
+    - year: 2011
+      count: 130
+    - year: 2013
+      count: 72
+    - year: 2025
+      count: 57
+    - year: 2012
+      count: 50
+    phases:
+    - period: 2010-2011
+      summary: 早期（2010-2011）：在网易博客中写有《安全边际》专文，开始质疑传统的价格折扣解释，提出「不仅仅是价格」。
+    - period: 2012-2018
+      summary: 中期（2012-2018）：在《啰嗦版》中将安全边际与能力圈融合，形成独特框架。2018年明确提出「安全边际=能力圈」。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：2025年访谈中再次确认「安全边际指的是你对公司有多懂」。与传统格雷厄姆式的价格折扣安全边际形成鲜明对比，更接近巴菲特的「确定性」概念。
+    representative_quotes:
+    - '"我自己对安全边际的理解实际上是自己对要投资的生意的了解度。自己觉得风险越小的投入的比例就可以越大些。"'
+    - '"我觉得margin of safety实际上应该指的是能力圈而不仅仅是价格。"'
+    - '"安全边际指的其实不是眼前的价格，而是对投资标的风险的了解。这里的''风险''指的其实不是市场价格的波动，而是实际生意可能出现的变化。"'
+    related_concepts:
+    - 能力圈
+    - 未来现金流折现
+    - 毛估估
+    related_companies:
+    - 苹果
+    - GE
+    - 网易
+    - 万科
+    - 华侨城
+    related_people:
+    - 巴菲特
+    - 乔布斯
+    source_card: duanyongping-kb/01-投资概念/04-安全边际.md
+  护城河:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2026-04
+    mentioned_count: 747
+    core_for_timeline: true
+    frequency_peak_years:
+    - year: 2010
+      count: 361
+    - year: 2014
+      count: 213
+    - year: 2025
+      count: 171
+    - year: 2019
+      count: 139
+    - year: 2012
+      count: 110
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：在《再说对价值投资的一些基本理解》中系统阐述护城河，将护城河与企业文化挂钩是其独特贡献。
+    - period: 2012-2018
+      summary: 中期（2012-2018）：在《啰嗦版》中将护城河纳入生意模式框架。频繁引用巴菲特「城堡与公爵」的比喻。
+    - period: 2019-2026
+      summary: 近期（2019-2026）：在雪球上频繁讨论具体公司的护城河（苹果、茅台、Costco、英伟达等），强调「加宽护城河」是企业经营的核心任务。
+    representative_quotes:
+    - '"护城河应该是生意模式的一部分。没有护城河的生意模式不是好的生意模式，但有护城河的生意未必就一定是好的生意模式。"'
+    - '"企业文化是''护城河''的重要部分。很难想象一个没有很强企业文化的企业可以有个很宽的''护城河''。"'
+    - '"好的生意模式往往具有很宽的护城河。好的生意模式往往是好的未来现金流的保障。"'
+    related_concepts:
+    - right business right people right price
+    - 未来现金流折现
+    - 能力圈
+    related_companies:
+    - 苹果
+    - 茅台
+    - 可口可乐
+    - GEICO
+    - Costco
+    - 英伟达
+    - 迪士尼
+    related_people:
+    - 巴菲特
+    - 芒格
+    source_card: duanyongping-kb/01-投资概念/05-护城河.md
+  长期持有:
+    category: 投资哲学
+    first_seen: 2010-03
+    last_seen: 2025-10
+    mentioned_count: 36
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 95
+    - year: 2025
+      count: 49
+    - year: 2012
+      count: 39
+    - year: 2011
+      count: 38
+    - year: 2024
+      count: 36
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：明确反对「长期持有=价值投资」的误解，提出「长期持有是意向」。
+    - period: 2013-2018
+      summary: 中期（2013-2018）：持续强调好公司不需要卖，但也不会死守。以机会成本为衡量标准。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：2025年访谈中再次确认这一灵活立场，与市场上「死了都不卖」的教条式长期持有形成鲜明对比。
+    representative_quotes:
+    - '"我总觉得价值投资就应该长期持有的说法是对价值投资的误解。误解最大的无过于''长期持有就是价值投资''了。但是，买到了便宜的好股票最好不要轻易出手。"'
+    - '"长期持有是一个意向，就是我买的那个刹那我是打算长期持有的。但是你永远是算你的机会成本的。"'
+    - '"好公司是不需要卖的！"'
+    related_concepts:
+    - 集中投资
+    - 买股票就是买公司
+    - 不懂不做
+    related_companies:
+    - 苹果
+    - 茅台
+    - 网易
+    - GE
+    - 伯克希尔
+    related_people:
+    - 巴菲特
+    source_card: duanyongping-kb/01-投资概念/06-长期持有.md
+  集中投资:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2025-10
+    mentioned_count: 42
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 12
+    - year: 2025
+      count: 7
+    - year: 2019
+      count: 5
+    - year: 2020
+      count: 5
+    - year: 2012
+      count: 4
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：提出投资三大原则，框架上为集中投资奠定基础。
+    - period: 2013-2019
+      summary: 中期（2013-2019）：苹果仓位逐渐加重至90%，用实践验证集中投资理念。
+    - period: 2020-2025
+      summary: 近期（2020-2025）：2025年访谈中明确表示「20个孔的额度还没用完」，核心持仓仍是苹果、茅台、腾讯三只。
+    representative_quotes:
+    - '"我自己真的投过比较大金额、大比重的，最早是网易；雅虎应该算；后来差不多就到苹果了吧；茅台其实也蛮大的；腾讯我现在其实还可以吧。差不多小10个孔。所以我还有很久可以做投资。"'
+    - '"我一般跟大家讲我就三只股票：苹果、腾讯、茅台。差不多真是这样。"'
+    - '"投苹果我投最高的时候，我投到90几个点（90%仓位），就是一直买一直买一直买，每次掉我都买。"'
+    related_concepts:
+    - 能力圈
+    - 不懂不做
+    - 长期持有
+    related_companies:
+    - 苹果
+    - 茅台
+    - 腾讯
+    - 网易
+    - 拼多多
+    - 伯克希尔
+    related_people:
+    - 巴菲特
+    - 芒格
+    - 彼得·林奇
+    source_card: duanyongping-kb/01-投资概念/07-集中投资.md
+  不懂不做:
+    category: 投资哲学
+    first_seen: 2010-03
+    last_seen: 2025-12
+    mentioned_count: 74
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 55
+    - year: 2014
+      count: 52
+    - year: 2019
+      count: 36
+    - year: 2013
+      count: 25
+    - year: 2012
+      count: 22
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：将「不懂不做」列为投资三大原则，源于巴菲特的忠告，形成投资纪律的核心。
+    - period: 2013-2018
+      summary: 中期（2013-2018）：多次在具体公司讨论中体现「不懂不做」的实践——不碰金融、不碰医药。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：能力圈逐渐扩展（开始研究英伟达），但仍保持谨慎。2025年访谈中再次确认「看不懂就不碰」的原则。
+    representative_quotes:
+    - '"投资很简单，不懂不做。但要能搞懂企业就算看一吨的书也不一定行，投资简单但不容易！"'
+    - '"不懂不做有什么问题？当然不懂也是可以做的，没人不让你做，股市里85%以上的都如此，对吧？！不懂不做是个忠告，当然是老巴对我的忠告，你可以不听。"'
+    - '"不懂不做是一个人判断公司内在价值的必要前提（不是充分的）。"'
+    related_concepts:
+    - 能力圈
+    - 集中投资
+    - 未来现金流折现
+    related_companies:
+    - 苹果
+    - 网易
+    - 茅台
+    - 英伟达
+    related_people:
+    - 巴菲特
+    - 芒格
+    source_card: duanyongping-kb/01-投资概念/08-不懂不做.md
+  毛估估:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2025-11
+    mentioned_count: 62
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 132
+    - year: 2019
+      count: 95
+    - year: 2011
+      count: 42
+    - year: 2025
+      count: 42
+    - year: 2012
+      count: 37
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：在DCF文章中系统阐述毛估估概念，强调估值不需要公式。
+    - period: 2013-2018
+      summary: 中期（2013-2018）：在《复习一下》中收集大量实战案例（万科、GE、网易），用经验说明毛估估的有效性。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：核心观点始终不变。2025年雪球讨论中仍频繁使用「毛估估」一词，强调5分钟看不懂就不值得深入。
+    representative_quotes:
+    - '"宁要模糊的精确，也不要精确的模糊。我觉得这就是毛估估的意思。"'
+    - '"毛估估。意思就是5分钟就能算明白的东西，一定要够便宜。"'
+    - '"我的所谓估值都是毛估估的。我买万科时万科市值才100多个亿，我认为这无论如何也不止，所以就随便给了个500亿。"'
+    related_concepts:
+    - 未来现金流折现
+    - 安全边际
+    - 能力圈
+    related_companies:
+    - 万科
+    - 网易
+    - GE
+    - 茅台
+    - 苹果
+    related_people:
+    - 巴菲特
+    - 芒格
+    source_card: duanyongping-kb/01-投资概念/09-毛估估.md
+  right business right people right price:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2025-10
+    mentioned_count: 66
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 120
+    - year: 2025
+      count: 102
+    - year: 2013
+      count: 100
+    - year: 2026
+      count: 61
+    - year: 2012
+      count: 55
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：在《再说对价值投资的一些基本理解》中将巴菲特的这个框架与自己的五大概念一一对应。
+    - period: 2013-2019
+      summary: 中期（2013-2019）：在斯坦福交流中进一步阐述「同道中人」与「同行中人」的区别，深化了right people的内涵。
+    - period: 2020-2025
+      summary: 近期（2020-2025）：2025年访谈中关于特斯拉的讨论体现了right people在实际投资决策中的决定性作用。
+    representative_quotes:
+    - '"right business, right people, right price. 对的生意，对的人，对的价格。这是老巴说的。"'
+    - '"对的生意指的就是好的生意模式（好的护城河），对的人指好的企业文化（好的管理团队），对的价格当然就是足够便宜。"'
+    - '"生意模式就是right business，企业文化就是right people。再加上right price，三者缺一不可。"'
+    related_concepts:
+    - 买股票就是买公司
+    - 护城河
+    - 未来现金流折现
+    - 安全边际
+    related_companies:
+    - 苹果
+    - 茅台
+    - 特斯拉
+    - 伯克希尔
+    - 拼多多
+    related_people:
+    - 巴菲特
+    - 芒格
+    - 马斯克
+    - 黄峥
+    - 乔布斯
+    source_card: duanyongping-kb/01-投资概念/10-right business right people right price.md
+  本分:
+    category: 商业思维
+    first_seen: '1999'
+    last_seen: '2026'
+    mentioned_count: 206
+    core_for_timeline: true
+    frequency_peak_years:
+    - year: 2019
+      count: 318
+    - year: 2025
+      count: 271
+    - year: 2010
+      count: 262
+    - year: 2014
+      count: 205
+    - year: 2020
+      count: 203
+    phases:
+    - period: 1999-2005
+      summary: 早期（1999-2005）：本分最初定义为「说话算数、讲信誉」的商业诚信基础，与「老实做事」联系在一起，是朴素的行为准则。
+    - period: 2005-2018
+      summary: 中期（2005-2018）：沈炜在2015年20周年讲话中系统阐述本分的九个维度，将其从单一诚信概念升华为企业核心方法论。段永平在斯坦福提出「本分+平常心」的成功公式。
+    - period: 2018-2026
+      summary: 近期（2018-2026）：本分与平常心、做对的事情深度融合，成为个人和企业的共同行为准则。沈炜在30周年提出「本分是自觉自悟的深刻修炼」，从外在要求变为内在觉醒。
+    representative_quotes:
+    - 「我们做企业最根本的东西，就是本分。说话要算数，是一种本分。守信誉不是给人看的，为了一个承诺去赔钱，可能很多企业家会赖帐，但我会毫不犹豫地践诺。」（2000年销售手册前言）
+    - 「企业不要什么钱都赚，这是一种本分。企业应该有道德，有自己的原则。有些生意哪怕再赚钱，如果违背自己做企业的原则，那我肯定不会去做的。」（2000年销售手册前言）
+    - 「我们所有的成功，都来自于'本分+平常心'。」（2018年斯坦福交流）
+    related_concepts:
+    - 平常心
+    - 企业文化
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/11-本分.md
+  平常心:
+    category: 商业思维
+    first_seen: '1999'
+    last_seen: '2026'
+    mentioned_count: 194
+    core_for_timeline: true
+    frequency_peak_years:
+    - year: 2019
+      count: 187
+    - year: 2020
+      count: 159
+    - year: 2014
+      count: 156
+    - year: 2010
+      count: 130
+    - year: 2025
+      count: 114
+    phases:
+    - period: 1999-2005
+      summary: 早期（1999-2005）：首先出现在1999年讲话中，与进取心、耐心、责任心、爱心并列，是五种心态之一。
+    - period: 2005-2018
+      summary: 中期（2005-2018）：与「本分」配对出现，沈炜将两者融合为企业思维方法论——本分是做对的事，平常心是回到本原判断对错。
+    - period: 2018-2026
+      summary: 近期（2018-2026）：在斯坦福和方三文对话中被精炼为「回到事物本原=理性」，从企业理念升华为认知纪律。段永平给出最精炼的定义：「平常心其实就是rational。」
+    representative_quotes:
+    - 「平常心，就是rational（理性），就是回到事物的本原，就是做对的事情，和把事情做对。」（2018年斯坦福交流）
+    - 「保持不难，因为它就在那儿（是内心已经有的东西）。不过，马云还说过一句话'平常人是很难有平常心的，所以平常心也是不平常心！'发现嘛，靠吃亏。因为没有平常心，一不rational就会栽跟头。」（2018年斯坦福）
+    - 「不健康、不长久的事不做，就是很平常心的东西。没有什么要怎么着，要做500强啊，要这个要那个。」（2025年方三文对话）
+    related_concepts:
+    - 本分
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/12-平常心.md
+  Stop Doing List (不为清单):
+    category: 商业思维
+    first_seen: '2007'
+    last_seen: '2026'
+    mentioned_count: 192
+    core_for_timeline: true
+    frequency_peak_years:
+    - year: 2018
+      count: 61
+    - year: 2025
+      count: 58
+    - year: 2019
+      count: 37
+    - year: 2016
+      count: 36
+    - year: 2020
+      count: 35
+    phases:
+    - period: '2007'
+      summary: 早期（2007）：以「不为清单」概念首次出现在2007年波士堂节目中，主持人袁鸣直接问段永平「你有没有不做的东西」。
+    - period: 2007-2018
+      summary: 中期（2007-2018）：逐步积累发展，2018年斯坦福讲座成为系统阐述该概念的标志性事件，段永平首次完整公开OPPO/vivo的不为清单。
+    - period: 2018-2026
+      summary: 近期（2018-2026）：在2025年方三文对话中被深度阐述，成为段永平解释三十年成功的核心框架，也与《基业长青》《从优秀到卓越》的理论框架深度结合。
+    representative_quotes:
+    - 「人们常说Do right thing, do things right，要做对的事、要把事情做对，道理大家都懂，怎样做到呢？就是不做错的事。多数人不是判断不了对错，而是明知是错的还要去做，因为时常会有短期的诱惑。」（2018年斯坦福）
+    - 「不做的事情更重要。聚焦，才能做长期正确的事情。」（2018年斯坦福）
+    - 「其实犯错误的概率大家其实都差不多的，只是说你犯不犯下去，还有就是你有没有Stop Doing List（不为清单）。那我们上了停止做的事情，那我们犯这一类错误的概率就小了嘛。所以我们30年下来我们犯的错误就比其他人少。」（2025年方三文对话）
+    related_concepts:
+    - 做对的事情 把事情做对
+    - 不为清单
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/13-Stop-Doing-List-不为清单.md
+  做对的事情 把事情做对:
+    category: 商业思维
+    first_seen: '2004'
+    last_seen: '2026'
+    mentioned_count: 190
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2014
+      count: 310
+    - year: 2025
+      count: 212
+    - year: 2019
+      count: 173
+    - year: 2013
+      count: 148
+    - year: 2012
+      count: 125
+    phases:
+    - period: 2004-2010
+      summary: 早期（2004-2010）：源自大学时读到德鲁克，早期作为企业决策框架。段永平在2005年十周年讲话中将其作为步步高成功的核心解释。
+    - period: 2010-2018
+      summary: 中期（2010-2018）：与Stop Doing List融合，通过「不为清单」来落实「做对的事情」。在纠错中强调「代价最小化」原则。
+    - period: 2018-2026
+      summary: 近期（2018-2026）：成为人生准则，不仅适用于企业，也适用于投资和个人选择。在方三文对话中，段永平将其追溯到大学时期，揭示了这一框架对他一生的影响。
+    representative_quotes:
+    - 「大三的时候我是无意中看到德鲁克的一句话，叫做'做对的事情和把事情做对'，对我触动很大，一下就把是非的东西给拿出来了。你发现凡事只要花五秒钟想一下这个事情，你一辈子会省好多事。」（2025年方三文对话）
+    - 「你要做对的事情，然后把事情做对的过程当中，你犯的错误是可以接受的。但是你做了错的事情，带来的恶果，那是不应该的，因为你明知是错的事情，你为什么要去做呢？」（2025年方三文对话）
+    - 「Do right things：做正确的事情；'道'。Do things right：把事情做正确；'术'。'道'是先于'术'的，因为只要方向是对的，方法笨一点，也只是做得慢一点，不会走错路。」（2016年企业文化培训课）
+    related_concepts:
+    - Stop Doing List
+    - 本分
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/14-做对的事情-把事情做对.md
+  消费者导向:
+    category: 商业思维
+    first_seen: '2001'
+    last_seen: '2026'
+    mentioned_count: 195
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2014
+      count: 83
+    - year: 2013
+      count: 53
+    - year: 2010
+      count: 42
+    - year: 2025
+      count: 30
+    - year: 2019
+      count: 22
+    phases:
+    - period: 2001-2008
+      summary: 早期（2001-2008）：确立为步步高核心价值观之一。段永平在2004年北大总裁班演讲中将其定义为企业最重要的东西。
+    - period: 2008-2018
+      summary: 中期（2008-2018）：与差异化创新结合，强调「消费者导向前提下的创新」。在博客中反复阐述「不是为了不同而不同」。
+    - period: 2018-2026
+      summary: 近期（2018-2026）：与利润导向进行鲜明对比，强调消费者导向是长期主义的具体体现。在王石对话中，段永平将消费者导向定位为「是非问题」而非「商业策略」。
+    representative_quotes:
+    - 「做企业非常简单，叫做 Consumer Orientation，叫做'消费者导向'。这话说起来非常简单，但是真正这样做的人非常少，绝大多数都是生意导向、赚钱导向。」（2008年浙大分享）
+    - 「我们讲的是消费者导向。原创是什么？我们有非常多的原创我们从来不说，因为你买东西的时候你并不在意这个是不是原创。所以我们公司是反对单纯地讲创新的，我们叫消费者导向。」（2007年波士堂）
+    - 「企业最重要的是所谓的消费者导向。我其实不知道我们未来会怎么样。我们未来无非就是两条路，一条是活下去，一条就是死掉了。」（2004年北大总裁班）
+    related_concepts:
+    - 差异化
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/15-消费者导向.md
+  敢为天下后:
+    category: 商业思维
+    first_seen: '2000'
+    last_seen: '2026'
+    mentioned_count: 194
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 60
+    - year: 2025
+      count: 24
+    - year: 2014
+      count: 22
+    - year: 2018
+      count: 21
+    - year: 2016
+      count: 19
+    phases:
+    - period: 2000-2008
+      summary: 早期（2000-2008）：作为一种生存策略被提出——小企业不跟大企业正面竞争，先看人家做什么好卖再跟进。
+    - period: 2008-2018
+      summary: 中期（2008-2018）：升华为一般性战略，段永平发现老子早就说过类似的话。从生存技巧变成哲学智慧。
+    - period: 2018-2026
+      summary: 近期（2018-2026）：与「做对的事情/把事情做对」框架完全融合。敢为天下后是做对的事情（选品类），后中争先是把事情做对（做好产品）。从战略方法上升为认知方法论。
+    representative_quotes:
+    - 「敢为天下后，指的是产品类别，是因为你猜市场的需求往往很难，但是别人已经把需求明确了，你去满足这个需求，就更确定。（敢为天下后指的是产品类别，后中争先指的是做好产品的能力。或者说，敢为天下后指的是'做对的事情'，后中争先指的是'把事情做对'的能力。）」（2018年斯坦福）
+    - 「所有的高手都是敢为天下后的，只是做的比别人更好。」（2018年斯坦福）
+    - 「我觉得敢为天下后对较小的企业尤其重要。我们实力本来就不强，很难跟世界级的大公司相比，因此，我先看人家国外大企业做什么产品，而且要看它什么产品好卖，然后我再做什么，这样成功的机率要大得多。」（2000年销售手册前言）
+    related_concepts:
+    - 焦点法则
+    - 差异化
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/16-敢为天下后.md
+  差异化:
+    category: 商业思维
+    first_seen: '2000'
+    last_seen: '2026'
+    mentioned_count: 190
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2014
+      count: 247
+    - year: 2023
+      count: 156
+    - year: 2025
+      count: 121
+    - year: 2012
+      count: 77
+    - year: 2024
+      count: 76
+    phases:
+    - period: 2000-2010
+      summary: 早期（2000-2010）：与「不做代工」的决策一起出现，强调的是「做差异化产品而非大宗商品」的生产定位。
+    - period: 2010-2018
+      summary: 中期（2010-2018）：结合消费者导向，形成了精确定义——「用户需要而别人还没有提供的」。段永平在博客中反复用这一框架分析企业和行业。
+    - period: 2018-2026
+      summary: 近期（2018-2026）：成为投资判断的重要维度。段永平用差异化框架来分析电动车行业、航空公司、苹果造车等热门话题，展现了这一概念作为分析工具的普适性。
+    representative_quotes:
+    - 「竞争的本质在于产品差异化，要做别人提供不了的东西。没有差异化，就成了日用基础商品，只能靠价格来竞争，很难挣钱。」（2018年斯坦福）
+    - 「创新是指在用户导向前提下的创新，而不是为了不同而不同的创新。我们公司把这叫差异化，也就是满足用户需要而别人还没有提供的东西。」（2010年海啸博客）
+    - 「如果你认为它是很个性化的东西，那我们就有机会，我们能够做出差异化的，我们能够做得跟别人不一样，我们在有的地方可以做得比别人好。」（2025年方三文对话）
+    related_concepts:
+    - 消费者导向
+    - 敢为天下后
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/17-差异化.md
+  企业文化:
+    category: 商业思维
+    first_seen: '2001'
+    last_seen: '2026'
+    mentioned_count: 193
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 559
+    - year: 2014
+      count: 394
+    - year: 2019
+      count: 362
+    - year: 2025
+      count: 311
+    - year: 2020
+      count: 200
+    phases:
+    - period: 2001-2008
+      summary: 早期（2001-2008）：步步高确立核心价值观——本分、诚信、团队、品质、消费者导向。这是文化的基石确立阶段。
+    - period: 2008-2018
+      summary: 中期（2008-2018）：段永平将企业文化定义为投资判断的两大过滤器之一（与商业模式并列）。在斯坦福演讲中系统阐述了Mission/Vision/Core Values的三段结构。
+    - period: 2018-2026
+      summary: 近期（2018-2026）：强调文化传承靠选择同道中人，靠年头淘汰，不靠说教。段永平将企业文化放在比管理和战略更高的位置，成为其商业思想的统摄性概念。
+    representative_quotes:
+    - 「企业文化就是Mission、Vision和Core Values。'Mission'是为什么成立；'Vision'是我们要去哪里；'Core Values'是哪些事情是对的，哪些事情是不对的。」（2018年斯坦福）
+    - 「一个企业要长期做下去，要保持竞争力，要基业长青，就一定要有自己的文化。产品可以模仿，而文化是不可以模仿的。」（2016年企业文化培训课）
+    - 「企业文化跟创始人有很大的关系，它是一个你自己的个人品性，然后找那些认同你的人，认同你的文化的人。所以我们的企业文化其实就是，大家都认同了这个文化，大家一起待下来了，不认同的人慢慢就会被淘汰掉，会离开。」（2025年方三文对话）
+    related_concepts:
+    - 本分
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/18-企业文化.md
+  焦点法则:
+    category: 商业思维
+    first_seen: '2000'
+    last_seen: '2025'
+    mentioned_count: 87
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2016
+      count: 6
+    - year: 2019
+      count: 6
+    - year: 2004
+      count: 4
+    - year: 2010
+      count: 4
+    - year: 2000
+      count: 3
+    phases:
+    - period: 2000-2008
+      summary: 早期（2000-2008）：源自对多元化的反对和「鸡蛋放一个篮子」的朴素理念。段永平在2000年首次明确阐述焦点法则。
+    - period: 2008-2018
+      summary: 中期（2008-2018）：与「鸡肋原则」结合，成为步步高系的产品选择方法论。段永平将毛泽东的「集中优势兵力」思想与商业实践结合。
+    - period: 2018-2026
+      summary: 近期（2018-2026）：与能力圈概念融合，从企业经营拓展到投资和个人选择。焦点法则不仅是企业战略，也是个人和投资者应该遵循的原则。
+    representative_quotes:
+    - 「企业不是什么事都做，这是一种本分。也就是遵循'焦点法则'，把80%的精力放在20%的事情上，那么20%的事情会带来80%的效益。有多大能力做多大的事，而不是有多大的胆量。」（2000年销售手册前言）
+    - 「焦点法则其实很简单，就是你一个人，你做不了很多事情，你总要把你的精力放在你最擅长做的事情上头。」（2004年北大总裁班）
+    - 「中国有一段时间在搞多元化，我就不懂，我说这个多元化，你一个都搞不好。说鸡蛋要放在很多个篮子里头，我说我的观点就鸡蛋就放在一个篮子里头，这样我才看守得住。」（2008年浙大分享）
+    related_concepts:
+    - 敢为天下后
+    - 本分
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/19-焦点法则.md
+  不为清单:
+    category: 商业思维
+    first_seen: '2007'
+    last_seen: '2026'
+    mentioned_count: 106
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2025
+      count: 14
+    - year: 2020
+      count: 13
+    - year: 2019
+      count: 5
+    - year: 2018
+      count: 3
+    - year: 2024
+      count: 3
+    phases:
+    - period: 2007-2015
+      summary: 早期（2007-2015）：作为口语化概念出现在访谈中。2007年波士堂主持人直接问段永平「有哪些是你肯定不做的」，不为清单概念首次出现在公众视野。
+    - period: 2015-2020
+      summary: 中期（2015-2020）：在雪球问答中逐渐系统化。段永平将不为清单总结为「四不原则」，并与《基业长青》《从优秀到卓越》等管理经典的理论框架对接。
+    - period: 2020-2026
+      summary: 近期（2020-2026）：上升为普适方法论。不仅用于投资和企业经营，也成为段永平思想体系中对公众影响最大的概念之一。「不做空、不借钱、不懂不做」成为许多投资者的座右铭。
+    representative_quotes:
+    - 「你真的有一个stop doing list（不为清单），你有没有不做的东西，你告诉我有哪些是你肯定不做的？」（2007年波士堂，主持人袁鸣提问）
+    - 「不借钱、不做空、不懂不做、不投概念股。」（段永平的不为清单经典概括）
+    - 「我说我们有个Stop doing list（不为清单）。他说举个例子，我说我们不做代工啊。他说：'哦？那什么意思？'我说：'你看，我要做代工打不过你对不对？'他说：'那倒是。'」（2025年方三文对话，与郭台铭的对话）
+    related_concepts:
+    - Stop Doing List
+    - 做对的事情 把事情做对
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/20-不为清单.md
+  不做空:
+    category: 风险管理
+    first_seen: '2010'
+    last_seen: '2025'
+    mentioned_count: 8
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 33
+    - year: 2013
+      count: 25
+    - year: 2014
+      count: 18
+    - year: 2012
+      count: 16
+    - year: 2015
+      count: 16
+    phases:
+    - period: '2010'
+      summary: 2010年：首次在博客中明确列为三大原则之一（不做空、不借钱、不做不懂的东西）
+    - period: 2011-2013
+      summary: 2011-2013年：频繁强调并解释不做空的逻辑——"做多市场付给你钱，做空你为市场买单"
+    - period: '2018'
+      summary: 2018年：斯坦福演讲中列为Stop Doing List第二条（仅次于不做不懂的东西）
+    - period: '2022'
+      summary: 2022年：在雪球上提醒网友"不要把margin当闲钱用，更不要把做空当工具用"
+    - period: '2025'
+      summary: 2025年：仍在雪球等平台持续重申不做空原则
+    representative_quotes:
+    - 不做空。这方面我曾经犯过错误，尤其是不要做空长期的好公司，比如早年的百度。 ——2018年斯坦福演讲
+    - 老巴的教导千万别忘了：不做空，不借钱，不做不懂的东西！ ——2010年博客提醒博友
+    - 这就是为什么老巴讲不做空的逻辑。同样市场继续犯错，做多市场付给你钱，做空你为市场买单。 ——2013年解释做空与做多的本质区别
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/21-不做空.md
+  不借钱:
+    category: 风险管理
+    first_seen: '2007'
+    last_seen: '2025'
+    mentioned_count: 8
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 59
+    - year: 2012
+      count: 23
+    - year: 2013
+      count: 22
+    - year: 2011
+      count: 17
+    - year: 2019
+      count: 17
+    phases:
+    - period: '2007'
+      summary: 2007年：波士堂访谈中已提到不借钱给朋友的原则
+    - period: '2010'
+      summary: 2010年：博客明确三大原则含"不借钱"，并澄清来自巴菲特的"Don't use margin"
+    - period: '2011'
+      summary: 2011年：解释巴菲特的"一生只需富一次"与不借钱的关联
+    - period: 2013-2014
+      summary: 2013-2014年：用董宝珍茅台爆仓案例不断警示杠杆风险
+    - period: '2025'
+      summary: 持续到2025年：雪球上仍在反复强调，频率极高
+    representative_quotes:
+    - 巴菲特的原话："Don't use margin！"的意思就是不要用融券，我简化成不借钱了。 ——2010年澄清出处
+    - 反正你借不借钱一生当中都会失去无穷机会的，但借钱可能会让你再也没机会了。 ——回应网友关于借钱抓住机会的问题
+    - 我们公司是基本没有贷款的，虽然很久以前银行就给了我们不少额度。投资也一样，不用margin！ ——企业经营与投资一致
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/22-不借钱.md
+  好价格:
+    category: 风险管理
+    first_seen: '2010'
+    last_seen: '2025'
+    mentioned_count: 8
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 66
+    - year: 2025
+      count: 16
+    - year: 2020
+      count: 9
+    - year: 2013
+      count: 8
+    - year: 2012
+      count: 7
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：严格强调"好价格"作为巴菲特三要素之一
+    - period: '2012'
+      summary: 2012年后：逐渐弱化为"合适价钱就好"，强调好生意比好价格更重要
+    - period: 2023-2025
+      summary: 2023-2025年：在雪球上更强调好生意优于好价格，"好价格指10年后回头看：哇塞，那真是好价格"成为标志性定义
+    - period: ''
+      summary: 持有=买入的融合：将好价格与机会成本（国债利率）对标，形成动态价格判断框架
+    representative_quotes:
+    - 其实我对好价钱已经不太提了，合适价钱就好。 ——回应"三好生"说法
+    - 好价格指的是10年后回头看：哇塞，那真是好价格。 ——对好价格的经典定义
+    - 明天的涨跌没人知道，但10年回头看，这个价钱大概率是好价钱，除非你还有别的更好的投资机会。 ——关于茅台价格判断
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/23-好价格.md
+  确定性:
+    category: 风险管理
+    first_seen: '2010'
+    last_seen: '2025'
+    mentioned_count: 8
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 256
+    - year: 2011
+      count: 68
+    - year: 2025
+      count: 63
+    - year: 2019
+      count: 40
+    - year: 2012
+      count: 34
+    phases:
+    - period: '2010'
+      summary: 2010年起：在博客中频繁使用"确定性"概念，强调懂=确定
+    - period: 2013-2015
+      summary: 2013-2015年：将确定性作为"懂"的核心标准
+    - period: '2021'
+      summary: 2021年：明确提出"风投和价投区别就在于确定性吧"
+    - period: '2023'
+      summary: 2023年：阐述"护城河对投资的作用是确定性"
+    - period: '2025'
+      summary: 2025年：在访谈中明确将确定性与仓位挂钩——确定性高可重仓，确定性低属风投
+    representative_quotes:
+    - 护城河对生意作用是阻止竞争，有好的利润；对投资的作用是确定性。 ——2023年雪球问答
+    - 我觉得苹果我可以说，我很肯定地知道苹果还会活得很好，拼多多我没有那么清晰。 ——2025年方三文对话
+    - 尽量把投资标的简单化，确定性会更高。 ——2010年网易博客
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/24-确定性.md
+  持有等于买入:
+    category: 风险管理
+    first_seen: '2019'
+    last_seen: '2025'
+    mentioned_count: 8
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2013
+      count: 5
+    - year: 2019
+      count: 5
+    - year: 2025
+      count: 4
+    - year: 2011
+      count: 3
+    - year: 2015
+      count: 3
+    phases:
+    - period: '2019'
+      summary: 2019年6月：首次在雪球公开阐述"持有等于买入是个事实，不是观点"
+    - period: '2020'
+      summary: 2020年10月：分享与巴菲特对话的顿悟经历，系统解释该概念
+    - period: '2025'
+      summary: 持续到2025年：在雪球上被反复讨论和引用，成为段永平投资框架中的标志性概念
+    - period: ''
+      summary: 后期发展：将持有=买入与国债利率（机会成本）结合，形成具体的估值对标框架
+    representative_quotes:
+    - 理论上（忽略所有交易成本的前提下），持有＝买入或者买入＝持有其实不是一种观点，而是一个事实。我以前也为这个"观点"困惑过很长时间，直到有次跟老巴聊天时我问他，持有＝买入吗？他说当然啊，这是一个fact啊！那之后我就突然觉得自己明白了。
+      ——2020年分享与巴菲特对话后的顿悟
+    - 持有=买入是个fact，不是个观点，不需要解释。 ——简洁回应网友
+    - 不考虑市场但是要衡量买入价格的，不然就变成追高了。投资是需要回报的，需要一直考虑机会成本。持有=买入就是这个意思。 ——解释持有=买入与机会成本的关系
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/25-持有等于买入.md
+  网易:
+    category: 投资案例
+    first_seen: '2001'
+    last_seen: '2025'
+    mentioned_count: 8
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 808
+    - year: 2006
+      count: 664
+    - year: 2011
+      count: 439
+    - year: 2012
+      count: 314
+    - year: 2019
+      count: 287
+    phases:
+    - period: 2001-2002
+      summary: 2001-2002年：深入研究网易游戏业务，确认商业模式后重仓买入
+    - period: 2003-2006
+      summary: 2003-2006年：网游《大话西游》《梦幻西游》大获成功，股价持续攀升
+    - period: '2010'
+      summary: 2010年：在博客中反复引用网易案例解释"懂"和"坚持"的关系
+    - period: 2010-2015
+      summary: 2010-2015年：将网易投资经验提炼为"能力圈""确定性""安全边际"等概念
+    - period: '2025'
+      summary: 2025年：回顾时更加谦虚——承认当时的"懂"有运气成分
+    representative_quotes:
+    - 2001年底，他开始以1美元左右价格大量买进网易股票，并坚持持有到100美元。华尔街的华人投资圈因此而送他"段菲特"的称号。 ——媒体报道
+    - 段永平在2002年斥资仅200万美元，以0.16美元的均价买入大约5%的网易股票。 ——彭博报道
+    - 你要了解一个公司才能坚持啊。我能坚持就是因为我了解。顺便说一下，其实当时70-80我也没卖，不知道为什么大家都说我卖了？ ——澄清并未在70-80美元全部清仓
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/26-网易.md
+  苹果:
+    category: 投资案例
+    first_seen: '2011'
+    last_seen: '2025'
+    mentioned_count: 10
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2014
+      count: 1287
+    - year: 2013
+      count: 1252
+    - year: 2023
+      count: 1248
+    - year: 2012
+      count: 1124
+    - year: 2025
+      count: 1077
+    phases:
+    - period: '2011'
+      summary: 2011年：乔布斯去世前后开始买入——利用市场恐慌机会
+    - period: 2011-2013
+      summary: 2011-2013年：深度研究苹果商业模式，确认护城河和确定性
+    - period: '2013'
+      summary: 2013年：苹果开启回购分红，段永平投资逻辑兑现
+    - period: '2016'
+      summary: 2016年：巴菲特买入苹果，两大价值投资者在苹果上达成共识
+    - period: 2019-2025
+      summary: 2019-2025年：持续重仓持有，雪球上频繁为苹果辩护
+    - period: 2024-2025
+      summary: 2024-2025年：开始运用持有=买入框架动态评估苹果仓位
+    representative_quotes:
+    - 我觉得苹果应该是非卖品，最好别卖，不然很难找到类似的好公司买。茅台基本同理。这两家公司拿着长期而言大概率是可以抗通胀的。我觉得可乐不如苹果，我跟老巴也说过我的这个观点，就是苹果的护城河比可口可乐宽。 ——2021年雪球
+    - Apple也算是敢为天下后的典范了。其实我说的"敢为天下后"就是这个意思！没有创新的天下后肯定死定了。 ——2010年博客
+    - 最理想的公司是能把利润继续投入到原来的生意模式里的公司，分红是其次的选择。……苹果公司——已经没办法把利润再投入，所以才开始回购和分红的。 ——2013年解释苹果回购的底层逻辑
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/27-苹果.md
+  茅台:
+    category: 投资案例
+    first_seen: '2013'
+    last_seen: '2025'
+    mentioned_count: 8
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 1176
+    - year: 2025
+      count: 1138
+    - year: 2024
+      count: 871
+    - year: 2013
+      count: 791
+    - year: 2026
+      count: 780
+    phases:
+    - period: '2013'
+      summary: ~2013年：开始持有茅台，在塑化剂危机+反腐双重利空背景下入场
+    - period: 2013-2016
+      summary: 2013-2016年：持续研究和加仓，系统构建茅台投资逻辑
+    - period: '2021'
+      summary: 2021年：茅台涨至历史高位，开始思考是否减持
+    - period: 2023-2025
+      summary: 2023-2025年：从高点回落后不仅未卖，反而继续增持
+    - period: '2025'
+      summary: 2025年：确认"A股我只买了茅台"，体现极度集中的投资风格
+    representative_quotes:
+    - 跟不喝酒的人说茅台不是好怪吗？喜欢的人，他喜欢茅台，他喜欢那个口味，他习惯。你要跟一堆不喜欢、不喝茅台的人，你就没办法讲那个事情。 ——2025年方三文对话
+    - 最重要它有没有一个文化可以维持这个东西。它如果把出品的文化改了，多干快上、多快好省，大干快上，那它是要出问题的。 ——茅台的核心风险是品控文化被改变
+    - 从10年以上的角度看，130或160或200差别其实没那么大。茅台的生意模式很难得，价钱合适就可以买，未必要等到很便宜。 ——2013年塑化剂危机期间
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/28-茅台.md
+  拼多多:
+    category: 投资案例
+    first_seen: '2015'
+    last_seen: '2025'
+    mentioned_count: 8
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2018
+      count: 336
+    - year: 2024
+      count: 334
+    - year: 2025
+      count: 248
+    - year: 2019
+      count: 164
+    - year: 2020
+      count: 54
+    phases:
+    - period: 2015-2017
+      summary: ~2015-2017年：初创期基于对黄峥的信任进行早期投资（金额比重很小）
+    - period: '2018'
+      summary: 2018年：上市后仍持有，在斯坦福公开为拼多多和黄峥背书
+    - period: 2018-2020
+      summary: 2018-2020年：拼多多快速增长，网友和媒体关注度持续上升
+    - period: 2024-2025
+      summary: 2024-2025年：确定性在提高（"拼多多现在是不是越来越不像风投了？感觉确定性越来越高"），但仍不如苹果清晰
+    - period: '2025'
+      summary: 2025年：方三文对话中严谨界定——拼多多仍属"风投"范畴
+    representative_quotes:
+    - 拼多多是很特殊了，因为我在早期的时候，初创阶段的时候就已经投了。所以我投的钱其实比重很少，赚的钱确实很多。严格意义上其实都不算，因为我不是说我看懂了往里投，我是稀里糊涂投的。 ——2025年坦诚承认早期投资并非完全基于"看懂"
+    - 我觉得大概率他们应该活得还不错，但是不是百分之一百。……我觉得苹果我可以说，我很肯定地知道苹果还会活得很好，拼多多我没有那么清晰。……它存在一种可能性，就是它会比现在还要厉害很多，那风投就是这个意思。不是风投我就应该买很大的比重在里头，我并没有。
+      ——明确区分风投与价值投资
+    - 黄峥有成功企业家许多必要的特性，我和他能相互不断深入地问问题，拼多多的企业文化也是抄的Oppo的。 ——2018年斯坦福演讲
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/29-拼多多.md
+  价值投资:
+    category: 投资案例
+    first_seen: '2004'
+    last_seen: '2025'
+    mentioned_count: 10
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 2693
+    - year: 2011
+      count: 593
+    - year: 2012
+      count: 392
+    - year: 2019
+      count: 247
+    - year: 2025
+      count: 214
+    phases:
+    - period: '2004'
+      summary: 2004年：巴菲特的午餐，进入价值投资大门
+    - period: 2006-2010
+      summary: 2006-2010年：在网易博客上学习、翻译、传播巴菲特/芒格思想
+    - period: 2010-2015
+      summary: 2010-2015年：形成自己的投资框架——三大原则、好生意好管理好价格、能力圈
+    - period: 2015-2019
+      summary: 2015-2019年：通过实际案例（苹果、茅台、拼多多）深化和完善框架
+    - period: 2019-2025
+      summary: 2019-2025年：在雪球上提出新概念（持有=买入）、将价值投资与AI时代结合思考
+    - period: '2025'
+      summary: 2025年：明确"价值投资，AI比不过人；投机，人比不过机器"的立场
+    representative_quotes:
+    - 我总觉得价值投资就应该长期持有的说法是对价值投资的误解。误解最大的无过于"长期持有就是价值投资"了。但是，买到了便宜的好股票最好不要轻易出手。 ——澄清价值投资≠长期持有
+    - 投资最简单的定义就是如果你有足够的钱你就想在这个价钱买下整个公司，然后把他下市。但只有很少钱的话就只能买一小部分了。 ——价值投资的终极定义
+    - 价值投资很简单、很好学，巴菲特就是从导师格雷厄姆那里学到的，只有三点。……本质上就是三点：好业务、好管理、好价格。 ——三大要素
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/30-价值投资.md
+  商业模式:
+    category: 商业思维
+    first_seen: 2010-05
+    last_seen: 2025-10
+    mentioned_count: 551
+    core_for_timeline: true
+    frequency_peak_years:
+    - year: 2025
+      count: 324
+    - year: 2019
+      count: 283
+    - year: 2024
+      count: 250
+    - year: 2020
+      count: 194
+    - year: 2023
+      count: 135
+    phases:
+    - period: 2010-2012
+      summary: 2010-2012年：早期博客中开始使用"生意模式"概念，与巴菲特 right business 框架对应
+    - period: 2013-2015
+      summary: 2013-2015年：通过苹果深度研究，形成"好商业模式 = 护城河 + 定价权 + 差异化"的系统认知
+    - period: 2016-2019
+      summary: 2016-2019年：将商业模式分析扩展到茅台、航空公司、电动车等多元行业，比较分析和行业判断能力显著提升
+    - period: 2020-2024
+      summary: 2020-2024年：在雪球上高频使用"商业模式"一词（551次总提及），成为其投资讨论的核心词汇
+    - period: '2025'
+      summary: 2025年：方三文对话中系统阐述商业模式在投资决策中的优先地位——"集中精力看生意"
+    representative_quotes:
+    - 生意模式就是right business。对的生意其实就是好的生意模式。 ——段永平将商业模式置于巴菲特三要素核心位置
+    - 好的商业模式是有护城河的，有定价权的。 ——好商业模式的两大标志
+    - 护城河应该是生意模式的一部分。没有护城河的生意模式不是好的生意模式。 ——商业模式与护城河的不可分割关系
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/31-商业模式.md
+  10年视角:
+    category: 投资哲学
+    first_seen: '2008'
+    last_seen: 2025-10
+    mentioned_count: 440
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 390
+    - year: 2025
+      count: 250
+    - year: 2011
+      count: 204
+    - year: 2019
+      count: 195
+    - year: 2012
+      count: 141
+    phases:
+    - period: '2008'
+      summary: 2008年：浙大分享时已形成"看长远"的思维习惯
+    - period: 2010-2015
+      summary: 2010-2015年：在网易博客中频繁引用巴菲特的长期持有理念，将十年视角系统化
+    - period: 2015-2020
+      summary: 2015-2020年：通过苹果、茅台等投资实践，十年视角从理论变为肌肉记忆
+    - period: 2020-2025
+      summary: 2020-2025年：在雪球上反复用十年视角回应网友的短期焦虑
+    - period: '2025'
+      summary: 2025年：三次重要访谈（方三文对话、浙大分享、王石对话）均反复强调"想十年二十年"的重要性
+    representative_quotes:
+    - 你如果不想拥有一家公司十年，你甚至不要拥有一分钟。 ——巴菲特名言，段永平反复引用来阐释十年视角的本质
+    - 以10年为标准看股价。千万别把这句话当追高的壮胆鸡汤。 ——警醒投资者不要曲解十年视角
+    - 最简单的办法大概是在你认真思考企业10年20年后，你就会容易把握一些。 ——十年视角降低决策难度
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/32-10年视角.md
+  企业文化与投资:
+    category: 投资哲学
+    first_seen: '2006'
+    last_seen: 2025-10
+    mentioned_count: 319
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2019
+      count: 42
+    - year: 2026
+      count: 41
+    - year: 2010
+      count: 34
+    - year: 2020
+      count: 29
+    - year: 2025
+      count: 27
+    phases:
+    - period: '2006'
+      summary: 2006年：网易财经专访中首次将企业文化与投资决策关联
+    - period: 2010-2013
+      summary: 2010-2013年：通过GE投资案例深刻体会到企业文化在投资中的重要性——"我为什么买GE？因为我以前喜欢他们说'时代在变，唯一不变的是诚信'"
+    - period: 2013-2015
+      summary: 2013-2015年：系统化地将企业文化纳入护城河框架——"企业文化是护城河的重要部分"
+    - period: '2018'
+      summary: 2018年：斯坦福演讲系统阐述Stop Doing List的形成和企业文化的传承机制
+    - period: 2019-2024
+      summary: 2019-2024年：在雪球上通过苹果和特斯拉的对比，反复阐述企业文化在投资决策中的权重
+    - period: '2025'
+      summary: 2025年：方三文对话中总结"企业文化就是right people"，将企业文化与巴菲特三要素完整对接
+    representative_quotes:
+    - 一个企业真正的核心竞争力就是企业文化。 ——企业文化是终极护城河
+    - 我看财报主要用于排除公司。我一般会先了解企业文化，如果觉得不信任这家公司，就连报表都不会看的。 ——企业文化优先于财务报表
+    - 企业文化跟创始人有很大的关系。它是一个你自己的个人品性，然后你是找那些认同你的人。 ——企业文化的源头是创始人基因
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/33-企业文化与投资.md
+  分红回购:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2025-10
+    mentioned_count: 240
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2024
+      count: 76
+    - year: 2010
+      count: 69
+    - year: 2011
+      count: 68
+    - year: 2012
+      count: 65
+    - year: 2019
+      count: 53
+    phases:
+    - period: '2010'
+      summary: 2010年：早期博客中开始讨论分红与投资价值的关系，明确"分不分红和投资价值无关"
+    - period: 2011-2013
+      summary: 2011-2013年：深入研究苹果的回购计划，系统化理解回购对长期股东的价值
+    - period: 2013-2015
+      summary: 2013-2015年：在《老巴回购的理由》等博文中阐述回购分红的区别和选择逻辑
+    - period: 2015-2020
+      summary: 2015-2020年：在实践中通过卖call等期权策略实现被动减仓和额外收益
+    - period: '2025'
+      summary: 2025年：方三文对话中以茅台为例再次阐释分红收益率跑赢银行利率的逻辑
+    representative_quotes:
+    - 分不分红和是否有投资价值无关。如果你认为公司每股收益可以长期高过长期国债利率，这个公司当然就可能成为投资目标。 ——分红不是投资价值的必要条件
+    - 其实分红还是比利息高，其实我并没有亏。拿着现金存银行里才一点几个点的利息，你不难受？ ——分红收益跑赢现金的务实逻辑
+    - 给股东分红那就是股东本来就该拿的，员工拿到的分红就是员工该拿的。发奖金的时候有人说谢谢老板，我说这话不合适。这是按契约发的奖金。 ——分红是契约兑现，不是恩赐
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/34-分红回购.md
+  犯错与纠错:
+    category: 风险管理
+    first_seen: '2010'
+    last_seen: 2025-10
+    mentioned_count: 227
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 224
+    - year: 2012
+      count: 86
+    - year: 2011
+      count: 85
+    - year: 2014
+      count: 79
+    - year: 2025
+      count: 74
+    phases:
+    - period: '2010'
+      summary: 2010年前：早期创业和投资中积累了各种错误教训（百度做空、早期投资失误）
+    - period: 2010-2013
+      summary: 2010-2013年：在网易博客中开始系统化讨论"做对的事情"与"把事情做对"的区别
+    - period: 2013-2015
+      summary: 2013-2015年：GE案例的反思路——挣了钱但依然承认是错误，体现纠错思维的成熟
+    - period: '2018'
+      summary: 2018年：斯坦福演讲系统阐述Stop Doing List的形成过程和"两类错误"的理论框架
+    - period: 2019-2024
+      summary: 2019-2024年：在雪球上通过乐视等案例反复向网友阐述"发现错误马上改"的原则
+    - period: '2025'
+      summary: 2025年：方三文对话中总结"企业文化在纠错中的作用"和"30年犯错比别人少"的长期验证
+    representative_quotes:
+    - 做对的事情，然后把事情做对的过程当中，你犯的错误是可以接受的。但是你做了错的事情，你带来的恶果那是不应该的。 ——两类错误的本质区分
+    - 发现错了要马上改。很多人是分不清楚错的事情和把事情做错，那个是性质完全不一样的事情。 ——纠错的速度决定损失的大小
+    - 当然每个人都会犯错。最主要的就是它叫做'最终它会走回正道'。有了好的文化，犯了错误被纠正的概率高一点。 ——企业文化是纠错机制
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/35-犯错与纠错.md
+  好生意好管理好价格:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2026-04
+    mentioned_count: 189
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2013
+      count: 72
+    - year: 2026
+      count: 46
+    - year: 2014
+      count: 40
+    - year: 2019
+      count: 26
+    - year: 2025
+      count: 21
+    phases:
+    - period: '2010'
+      summary: 2010年前：从巴菲特午餐中吸收三要素框架的原型
+    - period: 2010-2013
+      summary: 2010-2013年：在博客中将三要素翻译为"好生意、好管理、好价格"，并开始用此框架分析GE、苹果
+    - period: 2013-2018
+      summary: 2013-2018年：通过苹果、茅台等投资实践，深化对三要素的理解——尤其是好管理（企业文化）的权重逐渐提高
+    - period: '2018'
+      summary: 2018年：斯坦福演讲中系统阐述三要素与投资五原则的对应关系
+    - period: 2019-2025
+      summary: 2019-2025年：在雪球上反复用三要素框架回答网友的个股提问，形成标准化分析模板
+    - period: 2025-2026
+      summary: 2025-2026年：方三文对话中对特斯拉的分析体现了三要素框架的成熟运用——宁可三缺一不将就
+    representative_quotes:
+    - right business, right people, right price. 对的生意，对的人，对的价格。这是老巴说的。 ——三要素的原始出处
+    - 生意模式就是right business，企业文化就是right people。再加上right price，三者缺一不可。 ——三要素的对应翻译
+    - 对的生意指的就是好的生意模式（好的护城河），对的人指好的企业文化（好的管理团队），对的价格当然就是足够便宜。 ——三要素的完整定义
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/36-好生意好管理好价格.md
+  自由现金流:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2025-10
+    mentioned_count: 135
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2025
+      count: 83
+    - year: 2010
+      count: 75
+    - year: 2011
+      count: 35
+    - year: 2019
+      count: 25
+    - year: 2013
+      count: 19
+    phases:
+    - period: '2010'
+      summary: 2010年：开始系统阐述DCF作为估值思维方式——"未来现金流的折现不是算法，是思维方式"
+    - period: 2011-2012
+      summary: 2011-2012年：《现金流量折现法》博文中详细解释DCF的基本原理和常见误区
+    - period: '2012'
+      summary: 2012年：《投资的信仰》中将DCF升华为"买股票就是买公司"的自然延伸——"这就是投资的全部"
+    - period: 2013-2015
+      summary: 2013-2015年：通过茅台案例反复强调"决定投资的是未来现金流，不是市盈率"
+    - period: 2019-2024
+      summary: 2019-2024年：在雪球上简化为"毛估估"——5分钟判断未来现金流是否远超当前市值
+    - period: '2025'
+      summary: 2025年：方三文对话中以茅台再次验证DCF思维——即使股价腰斩，只要未来现金流不变，内在价值就不变
+    representative_quotes:
+    - 公司未来现金流的折现就是公司的内在价值。应该在公司股价低于其内在价值时买入。 ——DCF是估值的唯一标准
+    - 未来现金流的折现不是算法，是思维方式，不要企图拿计算器去算出来。 ——DCF的本质是思维框架，不是数学公式
+    - 计算价值只和未来总的现金流折现有关。其实净资产只是产生未来现金流的因素之一。不能产生现金流的净资产其实没有价值（有时还可能是负价值）。 ——净资产不等于价值
+    related_concepts: []
+    related_companies: []
+    related_people: []
+    source_card: duanyongping-kb/01-投资概念/37-自由现金流.md
+  便宜与贵:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2025-10
+    mentioned_count: 134
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2015
+      count: 1
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：在《安全边际》《复习一下》等博文中系统阐述便宜与贵的判断标准，强调未来现金流折现是唯一标尺，PE不是决定性因素。
+    - period: 2013-2018
+      summary: 中期（2013-2018）：通过GE、万科等实战案例积累，形成「毛估估判断便宜」的方法论。明确提出安全边际的本质是对公司的理解程度。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：2025年访谈中通过苹果和茅台案例再次阐释：决定因素不是市盈率而是未来现金流。核心方法不变：毛估估——5分钟能判断出明显便宜就出手。
+    representative_quotes:
+    - '"我一般的目标是买我认为价值被低估50%或以上，价值应该是现在的净值加上未来利润总和的折现。"'
+    - '"我只有一个标准，就是自己觉得便宜才买。比方说我认为GE值20，我可能到15才开始买一点，但到10块以下就下手重很多了。"'
+    - '"便宜与否是相对于未来现金流折现而言的，不是相对于历史价格而言的。"'
+    related_concepts:
+    - 未来现金流折现
+    - 安全边际
+    - 毛估估
+    - right business right people right price
+    related_companies:
+    - GE
+    - 万科
+    - 苹果
+    - 茅台
+    - 网易
+    related_people:
+    - 巴菲特
+    - 芒格
+    source_card: duanyongping-kb/01-投资概念/38-便宜与贵.md
+  管理层:
+    category: 投资哲学
+    first_seen: '2010'
+    last_seen: 2025-10
+    mentioned_count: 132
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 438
+    - year: 2011
+      count: 89
+    - year: 2014
+      count: 88
+    - year: 2013
+      count: 78
+    - year: 2012
+      count: 77
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：作为企业家，段永平已经建立了授权文化和「同道中人」理念。这些经营实践为后来的投资判断提供了直觉基础。
+    - period: 2013-2018
+      summary: 中期（2013-2018）：在投资框架中将管理层纳入「right people」，与巴菲特的三要素框架对接。强调企业文化是管理层的支撑系统。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：2025年访谈中通过特斯拉案例，将「与管理层做朋友」上升为投资决策的硬性标准——不喜欢管理层就等于否决。对黄仁勋的欣赏也体现了一致性标准。
+    representative_quotes:
+    - '"我当CEO的时候我就不太管，都是让他们做决定。所以他们接过来也是很顺。放权是要很长时间的。"'
+    - '"他们是CEO，他们做决策，一定不要想阿段会怎么做。你要那么想我们就完了，我们早就完了。"'
+    - '"找对的人其实也是通过时间来的。不对的人你慢慢把他淘汰掉。"'
+    related_concepts:
+    - right business right people right price
+    - 企业文化
+    - 本分
+    related_companies:
+    - 苹果
+    - 特斯拉
+    - 步步高
+    - oppo
+    - vivo
+    - 伯克希尔
+    related_people:
+    - 乔布斯
+    - Tim Cook
+    - 马斯克
+    - 黄仁勋
+    - 沈炜
+    - 陈明永
+    - 巴菲特
+    source_card: duanyongping-kb/01-投资概念/39-管理层.md
+  品牌:
+    category: 商业思维
+    first_seen: 2011-11
+    last_seen: 2026-02
+    mentioned_count: 126
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 688
+    - year: 2014
+      count: 408
+    - year: 2012
+      count: 225
+    - year: 2011
+      count: 165
+    - year: 2013
+      count: 136
+    phases:
+    - period: 2011-2015
+      summary: 早期（2011-2015）：段永平在企业经营中已经确立了品牌路线的战略选择。不做代工成为Stop Doing List的经典条目。
+    - period: 2016-2019
+      summary: 中期（2016-2019）：将品牌理念与苹果案例结合，用苹果的价格策略和消费者忠诚度阐释品牌的价值。在雪球上多次讨论品牌与代工的区别。
+    - period: 2020-2026
+      summary: 近期（2020-2026）：2025年访谈中通过郭台铭的对话生动展示了两种路线。品牌理念更加系统化，与「消费者导向」「差异化」等概念形成完整框架。
+    representative_quotes:
+    - '"我们做Brand（品牌）我们做得很好啊，我们企业也不比他们做得小啊。我们不是靠代工跟他竞争的。"'
+    - '"我们不做代工。代工对我们来讲是不合适的。所以我们就Stop，任何人来找我们做代工的生意，我们就很简单，就不做。"'
+    - '"品牌不是广告打出来的，是你把产品做好了，服务做好了，消费者认可了你，你自然就有品牌了。"'
+    related_concepts:
+    - 差异化
+    - 消费者导向
+    - 不为清单
+    - 护城河
+    related_companies:
+    - 苹果
+    - oppo
+    - vivo
+    - 步步高
+    - 台积电
+    related_people:
+    - 郭台铭
+    - 乔布斯
+    - 沈炜
+    - 陈明永
+    source_card: duanyongping-kb/01-投资概念/40-品牌.md
+  复利:
+    category: 投资哲学
+    first_seen: 2011-11
+    last_seen: 2025-10
+    mentioned_count: 116
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 159
+    - year: 2011
+      count: 41
+    - year: 2023
+      count: 31
+    - year: 2020
+      count: 22
+    - year: 2012
+      count: 21
+    phases:
+    - period: '2011'
+      summary: 早期（2011）：2011年专门转发《复利的故事》博文，讲述巴菲特的滚雪球理念。这是段永平对复利概念的入门阶段。
+    - period: 2012-2018
+      summary: 中期（2012-2018）：在投资实践中将复利与选股结合，强调复利式成长的判断框架。多次用滚雪球比喻解释长期持有的价值。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：复利概念更加日常化——从保险产品到投资回报，从企业经营到个人成长。2025年仍在强调「时间足够长，复利的力量是很吓人的」这一核心理念。
+    representative_quotes:
+    - '"巴菲特这样总结自己的成功秘诀：''人生就像滚雪球，重要的是发现很湿的雪和很长的坡。''——很湿的雪比喻年收益率很高，很长的坡比喻复利增值的时间很长。"'
+    - '"这个问题通常应该是问自己的问题：这个企业如何才能获得复利式的成长呢？如果你能找到答案，那么恭喜你，你就知道该如何做决策了。"'
+    - '"想学习巴菲特滚雪球，你找到很湿的雪和很长的坡了吗？"'
+    related_concepts:
+    - 长期持有
+    - 10年视角
+    - 未来现金流折现
+    - 集中投资
+    related_companies:
+    - 苹果
+    - 茅台
+    - 伯克希尔
+    related_people:
+    - 巴菲特
+    - 芒格
+    source_card: duanyongping-kb/01-投资概念/41-复利.md
+  贪婪恐惧:
+    category: 投资哲学
+    first_seen: 2010-05
+    last_seen: 2025-10
+    mentioned_count: 81
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 1
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：将巴菲特名言引入投资框架，用网易案例证明「别人恐惧时贪婪」的有效性。此时更多是引用和实践。
+    - period: 2013-2018
+      summary: 中期（2013-2018）：反复强调「做起来不容易」，开始警示恐惧时贪婪的前提条件——闲钱和真懂。区分真懂和自以为懂。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：2025年访谈中通过茅台波动案例再次验证理念。将「理性」「平常心」「信仰」等概念与贪婪恐惧框架融合，形成更完整的情绪管理观。
+    representative_quotes:
+    - '"当大家都很恐惧的时候，你买就是了。但实际上做起来很不容易的。第一你手里要有钱，第二你真的懂你买的东西。"'
+    - '"巴菲特说''别人恐惧时贪婪，别人贪婪时恐惧''，这句话说起来很容易，做起来非常难。因为当别人恐惧的时候，你大概率也是在恐惧的。"'
+    - '"我买网易的时候，大家都觉得这个公司要完蛋了。但我觉得他们大概率是有机会挣钱的，刚好我账上有点现金，我是满仓买了网易。然后6个月涨了20倍。"'
+    related_concepts:
+    - 平常心
+    - 市场先生
+    - 长期持有
+    - 能力圈
+    related_companies:
+    - 网易
+    - GE
+    - 茅台
+    - 苹果
+    related_people:
+    - 巴菲特
+    - 芒格
+    source_card: duanyongping-kb/01-投资概念/42-贪婪恐惧.md
+  市场先生:
+    category: 投资哲学
+    first_seen: 2010-03
+    last_seen: 2025-10
+    mentioned_count: 56
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 55
+    - year: 2012
+      count: 32
+    - year: 2013
+      count: 19
+    - year: 2011
+      count: 13
+    - year: 2015
+      count: 3
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：在网易博客中系统引用格雷厄姆的市场先生理论，与自己的「买股票就是买公司」理念对接。转发巴菲特股东信精华中关于市场先生的论述。
+    - period: 2013-2018
+      summary: 中期（2013-2018）：在雪球上反复用「市场是仆人不是老师」来回答关于市场走势的问题。形成「不对市场有看法」的公共形象。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：2025年访谈中明确指出「天天讲市场的人是不懂投资的」。核心不变——利用市场而非被市场利用，关注公司而非市场。
+    representative_quotes:
+    - '"实际上，我买的时候是不考虑是不是有人从我手里买的。我要假设如果这不是个上市企业这个价钱我还买不买。你如果明白这点了，价值投资的最基本的概念就有了。"'
+    - '"华尔街没什么错，华尔街永远是对的，它永远代表不同人的想法。但是你要自己知道自己在干什么，你如果自己没了主见，你要听华尔街的，你就乱了。"'
+    - '"如果一个人不能理解市场先生，他永远也做不好价值投资。市场先生每天都会给你报价，你要学会利用他，而不是被他利用。"'
+    related_concepts:
+    - 买股票就是买公司
+    - 未来现金流折现
+    - 贪婪恐惧
+    - 平常心
+    related_companies:
+    - 伯克希尔
+    related_people:
+    - 巴菲特
+    - 格雷厄姆
+    source_card: duanyongping-kb/01-投资概念/43-市场先生.md
+  收藏品:
+    category: 投资哲学
+    first_seen: '2010'
+    last_seen: 2025-10
+    mentioned_count: 30
+    core_for_timeline: false
+    frequency_peak_years:
+    - year: 2010
+      count: 4
+    - year: 2020
+      count: 3
+    phases:
+    - period: 2010-2012
+      summary: 早期（2010-2012）：在茅台讨论中开始涉及收藏品话题，提出茅台首先是消费品而非收藏品的观点。
+    - period: 2013-2018
+      summary: 中期（2013-2018）：通过红酒类比拓展了收藏品概念。将投资与收藏做系统区分，明确「投资看现金流，收藏看稀缺性」。
+    - period: 2019-2025
+      summary: 近期（2019-2025）：核心观点不变。始终将艺术品、收藏品排除在投资范围之外，这与他「买股票就是买公司」的核心投资哲学一脉相承。
+    representative_quotes:
+    - '"有些好红酒也有这个特性的。很多波尔多和勃艮第的酒存30年以上会更好喝。"'
+    - '"茅台也是有收藏价值的，越陈越香。但这不等于说茅台是收藏品，茅台首先是消费品。"'
+    - '"艺术品投资我不懂，也没有兴趣。我投资的是能产生现金流的东西。"'
+    related_concepts:
+    - 未来现金流折现
+    - 买股票就是买公司
+    - 能力圈
+    related_companies:
+    - 茅台
+    related_people:
+    - 巴菲特
+    source_card: duanyongping-kb/01-投资概念/44-收藏品.md

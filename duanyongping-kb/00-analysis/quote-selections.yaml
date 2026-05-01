@@ -1,0 +1,1812 @@
+meta:
+  purpose: 精选语录池，用于首页今日语录、概念页原话区、思想年表节点。
+  selection_rule: 优先使用已有结构化概念数据中的带来源语录；不足时回退到 KB 词条中的 blockquote。
+  generated_at: '2026-05-01'
+today_pool:
+- text: 买股票就是买公司，买公司就是买公司的未来现金流折现，句号！这就是我说的所谓的信仰的意思，或者说我是从骨子里相信，不会因为任何影响而动摇。
+  speaker: 段永平
+  date: 2010-03
+  source: duanyongping-kb/01-投资概念/01-买股票就是买公司.md
+  concepts: &id001
+  - 买股票就是买公司
+  usage:
+  - home_today
+  - concept_page
+- text: 未来现金流的折现不是算法，是思维方式，不要企图拿计算器去算出来。当然，拿计算器算一下也没什么错。
+  speaker: 段永平
+  date: 2010-05
+  source: duanyongping-kb/01-投资概念/02-未来现金流折现.md
+  concepts: &id002
+  - 未来现金流折现
+  usage:
+  - home_today
+  - concept_page
+- text: 知道自己的能力圈有多大往往比自己能力圈有多大要重要的多！
+  speaker: 段永平
+  date: 2010-05
+  source: duanyongping-kb/01-投资概念/03-能力圈.md
+  concepts: &id003
+  - 能力圈
+  usage:
+  - home_today
+  - concept_page
+- text: 护城河应该是生意模式的一部分。没有护城河的生意模式不是好的生意模式，但有护城河的生意未必就一定是好的生意模式。
+  speaker: 段永平
+  date: 2010-05
+  source: duanyongping-kb/01-投资概念/05-护城河.md
+  concepts: &id004
+  - 护城河
+  usage:
+  - home_today
+  - concept_page
+- text: 我们做企业最根本的东西，就是本分。说话要算数，是一种本分。守信誉不是给人看的，为了一个承诺去赔钱，可能很多企业家会赖帐，但我会毫不犹豫地践诺。
+  speaker: 段永平
+  date: '2000'
+  source: 2000-段永平给营销人员讲话（销售手册前言）
+  concepts: &id005
+  - 本分
+  usage:
+  - home_today
+  - concept_page
+- text: 平常心，就是rational(理性），就是回到事物的本原，就是做对的事情，和把事情做对。
+  speaker: 段永平
+  date: '2018'
+  source: 09-2018-段永平斯坦福交流
+  concepts: &id006
+  - 平常心
+  usage:
+  - home_today
+  - concept_page
+- text: 人们常说Do right thing, do things right，要做对的事、要把事情做对，道理大家都懂，怎样做到呢？就是不做错的事。多数人不是判断不了对错，而是明知是错的还要去做，因为时常会有短期的诱惑。
+  speaker: 段永平
+  date: '2018'
+  source: 2018-斯坦福Stop-Doing-List
+  concepts: &id007
+  - Stop Doing List (不为清单)
+  usage:
+  - home_today
+  - concept_page
+- text: 生意模式就是right business。对的生意其实就是好的生意模式。
+  speaker: 段永平
+  date: 2010-05
+  source: duanyongping-kb/01-投资概念/31-商业模式.md
+  concepts: &id008
+  - 商业模式
+  usage:
+  - home_today
+  - concept_page
+by_concept:
+  买股票就是买公司:
+  - text: 买股票就是买公司，买公司就是买公司的未来现金流折现，句号！这就是我说的所谓的信仰的意思，或者说我是从骨子里相信，不会因为任何影响而动摇。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/01-买股票就是买公司.md
+    concepts: *id001
+    usage:
+    - concept_page
+  - text: 同样价钱下买的公司是不是上市公司并没有区别，上市只是给出了个退出的方便而已。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/01-买股票就是买公司.md
+    concepts:
+    - 买股票就是买公司
+    usage:
+    - concept_page
+  - text: 买股票就是买公司。无论你看懂的是长久还是变化，只要是真懂，便宜时就是好机会。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/01-买股票就是买公司.md
+    concepts:
+    - 买股票就是买公司
+    usage:
+    - concept_page
+  - text: 其实区分所谓是不是'价值投资'的最重要，也许是唯一的点就是在'投资者'是不是在买未来现金流（的折现）。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/01-买股票就是买公司.md
+    concepts:
+    - 买股票就是买公司
+    usage:
+    - concept_page
+  - text: 直到我看了老巴（巴菲特）的东西，其实啥也没看，就看到那一句话：'买股票就是买公司'。我就突然明白了，这句话就够了。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/01-买股票就是买公司.md
+    concepts:
+    - 买股票就是买公司
+    usage:
+    - concept_page
+  未来现金流折现:
+  - text: 未来现金流的折现不是算法，是思维方式，不要企图拿计算器去算出来。当然，拿计算器算一下也没什么错。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/02-未来现金流折现.md
+    concepts: *id002
+    usage:
+    - concept_page
+  - text: 公司未来现金流的折现就是公司的内在价值。应该在公司股价低于其内在价值时买入。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/02-未来现金流折现.md
+    concepts:
+    - 未来现金流折现
+    usage:
+    - concept_page
+  - text: 未来现金流折现只是一种思维方式，只有在自己能力圈范围内的公司，投资人才能毛估估看明白。没人真用公式的，至少剩者都是不用公式的。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/02-未来现金流折现.md
+    concepts:
+    - 未来现金流折现
+    usage:
+    - concept_page
+  - text: 宁要模糊的精确，也不要精确的模糊。我觉得这就是毛估估的意思。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/02-未来现金流折现.md
+    concepts:
+    - 未来现金流折现
+    usage:
+    - concept_page
+  - text: 折现率实际上是相对于投资人的机会成本而言的。最低的机会成本就是无风险回报率，比如美国国债的利率。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/02-未来现金流折现.md
+    concepts:
+    - 未来现金流折现
+    usage:
+    - concept_page
+  能力圈:
+  - text: 知道自己的能力圈有多大往往比自己能力圈有多大要重要的多！
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/03-能力圈.md
+    concepts: *id003
+    usage:
+    - concept_page
+  - text: 不懂不做是一个人判断公司内在价值的必要前提（不是充分的）。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/03-能力圈.md
+    concepts:
+    - 能力圈
+    usage:
+    - concept_page
+  - text: 能力圈不是拿金箍棒在地上画个圈，说待在里面不要出去，外面有妖怪。能力圈是：诚实对自己，知之为知之，不知为不知。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/03-能力圈.md
+    concepts:
+    - 能力圈
+    usage:
+    - concept_page
+  - text: 不要轻易去'扩大'自己的能力圈。搞懂一个生意往往是需要很多年的，不要因为看到一两个概念就轻易跳进自己不熟悉的领域或地方，不然早晚会栽的。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/03-能力圈.md
+    concepts:
+    - 能力圈
+    usage:
+    - concept_page
+  - text: 能力圈不是双刃剑，是单刃的，只是内外有别而已。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/03-能力圈.md
+    concepts:
+    - 能力圈
+    usage:
+    - concept_page
+  安全边际:
+  - text: 我自己对安全边际的理解实际上是自己对要投资的生意的了解度。自己觉得风险越小的投入的比例就可以越大些。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/04-安全边际.md
+    concepts:
+    - 安全边际
+    usage:
+    - concept_page
+  - text: 总的来讲，我感觉中的安全边际指的不仅仅是价格。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/04-安全边际.md
+    concepts:
+    - 安全边际
+    usage:
+    - concept_page
+  - text: 安全边际指的其实不是眼前的价格，而是对投资标的风险的了解。这里的'风险'指的其实不是市场价格的波动，而是实际生意可能出现的变化。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/04-安全边际.md
+    concepts:
+    - 安全边际
+    usage:
+    - concept_page
+  - text: 我觉得margin of safety实际上应该指的是能力圈而不仅仅是价格。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/04-安全边际.md
+    concepts:
+    - 安全边际
+    usage:
+    - concept_page
+  - text: 比如，在觉得苹果很有投资价值的同时，虽然觉得乔布斯如果离开对苹果一段时间里影响很小，但没有绝对把握，所以就把投资上限设在30%。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/04-安全边际.md
+    concepts:
+    - 安全边际
+    usage:
+    - concept_page
+  护城河:
+  - text: 护城河应该是生意模式的一部分。没有护城河的生意模式不是好的生意模式，但有护城河的生意未必就一定是好的生意模式。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/05-护城河.md
+    concepts: *id004
+    usage:
+    - concept_page
+  - text: '''护城河''是用来判断公司内在价值的一个重要手段（不是唯一的）。'
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/05-护城河.md
+    concepts:
+    - 护城河
+    usage:
+    - concept_page
+  - text: 企业文化是'护城河'的重要部分。很难想象一个没有很强企业文化的企业可以有个很宽的'护城河'。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/05-护城河.md
+    concepts:
+    - 护城河
+    usage:
+    - concept_page
+  - text: 好的生意模式往往具有很宽的护城河。好的生意模式往往是好的未来现金流的保障。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/05-护城河.md
+    concepts:
+    - 护城河
+    usage:
+    - concept_page
+  - text: 知道为什么我说好的企业文化是'护城河'了吧。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/05-护城河.md
+    concepts:
+    - 护城河
+    usage:
+    - concept_page
+  长期持有:
+  - text: 我总觉得价值投资就应该长期持有的说法是对价值投资的误解。误解最大的无过于'长期持有就是价值投资'了。但是，买到了便宜的好股票最好不要轻易出手。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/06-长期持有.md
+    concepts:
+    - 长期持有
+    usage:
+    - concept_page
+  - text: 长期持有是一个意向，就是我买的那个刹那我是打算长期持有的。但是你永远是算你的机会成本的。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/06-长期持有.md
+    concepts:
+    - 长期持有
+    usage:
+    - concept_page
+  - text: 好公司是不需要卖的！
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/06-长期持有.md
+    concepts:
+    - 长期持有
+    usage:
+    - concept_page
+  - text: 如果你发现一个更好的公司，你觉得更踏实，你手里只有茅台，如果能够换的话，你没有道理不换。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/06-长期持有.md
+    concepts:
+    - 长期持有
+    usage:
+    - concept_page
+  - text: 你如果不想拥有一家公司十年，你甚至不要拥有一分钟。老巴有些话越想越不简单。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/06-长期持有.md
+    concepts:
+    - 长期持有
+    usage:
+    - concept_page
+  集中投资:
+  - text: 我自己真的投过比较大金额、大比重的，最早是网易；雅虎应该算；后来差不多就到苹果了吧；茅台其实也蛮大的；腾讯我现在其实还可以吧。差不多小10个孔。所以我还有很久可以做投资。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/07-集中投资.md
+    concepts:
+    - 集中投资
+    usage:
+    - concept_page
+  - text: 我一般跟大家讲我就三只股票：苹果、腾讯、茅台。差不多真是这样。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/07-集中投资.md
+    concepts:
+    - 集中投资
+    usage:
+    - concept_page
+  - text: 投苹果我投最高的时候，我投到90几个点（90%仓位），就是一直买一直买一直买，每次掉我都买。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/07-集中投资.md
+    concepts:
+    - 集中投资
+    usage:
+    - concept_page
+  - text: 一般而言，超出一定量以后，投的企业越多赚的越少。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/07-集中投资.md
+    concepts:
+    - 集中投资
+    usage:
+    - concept_page
+  - text: 在这10年里在有兴趣的企业里我大致看懂了不到10家企业，重手投了5家，差不多两年一家。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/07-集中投资.md
+    concepts:
+    - 集中投资
+    usage:
+    - concept_page
+  不懂不做:
+  - text: 不懂不做有什么问题？当然不懂也是可以做的，没人不让你做，股市里85%以上的都如此，对吧？！不懂不做是个忠告，当然是老巴对我的忠告，你可以不听。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/08-不懂不做.md
+    concepts:
+    - 不懂不做
+    usage:
+    - concept_page
+  - text: 投资很简单，不懂不做。但要能搞懂企业就算看一吨的书也不一定行，投资简单但不容易！
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/08-不懂不做.md
+    concepts:
+    - 不懂不做
+    usage:
+    - concept_page
+  - text: 不懂不做是一个人判断公司内在价值的必要前提（不是充分的）。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/08-不懂不做.md
+    concepts:
+    - 不懂不做
+    usage:
+    - concept_page
+  - text: 我搞不懂医药，更不知道ai对医药的未来的发展会是什么影响。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/08-不懂不做.md
+    concepts:
+    - 不懂不做
+    usage:
+    - concept_page
+  - text: 我始终没完全搞懂银行的业务的风险到底在哪儿。美国的一些大银行隔个10年8年就来一次大动荡，还没明白是怎么回事。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/08-不懂不做.md
+    concepts:
+    - 不懂不做
+    usage:
+    - concept_page
+  毛估估:
+  - text: 宁要模糊的精确，也不要精确的模糊。我觉得这就是毛估估的意思。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/09-毛估估.md
+    concepts:
+    - 毛估估
+    usage:
+    - concept_page
+  - text: 毛估估。意思就是5分钟就能算明白的东西，一定要够便宜。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/09-毛估估.md
+    concepts:
+    - 毛估估
+    usage:
+    - concept_page
+  - text: 我的所谓估值都是毛估估的。我买万科时万科市值才100多个亿，我认为这无论如何也不止，所以就随便给了个500亿。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/09-毛估估.md
+    concepts:
+    - 毛估估
+    usage:
+    - concept_page
+  - text: 巴菲特讲过：有一个300斤的胖子走进来，我不用秤就知道他很胖。我买网易时可真没认真'估值'过。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/09-毛估估.md
+    concepts:
+    - 毛估估
+    usage:
+    - concept_page
+  - text: 未来现金流折现只是一种思维方式，只有在自己能力圈范围内的公司，投资人才能毛估估看明白。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/09-毛估估.md
+    concepts:
+    - 毛估估
+    usage:
+    - concept_page
+  right business right people right price:
+  - text: right business, right people, right price. 对的生意，对的人，对的价格。这是老巴说的。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/10-right business right people right price.md
+    concepts:
+    - right business right people right price
+    usage:
+    - concept_page
+  - text: 对的生意指的就是好的生意模式（好的护城河），对的人指好的企业文化（好的管理团队），对的价格当然就是足够便宜。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/10-right business right people right price.md
+    concepts:
+    - right business right people right price
+    usage:
+    - concept_page
+  - text: 其实这些在《再说对价值投资的一些基本理解》中都讲了：买股票就是买公司（right business），公司未来现金流的折现（right price），能力圈/不懂不做（right people相关），护城河（right business的一部分）。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/10-right business right people right price.md
+    concepts:
+    - right business right people right price
+    usage:
+    - concept_page
+  - text: 我理解的老巴的投资三要素就是：right business, right people, right price。对的生意其实就是好的生意模式，对的人就是好的企业文化。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/10-right business right people right price.md
+    concepts:
+    - right business right people right price
+    usage:
+    - concept_page
+  - text: 生意模式就是right business，企业文化就是right people。再加上right price，三者缺一不可。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/10-right business right people right price.md
+    concepts:
+    - right business right people right price
+    usage:
+    - concept_page
+  本分:
+  - text: 我们做企业最根本的东西，就是本分。说话要算数，是一种本分。守信誉不是给人看的，为了一个承诺去赔钱，可能很多企业家会赖帐，但我会毫不犹豫地践诺。
+    speaker: 段永平
+    date: '2000'
+    source: 2000-段永平给营销人员讲话（销售手册前言）
+    concepts: *id005
+    usage:
+    - concept_page
+  - text: 企业不要什么钱都赚，这是一种本分。企业应该有道德，有自己的原则。有些生意哪怕再赚钱，如果违背自己做企业的原则，那我肯定不会去做的。
+    speaker: 段永平
+    date: '2000'
+    source: 2000-段永平给营销人员讲话（销售手册前言）
+    concepts:
+    - 本分
+    usage:
+    - concept_page
+  - text: 企业不是什么事都做，这是一种本分。也就是遵循'焦点法则'，把80%的精力放在20%的事情上，那么20%的事情会带来80%的效益。
+    speaker: 段永平
+    date: '2000'
+    source: 2000-段永平给营销人员讲话（销售手册前言）
+    concepts:
+    - 本分
+    usage:
+    - concept_page
+  - text: 平常心、进取心、耐心、责任心和爱心形成了我们企业的本分，它是我们企业走到今天这一步的基本点。
+    speaker: 段永平
+    date: '1999'
+    source: 01-1999-段永平-二十一世纪来了
+    concepts:
+    - 本分
+    usage:
+    - concept_page
+  - text: 我们以本分为核心的企业文化与价值观，我认为是我们企业20年仍能存活至今的最重要原因，是我们企业今天能够与世界一流企业PK的唯一的核心竞争力。
+    speaker: 沈炜
+    date: '2015'
+    source: 05-2015-沈炜-步步高（vivo）20周年
+    concepts:
+    - 本分
+    usage:
+    - concept_page
+  平常心:
+  - text: 平常心，就是rational(理性），就是回到事物的本原，就是做对的事情，和把事情做对。
+    speaker: 段永平
+    date: '2018'
+    source: 09-2018-段永平斯坦福交流
+    concepts: *id006
+    usage:
+    - concept_page
+  - text: 保持不难，因为它就在那儿（是内心已经有的东西）。不过，马云还说过一句话'平常人是很难有平常心的，所以平常心也是不平常心！'发现嘛，靠吃亏。因为没有平常心，一不rational就会栽跟头。
+    speaker: 段永平
+    date: '2018'
+    source: 2018-斯坦福Stop-Doing-List
+    concepts:
+    - 平常心
+    usage:
+    - concept_page
+  - text: 不健康、不长久的事不做，就是很平常心的东西。没有什么要怎么着，要做500强啊，要这个要那个。虽然500强也不算什么。
+    speaker: 段永平
+    date: '2025'
+    source: 2025-方三文对话段永平
+    concepts:
+    - 平常心
+    usage:
+    - concept_page
+  - text: 做事情要有一颗平常心，不能急躁，事物都有一个发展的规律，企业发展也是一个渐进的过程，出现一点挫折或取得进步都是正常的，要赢得起，也要输得起。
+    speaker: 段永平
+    date: '2016'
+    source: 030-引用 【转载】段总在企业文化培训课上的讲解
+    concepts:
+    - 平常心
+    usage:
+    - concept_page
+  - text: 平常心，就是回到事物的本原。
+    speaker: 段永平
+    date: '2018'
+    source: 09-2018-段永平斯坦福交流
+    concepts:
+    - 平常心
+    usage:
+    - concept_page
+  Stop Doing List (不为清单):
+  - text: 人们常说Do right thing, do things right，要做对的事、要把事情做对，道理大家都懂，怎样做到呢？就是不做错的事。多数人不是判断不了对错，而是明知是错的还要去做，因为时常会有短期的诱惑。
+    speaker: 段永平
+    date: '2018'
+    source: 2018-斯坦福Stop-Doing-List
+    concepts: *id007
+    usage:
+    - concept_page
+  - text: 不做的事情更重要。聚焦，才能做长期正确的事情。
+    speaker: 段永平
+    date: '2018'
+    source: 2018-斯坦福Stop-Doing-List
+    concepts:
+    - Stop Doing List (不为清单)
+    usage:
+    - concept_page
+  - text: Stop Doing List（不为清单），说的是做对的事情，但做对的事情，要落实在不做不对的事情上。
+    speaker: 段永平
+    date: '2018'
+    source: 09-2018-段永平斯坦福交流
+    concepts:
+    - Stop Doing List (不为清单)
+    usage:
+    - concept_page
+  - text: 其实犯错误的概率大家其实都差不多的，只是说你犯不犯下去，还有就是你有没有Stop Doing List（不为清单）。那我们上了停止做的事情，那我们犯这一类错误的概率就小了嘛。所以我们30年下来我们犯的错误就比其他人少。
+    speaker: 段永平
+    date: '2025'
+    source: 11-2025-雪球-方三文对话段永平
+    concepts:
+    - Stop Doing List (不为清单)
+    usage:
+    - concept_page
+  - text: 人们关心的是我们做过什么，其实我们之所以成为我们，很大的原因是因为我们不做的那些事情。因为我们知道这个事对我们不合适，我们就不做了。那不做我们不就少犯很多错误嘛，那你剩下做对的事情的概率就大了。其实就是小小的一点点的差别，可能差30年就是很大的差别。
+    speaker: 段永平
+    date: '2025'
+    source: 11-2025-雪球-方三文对话段永平
+    concepts:
+    - Stop Doing List (不为清单)
+    usage:
+    - concept_page
+  做对的事情 把事情做对:
+  - text: 大三的时候我是无意中看到德鲁克的一句话，叫做'做对的事情和把事情做对'，对我触动很大，一下就把是非的东西给拿出来了。你发现凡事只要花五秒钟想一下这个事情，你一辈子会省好多事。
+    speaker: 段永平
+    date: '2025'
+    source: 2025-方三文对话段永平
+    concepts:
+    - 做对的事情 把事情做对
+    usage:
+    - concept_page
+  - text: 我们之所以能够走到今天，最重要的一个原因就是我们犯的错误比竞争对手要少。这个呢，是我们在企业理念上花了很大的心思，导致我们在做对的事情上，我们做得比竞争对手要做得好。
+    speaker: 段永平
+    date: '2005'
+    source: 04-2005-段永平-步步高十周年记念文艺晚会讲话
+    concepts:
+    - 做对的事情 把事情做对
+    usage:
+    - concept_page
+  - text: 你要做对的事情，然后把事情做对的过程当中，你犯的错误是可以接受的。但是你做了错的事情，带来的恶果，那是不应该的，因为你明知是错的事情，你为什么要去做呢？
+    speaker: 段永平
+    date: '2025'
+    source: 2025-方三文对话段永平
+    concepts:
+    - 做对的事情 把事情做对
+    usage:
+    - concept_page
+  - text: Do right things：做正确的事情；'道'。Do things right：把事情做正确；'术'。'道'是先于'术'的，因为只要方向是对的，方法笨一点，也只是做得慢一点，不会走错路。
+    speaker: 段永平
+    date: ~2016 (企业文化培训)
+    source: 030-引用 【转载】段总在企业文化培训课上的讲解
+    concepts:
+    - 做对的事情 把事情做对
+    usage:
+    - concept_page
+  - text: 做企业呢，我觉得也跟我有一些顿悟是有关系，就是说我刚刚讲的要做对的事情。那么如果发现错的，我就要放弃。
+    speaker: 段永平
+    date: '2007'
+    source: 06-2007-波士堂专访段永平，谈价值投资，上市，企业
+    concepts:
+    - 做对的事情 把事情做对
+    usage:
+    - concept_page
+  消费者导向:
+  - text: 做企业非常简单，叫做 Consumer Orientation，叫做'消费者导向'。这话说起来非常简单，但是真正这样做的人非常少，绝大多数都是生意导向、赚钱导向。
+    speaker: 段永平
+    date: '2008'
+    source: 07-2008-段永平浙大分享
+    concepts:
+    - 消费者导向
+    usage:
+    - concept_page
+  - text: 我们讲的是消费者导向。原创是什么？我们有非常多的原创我们从来不说，因为你买东西的时候你并不在意这个是不是原创。所以我们公司是反对，单纯地讲创新的，我们叫消费者导向。
+    speaker: 段永平
+    date: '2007'
+    source: 06-2007-波士堂专访段永平，谈价值投资，上市，企业
+    concepts:
+    - 消费者导向
+    usage:
+    - concept_page
+  - text: 企业最重要的是所谓的消费者导向。我其实不知道我们未来会怎么样。我们未来无非就是两条路，一条是活下去，一条就是死掉了。
+    speaker: 段永平
+    date: '2004'
+    source: 02-2004（左右）-段永平北大总裁班演讲：企业的诚信意识
+    concepts:
+    - 消费者导向
+    usage:
+    - concept_page
+  - text: 我们为什么要提'消费者导向'而不是'客户导向'？因为客户导向会有点复杂，但消费者导向就很简单，就是说你想到了你的最终的用户，他到底要的是什么？我们能够给他们提供什么？
+    speaker: 段永平
+    date: '2025'
+    source: 12-2025-王石对话段永平
+    concepts:
+    - 消费者导向
+    usage:
+    - concept_page
+  - text: 创新是指用户导向前提下的创新，而不是为了不同而不同的创新。我们公司把这叫差异化，也就是满足用户需要而别人还没有提供的东西。
+    speaker: 段永平
+    date: '2010-02-27'
+    source: 海啸（网易博客）
+    concepts:
+    - 消费者导向
+    usage:
+    - concept_page
+  敢为天下后:
+  - text: 敢为天下后，指的是产品类别，是因为你猜市场的需求往往很难，但是别人已经把需求明确了，你去满足这个需求，就更确定。（敢为天下后指的是产品类别，后中争先指的是做好产品的能力。或者说，敢为天下后指的是'做对的事情'，后中争先指的是'把事情做对'的能力。）
+    speaker: 段永平
+    date: '2018'
+    source: 2018-斯坦福Stop-Doing-List
+    concepts:
+    - 敢为天下后
+    usage:
+    - concept_page
+  - text: 所有的高手都是敢为天下后的，只是做的比别人更好。
+    speaker: 段永平
+    date: '2018'
+    source: 09-2018-段永平斯坦福交流
+    concepts:
+    - 敢为天下后
+    usage:
+    - concept_page
+  - text: 我觉得敢为天下后对较小的企业尤其重要。我们实力本来就不强，很难跟世界级的大公司相比，因此，我先看人家国外大企业做什么产品，而且要看它什么产品好卖，然后我再做什么，这样成功的机率要大得多。
+    speaker: 段永平
+    date: '2000'
+    source: 08-2000-段永平给营销人员讲话（销售手册前言）
+    concepts:
+    - 敢为天下后
+    usage:
+    - concept_page
+  - text: 老子曰：'我有三宝，持而保之，一曰慈，二曰俭，三曰不敢为天下先。'例如：微软从windows到word，它没有哪个产品是敢为天下先的，但是一旦它发现哪个产品有市场就调以重兵进去，然后把它做成行业第一。
+    speaker: 段永平
+    date: '2016'
+    source: 030-引用 【转载】段总在企业文化培训课上的讲解
+    concepts:
+    - 敢为天下后
+    usage:
+    - concept_page
+  - text: 首先我要说明'敢为天下后'其实不是我说的。老子曰：'吾有三宝，一曰慈，二曰俭，三曰不敢为天下先'。当然我以前说'敢为天下后'的时候我不知道，是我太太告诉我说：'你看看人家老子早就说了。'
+    speaker: 段永平
+    date: '2008'
+    source: 07-2008-段永平浙大分享
+    concepts:
+    - 敢为天下后
+    usage:
+    - concept_page
+  差异化:
+  - text: 竞争的本质在于产品差异化，要做别人提供不了的东西。没有差异化，就成了日用基础商品，只能靠价格来竞争，很难挣钱。
+    speaker: 段永平
+    date: '2018'
+    source: 09-2018-段永平斯坦福交流
+    concepts:
+    - 差异化
+    usage:
+    - concept_page
+  - text: 创新是指在用户导向前提下的创新，而不是为了不同而不同的创新。我们公司把这叫差异化，也就是满足用户需要而别人还没有提供的东西。
+    speaker: 段永平
+    date: '2010-02-27'
+    source: 海啸（网易博客）
+    concepts:
+    - 差异化
+    usage:
+    - concept_page
+  - text: 如果你认为它是很个性化的东西，那我们就有机会，我们能够做出差异化的，我们能够做得跟别人不一样，我们在有的地方可以做得比别人好。
+    speaker: 段永平
+    date: '2025'
+    source: 2025-方三文对话段永平
+    concepts:
+    - 差异化
+    usage:
+    - concept_page
+  - text: 它没有足够的差异化，这是我对苹果比一般人了解的地方。
+    speaker: 段永平
+    date: '2025'
+    source: 2025-方三文对话段永平
+    concepts:
+    - 差异化
+    usage:
+    - concept_page
+  - text: 电动车这个生意不会太好，会很累，它差异化很小。但是特斯拉的电动车，它是做出差异化的。
+    speaker: 段永平
+    date: '2025'
+    source: 2025-方三文对话段永平
+    concepts:
+    - 差异化
+    usage:
+    - concept_page
+  企业文化:
+  - text: 企业文化就是Mission、Vision和Core Values。'Mission'是为什么成立；'Vision'是我们要去哪里；'Core Values'是哪些事情是对的，哪些事情是不对的。
+    speaker: 段永平
+    date: '2018'
+    source: 09-2018-段永平斯坦福交流
+    concepts:
+    - 企业文化
+    usage:
+    - concept_page
+  - text: 一个企业要长期做下去，要保持竞争力，要基业长青，就一定要有自己的文化。产品可以模仿，而文化是不可以模仿的。
+    speaker: 段永平
+    date: ~2016
+    source: 030-引用 【转载】段总在企业文化培训课上的讲解
+    concepts:
+    - 企业文化
+    usage:
+    - concept_page
+  - text: 企业文化跟创始人有很大的关系，它是一个你自己的个人品性，然后找那些认同你的人，认同你的文化的人。所以我们的企业文化其实就是，大家都认同了这个文化，大家一起待下来了，不认同的人慢慢就会被淘汰掉，会离开。
+    speaker: 段永平
+    date: '2025'
+    source: 2025-方三文对话段永平
+    concepts:
+    - 企业文化
+    usage:
+    - concept_page
+  - text: 请问步步高的核心竞争力是什么？是我们的企业文化！呵呵，10多年前我就这么回答，现在可能有些人已经开始明白了。
+    speaker: 段永平
+    date: '2010-02-27'
+    source: 海啸（网易博客）
+    concepts:
+    - 企业文化
+    usage:
+    - concept_page
+  - text: 对的生意说的就是生意模式，对的人指的就是企业文化。price没有那么重要，business和people最重要。culture跟founder（创始人）有很大关系。
+    speaker: 段永平
+    date: '2018'
+    source: 09-2018-段永平斯坦福交流
+    concepts:
+    - 企业文化
+    usage:
+    - concept_page
+  焦点法则:
+  - text: 企业不是什么事都做，这是一种本分。也就是遵循'焦点法则'，把80%的精力放在20%的事情上，那么20%的事情会带来80%的效益。有多大能力做多大的事，而不是有多大的胆量。
+    speaker: 段永平
+    date: '2000'
+    source: 08-2000-段永平给营销人员讲话（销售手册前言）
+    concepts:
+    - 焦点法则
+    usage:
+    - concept_page
+  - text: 焦点法则其实很简单，就是你一个人，你做不了很多事情，你总要把你的精力放在你最擅长做的事情上头。
+    speaker: 段永平
+    date: '2004'
+    source: 02-2004（左右）-段永平北大总裁班演讲：企业的诚信意识
+    concepts:
+    - 焦点法则
+    usage:
+    - concept_page
+  - text: 我的原话呢是讲的叫'焦点法则'，就Focus，就是你必须Focus，就是要做你自己擅长的事情。中国有一段时间在搞多元化，我就不懂，我说这个多元化，你一个都搞不好。说鸡蛋要放在很多个篮子里头，我说我的观点就鸡蛋就放在一个篮子里头，这样我才看守得住。
+    speaker: 段永平
+    date: '2008'
+    source: 07-2008-段永平浙大分享
+    concepts:
+    - 焦点法则
+    usage:
+    - concept_page
+  - text: 归核化可能就是我们企业的焦点法则，意思就是集中优势兵力打歼灭战。我一向是反对多元化的。一般地，如果我们判断进不了前三名的行业，我们就不进入。
+    speaker: 段永平
+    date: ~2005
+    source: 人大交流片段（网易博客）
+    concepts:
+    - 焦点法则
+    usage:
+    - concept_page
+  - text: 我自己也讲 Fast is slow，也有人讲 Nice is small，其实对我来讲，其实我们也用，叫焦点法则，就是你不能做太多东西，你要聚焦在某些地方。
+    speaker: 段永平
+    date: '2007'
+    source: 06-2007-波士堂专访段永平，谈价值投资，上市，企业
+    concepts:
+    - 焦点法则
+    usage:
+    - concept_page
+  不为清单:
+  - text: 段永平透露了自己'成功的秘诀'：有一个'Stop Doing List（不为清单）'，有所为有所不为，不做不对的事，比做对的事更重要。
+    speaker: 编者按
+    date: '2018'
+    source: 09-2018-段永平斯坦福交流（虎嗅版标题）
+    concepts:
+    - 不为清单
+    usage:
+    - concept_page
+  - text: 你真的有一个stop doing list（不为清单），你有没有不做的东西，你告诉我有哪些是你肯定不做的？
+    speaker: 袁鸣（主持人提问）
+    date: '2007'
+    source: 06-2007-波士堂专访段永平，谈价值投资，上市，企业
+    concepts:
+    - 不为清单
+    usage:
+    - concept_page
+  - text: 不借钱、不做空、不懂不做、不投概念股。
+    speaker: 段永平
+    date: ~2025
+    source: EXECUTION-PLAN.md 总结
+    concepts:
+    - 不为清单
+    usage:
+    - concept_page
+  - text: 我说我们有个Stop doing list（不为清单）。他说举个例子，我说我们不做代工啊。他说：'哦？那什么意思？'我说：'你看，我要做代工打不过你对不对？'他说：'那倒是。'
+    speaker: 段永平
+    date: '2025'
+    source: 11-2025-雪球-方三文对话段永平
+    concepts:
+    - 不为清单
+    usage:
+    - concept_page
+  - text: stopdoinglist：对违反核心价值观和刺猬理念的事情说不，不做什么比做什么更加重要，建立企业的不为清单。
+    speaker: 段永平
+    date: 2025-10
+    source: 段永平雪球问答录_杨不为整理
+    concepts:
+    - 不为清单
+    usage:
+    - concept_page
+  不做空:
+  - text: 不做空。这方面我曾经犯过错误，尤其是不要做空长期的好公司，比如早年的百度。 ——2018年斯坦福演讲
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/21-不做空.md
+    concepts:
+    - 不做空
+    usage:
+    - concept_page
+  - text: 老巴的教导千万别忘了：不做空，不借钱，不做不懂的东西！ ——2010年博客提醒博友
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/21-不做空.md
+    concepts:
+    - 不做空
+    usage:
+    - concept_page
+  - text: 这就是为什么老巴讲不做空的逻辑。同样市场继续犯错，做多市场付给你钱，做空你为市场买单。 ——2013年解释做空与做多的本质区别
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/21-不做空.md
+    concepts:
+    - 不做空
+    usage:
+    - concept_page
+  - text: 以前还做过naked calls，错了一次就一夜差点回到解放前了，以后不会再做无限风险的事了，确实挺愚蠢的。 ——2010年坦诚分享犯过的错误
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/21-不做空.md
+    concepts:
+    - 不做空
+    usage:
+    - concept_page
+  不借钱:
+  - text: 巴菲特的原话："Don't use margin！"的意思就是不要用融券，我简化成不借钱了。 ——2010年澄清出处
+    speaker: 段永平
+    date: '2007'
+    source: duanyongping-kb/01-投资概念/22-不借钱.md
+    concepts:
+    - 不借钱
+    usage:
+    - concept_page
+  - text: 反正你借不借钱一生当中都会失去无穷机会的，但借钱可能会让你再也没机会了。 ——回应网友关于借钱抓住机会的问题
+    speaker: 段永平
+    date: '2007'
+    source: duanyongping-kb/01-投资概念/22-不借钱.md
+    concepts:
+    - 不借钱
+    usage:
+    - concept_page
+  - text: 我们公司是基本没有贷款的，虽然很久以前银行就给了我们不少额度。投资也一样，不用margin！ ——企业经营与投资一致
+    speaker: 段永平
+    date: '2007'
+    source: duanyongping-kb/01-投资概念/22-不借钱.md
+    concepts:
+    - 不借钱
+    usage:
+    - concept_page
+  - text: 巴菲特"一生只需富一次"的意思是不要冒不该冒的险，不然可能需要去想办法富第二次。不用margin也是这个意思。 ——解释rich once理念
+    speaker: 段永平
+    date: '2007'
+    source: duanyongping-kb/01-投资概念/22-不借钱.md
+    concepts:
+    - 不借钱
+    usage:
+    - concept_page
+  好价格:
+  - text: 其实我对好价钱已经不太提了，合适价钱就好。 ——回应"三好生"说法
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/23-好价格.md
+    concepts:
+    - 好价格
+    usage:
+    - concept_page
+  - text: 好价格指的是10年后回头看：哇塞，那真是好价格。 ——对好价格的经典定义
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/23-好价格.md
+    concepts:
+    - 好价格
+    usage:
+    - concept_page
+  - text: 明天的涨跌没人知道，但10年回头看，这个价钱大概率是好价钱，除非你还有别的更好的投资机会。 ——关于茅台价格判断
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/23-好价格.md
+    concepts:
+    - 好价格
+    usage:
+    - concept_page
+  - text: 我一般的目标是买我认为价值被低估50%或以上的股票。 ——明确的安全边际目标
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/23-好价格.md
+    concepts:
+    - 好价格
+    usage:
+    - concept_page
+  确定性:
+  - text: 护城河对生意作用是阻止竞争，有好的利润；对投资的作用是确定性。 ——2023年雪球问答
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/24-确定性.md
+    concepts:
+    - 确定性
+    usage:
+    - concept_page
+  - text: 我觉得苹果我可以说，我很肯定地知道苹果还会活得很好，拼多多我没有那么清晰。 ——2025年方三文对话
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/24-确定性.md
+    concepts:
+    - 确定性
+    usage:
+    - concept_page
+  - text: 尽量把投资标的简单化，确定性会更高。 ——2010年网易博客
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/24-确定性.md
+    concepts:
+    - 确定性
+    usage:
+    - concept_page
+  - text: 在能力圈内极度确定（"这个我看得懂"），圈外极度坦诚（"这个我不懂"）。 ——对段永平确定性思维的总结
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/24-确定性.md
+    concepts:
+    - 确定性
+    usage:
+    - concept_page
+  持有等于买入:
+  - text: 理论上（忽略所有交易成本的前提下），持有＝买入或者买入＝持有其实不是一种观点，而是一个事实。我以前也为这个"观点"困惑过很长时间，直到有次跟老巴聊天时我问他，持有＝买入吗？他说当然啊，这是一个fact啊！那之后我就突然觉得自己明白了。
+      ——2020年分享与巴菲特对话后的顿悟
+    speaker: 段永平
+    date: '2019'
+    source: duanyongping-kb/01-投资概念/25-持有等于买入.md
+    concepts:
+    - 持有等于买入
+    usage:
+    - concept_page
+  - text: 持有=买入是个fact，不是个观点，不需要解释。 ——简洁回应网友
+    speaker: 段永平
+    date: '2019'
+    source: duanyongping-kb/01-投资概念/25-持有等于买入.md
+    concepts:
+    - 持有等于买入
+    usage:
+    - concept_page
+  - text: 不考虑市场但是要衡量买入价格的，不然就变成追高了。投资是需要回报的，需要一直考虑机会成本。持有=买入就是这个意思。 ——解释持有=买入与机会成本的关系
+    speaker: 段永平
+    date: '2019'
+    source: duanyongping-kb/01-投资概念/25-持有等于买入.md
+    concepts:
+    - 持有等于买入
+    usage:
+    - concept_page
+  - text: 目前30年的国债利率是4.44%，相当于22.5倍的PE，这也是持有任何公司的机会成本。短期国债的利率是5.36%，相当于18.66倍的PE。持有=买入，有点纠结了。 ——将持有=买入与具体机会成本结合
+    speaker: 段永平
+    date: '2019'
+    source: duanyongping-kb/01-投资概念/25-持有等于买入.md
+    concepts:
+    - 持有等于买入
+    usage:
+    - concept_page
+  网易:
+  - text: 2001年底，他开始以1美元左右价格大量买进网易股票，并坚持持有到100美元。华尔街的华人投资圈因此而送他"段菲特"的称号。 ——媒体报道
+    speaker: 段永平
+    date: '2001'
+    source: duanyongping-kb/01-投资概念/26-网易.md
+    concepts:
+    - 网易
+    usage:
+    - concept_page
+  - text: 段永平在2002年斥资仅200万美元，以0.16美元的均价买入大约5%的网易股票。 ——彭博报道
+    speaker: 段永平
+    date: '2001'
+    source: duanyongping-kb/01-投资概念/26-网易.md
+    concepts:
+    - 网易
+    usage:
+    - concept_page
+  - text: 你要了解一个公司才能坚持啊。我能坚持就是因为我了解。顺便说一下，其实当时70-80我也没卖，不知道为什么大家都说我卖了？ ——澄清并未在70-80美元全部清仓
+    speaker: 段永平
+    date: '2001'
+    source: duanyongping-kb/01-投资概念/26-网易.md
+    concepts:
+    - 网易
+    usage:
+    - concept_page
+  - text: 怎么说呢，你说我看懂了吗？我要看懂了，我应该把整个网易买下来。对不对？所以懂这个东西，我也不知道是什么意思，但是我大致上是觉得他们是能挣钱的，我觉得我的投资风险不会特别大。 ——2025年回顾，坦诚"懂"是个程度问题
+    speaker: 段永平
+    date: '2001'
+    source: duanyongping-kb/01-投资概念/26-网易.md
+    concepts:
+    - 网易
+    usage:
+    - concept_page
+  苹果:
+  - text: 我觉得苹果应该是非卖品，最好别卖，不然很难找到类似的好公司买。茅台基本同理。这两家公司拿着长期而言大概率是可以抗通胀的。我觉得可乐不如苹果，我跟老巴也说过我的这个观点，就是苹果的护城河比可口可乐宽。 ——2021年雪球
+    speaker: 段永平
+    date: '2011'
+    source: duanyongping-kb/01-投资概念/27-苹果.md
+    concepts:
+    - 苹果
+    usage:
+    - concept_page
+  - text: Apple也算是敢为天下后的典范了。其实我说的"敢为天下后"就是这个意思！没有创新的天下后肯定死定了。 ——2010年博客
+    speaker: 段永平
+    date: '2011'
+    source: duanyongping-kb/01-投资概念/27-苹果.md
+    concepts:
+    - 苹果
+    usage:
+    - concept_page
+  - text: 最理想的公司是能把利润继续投入到原来的生意模式里的公司，分红是其次的选择。……苹果公司——已经没办法把利润再投入，所以才开始回购和分红的。 ——2013年解释苹果回购的底层逻辑
+    speaker: 段永平
+    date: '2011'
+    source: duanyongping-kb/01-投资概念/27-苹果.md
+    concepts:
+    - 苹果
+    usage:
+    - concept_page
+  - text: 如果你觉得苹果有一天会开始为了生意而不是用户体验时，就该考虑离开了。 ——卖出苹果的唯一理由
+    speaker: 段永平
+    date: '2011'
+    source: duanyongping-kb/01-投资概念/27-苹果.md
+    concepts:
+    - 苹果
+    usage:
+    - concept_page
+  - text: 巴菲特称苹果是比可口可乐和美国运通更好的企业。 ——2024年巴菲特股东大会语录
+    speaker: 段永平
+    date: '2011'
+    source: duanyongping-kb/01-投资概念/27-苹果.md
+    concepts:
+    - 苹果
+    usage:
+    - concept_page
+  茅台:
+  - text: 跟不喝酒的人说茅台不是好怪吗？喜欢的人，他喜欢茅台，他喜欢那个口味，他习惯。你要跟一堆不喜欢、不喝茅台的人，你就没办法讲那个事情。 ——2025年方三文对话
+    speaker: 段永平
+    date: '2013'
+    source: duanyongping-kb/01-投资概念/28-茅台.md
+    concepts:
+    - 茅台
+    usage:
+    - concept_page
+  - text: 最重要它有没有一个文化可以维持这个东西。它如果把出品的文化改了，多干快上、多快好省，大干快上，那它是要出问题的。 ——茅台的核心风险是品控文化被改变
+    speaker: 段永平
+    date: '2013'
+    source: duanyongping-kb/01-投资概念/28-茅台.md
+    concepts:
+    - 茅台
+    usage:
+    - concept_page
+  - text: 从10年以上的角度看，130或160或200差别其实没那么大。茅台的生意模式很难得，价钱合适就可以买，未必要等到很便宜。 ——2013年塑化剂危机期间
+    speaker: 段永平
+    date: '2013'
+    source: duanyongping-kb/01-投资概念/28-茅台.md
+    concepts:
+    - 茅台
+    usage:
+    - concept_page
+  - text: 持有茅台——拿着现金是一件很难受的事情，尤其人民币你拿现金存银行里才一点几的利息，你不难受啊？你不得买点啥，买完不就都亏了嘛。你还不如拿着茅台，知道它早晚会回来嘛。 ——2025年解释为什么不卖茅台
+    speaker: 段永平
+    date: '2013'
+    source: duanyongping-kb/01-投资概念/28-茅台.md
+    concepts:
+    - 茅台
+    usage:
+    - concept_page
+  拼多多:
+  - text: 拼多多是很特殊了，因为我在早期的时候，初创阶段的时候就已经投了。所以我投的钱其实比重很少，赚的钱确实很多。严格意义上其实都不算，因为我不是说我看懂了往里投，我是稀里糊涂投的。 ——2025年坦诚承认早期投资并非完全基于"看懂"
+    speaker: 段永平
+    date: '2015'
+    source: duanyongping-kb/01-投资概念/29-拼多多.md
+    concepts:
+    - 拼多多
+    usage:
+    - concept_page
+  - text: 我觉得大概率他们应该活得还不错，但是不是百分之一百。……我觉得苹果我可以说，我很肯定地知道苹果还会活得很好，拼多多我没有那么清晰。……它存在一种可能性，就是它会比现在还要厉害很多，那风投就是这个意思。不是风投我就应该买很大的比重在里头，我并没有。
+      ——明确区分风投与价值投资
+    speaker: 段永平
+    date: '2015'
+    source: duanyongping-kb/01-投资概念/29-拼多多.md
+    concepts:
+    - 拼多多
+    usage:
+    - concept_page
+  - text: 黄峥有成功企业家许多必要的特性，我和他能相互不断深入地问问题，拼多多的企业文化也是抄的Oppo的。 ——2018年斯坦福演讲
+    speaker: 段永平
+    date: '2015'
+    source: duanyongping-kb/01-投资概念/29-拼多多.md
+    concepts:
+    - 拼多多
+    usage:
+    - concept_page
+  - text: 现在中国算是做好了全球化的，可能就一个拼多多，一个抖音。 ——2025年浙大分享，肯定拼多多的全球化成果
+    speaker: 段永平
+    date: '2015'
+    source: duanyongping-kb/01-投资概念/29-拼多多.md
+    concepts:
+    - 拼多多
+    usage:
+    - concept_page
+  价值投资:
+  - text: 我总觉得价值投资就应该长期持有的说法是对价值投资的误解。误解最大的无过于"长期持有就是价值投资"了。但是，买到了便宜的好股票最好不要轻易出手。 ——澄清价值投资≠长期持有
+    speaker: 段永平
+    date: '2004'
+    source: duanyongping-kb/01-投资概念/30-价值投资.md
+    concepts:
+    - 价值投资
+    usage:
+    - concept_page
+  - text: 投资最简单的定义就是如果你有足够的钱你就想在这个价钱买下整个公司，然后把他下市。但只有很少钱的话就只能买一小部分了。 ——价值投资的终极定义
+    speaker: 段永平
+    date: '2004'
+    source: duanyongping-kb/01-投资概念/30-价值投资.md
+    concepts:
+    - 价值投资
+    usage:
+    - concept_page
+  - text: 价值投资很简单、很好学，巴菲特就是从导师格雷厄姆那里学到的，只有三点。……本质上就是三点：好业务、好管理、好价格。 ——三大要素
+    speaker: 段永平
+    date: '2004'
+    source: duanyongping-kb/01-投资概念/30-价值投资.md
+    concepts:
+    - 价值投资
+    usage:
+    - concept_page
+  - text: 研究巴菲特其实就一件事：不懂不做，只要你这么做，就叫价值投资。 ——价值投资的极简版
+    speaker: 段永平
+    date: '2004'
+    source: duanyongping-kb/01-投资概念/30-价值投资.md
+    concepts:
+    - 价值投资
+    usage:
+    - concept_page
+  - text: 投资简单但不容易！要能搞懂企业就算看一吨的书也不一定行。 ——核心悖论
+    speaker: 段永平
+    date: '2004'
+    source: duanyongping-kb/01-投资概念/30-价值投资.md
+    concepts:
+    - 价值投资
+    usage:
+    - concept_page
+  商业模式:
+  - text: 生意模式就是right business。对的生意其实就是好的生意模式。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/31-商业模式.md
+    concepts: *id008
+    usage:
+    - concept_page
+  - text: 好的商业模式是有护城河的，有定价权的。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/31-商业模式.md
+    concepts:
+    - 商业模式
+    usage:
+    - concept_page
+  - text: 护城河应该是生意模式的一部分。没有护城河的生意模式不是好的生意模式。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/31-商业模式.md
+    concepts:
+    - 商业模式
+    usage:
+    - concept_page
+  - text: 好的生意模式往往具有很宽的护城河。好的生意模式往往是好的未来现金流的保障。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/31-商业模式.md
+    concepts:
+    - 商业模式
+    usage:
+    - concept_page
+  - text: 低毛利的都是商业模式比较差的、产品差异化很小的产品。好赛道是不会进入低毛利的。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/31-商业模式.md
+    concepts:
+    - 商业模式
+    usage:
+    - concept_page
+  10年视角:
+  - text: 以10年为标准看股价。千万别把这句话当追高的壮胆鸡汤。
+    speaker: 段永平
+    date: '2008'
+    source: duanyongping-kb/01-投资概念/32-10年视角.md
+    concepts:
+    - 10年视角
+    usage:
+    - concept_page
+  - text: 你如果不想拥有一家公司十年，你甚至不要拥有一分钟。
+    speaker: 段永平
+    date: '2008'
+    source: duanyongping-kb/01-投资概念/32-10年视角.md
+    concepts:
+    - 10年视角
+    usage:
+    - concept_page
+  - text: 最简单的办法大概是在你认真思考企业10年20年后，你就会容易把握一些。
+    speaker: 段永平
+    date: '2008'
+    source: duanyongping-kb/01-投资概念/32-10年视角.md
+    concepts:
+    - 10年视角
+    usage:
+    - concept_page
+  - text: 你想十年二十年以后，你每一个决策是不是对的。
+    speaker: 段永平
+    date: '2008'
+    source: duanyongping-kb/01-投资概念/32-10年视角.md
+    concepts:
+    - 10年视角
+    usage:
+    - concept_page
+  - text: 投资本来你就是看十年、二十年。当然如果宏观环境一直都不太好，那你投别的也很惨，这个其实并没有区别。
+    speaker: 段永平
+    date: '2008'
+    source: duanyongping-kb/01-投资概念/32-10年视角.md
+    concepts:
+    - 10年视角
+    usage:
+    - concept_page
+  企业文化与投资:
+  - text: 一个企业真正的核心竞争力就是企业文化。
+    speaker: 段永平
+    date: '2006'
+    source: duanyongping-kb/01-投资概念/33-企业文化与投资.md
+    concepts:
+    - 企业文化与投资
+    usage:
+    - concept_page
+  - text: 企业文化跟创始人有很大的关系。它是一个你自己的个人品性，然后你是找那些认同你的人。
+    speaker: 段永平
+    date: '2006'
+    source: duanyongping-kb/01-投资概念/33-企业文化与投资.md
+    concepts:
+    - 企业文化与投资
+    usage:
+    - concept_page
+  - text: 我看财报主要用于排除公司。我一般会先了解企业文化，如果觉得不信任这家公司，就连报表都不会看的。
+    speaker: 段永平
+    date: '2006'
+    source: duanyongping-kb/01-投资概念/33-企业文化与投资.md
+    concepts:
+    - 企业文化与投资
+    usage:
+    - concept_page
+  - text: 我们一直讲本分、诚信、讲用户导向。我们的愿景是叫做更健康更长久。不健康不长久的事不做。
+    speaker: 段永平
+    date: '2006'
+    source: duanyongping-kb/01-投资概念/33-企业文化与投资.md
+    concepts:
+    - 企业文化与投资
+    usage:
+    - concept_page
+  - text: 企业文化是'护城河'的重要部分。很难想象一个没有很强企业文化的企业可以有个很宽的'护城河'。
+    speaker: 段永平
+    date: '2006'
+    source: duanyongping-kb/01-投资概念/33-企业文化与投资.md
+    concepts:
+    - 企业文化与投资
+    usage:
+    - concept_page
+  分红回购:
+  - text: 分不分红和是否有投资价值无关。如果你认为公司每股收益可以长期高过长期国债利率，这个公司当然就可能成为投资目标。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/34-分红回购.md
+    concepts:
+    - 分红回购
+    usage:
+    - concept_page
+  - text: 其实分红还是比利息高，其实我并没有亏。拿着现金存银行里才一点几个点的利息，你不难受？
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/34-分红回购.md
+    concepts:
+    - 分红回购
+    usage:
+    - concept_page
+  - text: 给股东分红那就是股东本来就该拿的，员工拿到的分红就是员工该拿的。发奖金的时候有人说谢谢老板，我说这话不合适。这是按契约发的奖金。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/34-分红回购.md
+    concepts:
+    - 分红回购
+    usage:
+    - concept_page
+  - text: 回购股票其实也是一种分红。如果公司股价低于内在价值，回购对股东是有利的。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/34-分红回购.md
+    concepts:
+    - 分红回购
+    usage:
+    - concept_page
+  - text: 我卖点Call（看涨期权）什么的，它有时候就Call走了。一涨就Call走，Call走就Call走了吧。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/34-分红回购.md
+    concepts:
+    - 分红回购
+    usage:
+    - concept_page
+  犯错与纠错:
+  - text: 做对的事情，然后把事情做对的过程当中，你犯的错误是可以接受的。但是你做了错的事情，你带来的恶果那是不应该的。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/35-犯错与纠错.md
+    concepts:
+    - 犯错与纠错
+    usage:
+    - concept_page
+  - text: 发现错了要马上改。很多人是分不清楚错的事情和把事情做错，那个是性质完全不一样的事情。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/35-犯错与纠错.md
+    concepts:
+    - 犯错与纠错
+    usage:
+    - concept_page
+  - text: 当然每个人都会犯错。最主要的就是它叫做'最终它会走回正道'。有了好的文化，犯了错误被纠正的概率高一点。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/35-犯错与纠错.md
+    concepts:
+    - 犯错与纠错
+    usage:
+    - concept_page
+  - text: 犯错误的概率大家其实都差不多的，只是说你犯不犯下去。我们30年下来犯的错误就比其他人少。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/35-犯错与纠错.md
+    concepts:
+    - 犯错与纠错
+    usage:
+    - concept_page
+  - text: GE...虽然挣了钱你也不能否认它是个错误。回到今天我是不会买的。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/35-犯错与纠错.md
+    concepts:
+    - 犯错与纠错
+    usage:
+    - concept_page
+  好生意好管理好价格:
+  - text: right business, right people, right price. 对的生意，对的人，对的价格。这是老巴说的。 ——三要素的原始出处
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/36-好生意好管理好价格.md
+    concepts:
+    - 好生意好管理好价格
+    usage:
+    - concept_page
+  - text: 生意模式就是right business，企业文化就是right people。再加上right price，三者缺一不可。 ——三要素的对应翻译
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/36-好生意好管理好价格.md
+    concepts:
+    - 好生意好管理好价格
+    usage:
+    - concept_page
+  - text: 对的生意指的就是好的生意模式（好的护城河），对的人指好的企业文化（好的管理团队），对的价格当然就是足够便宜。 ——三要素的完整定义
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/36-好生意好管理好价格.md
+    concepts:
+    - 好生意好管理好价格
+    usage:
+    - concept_page
+  - text: 买股票就是买公司（right business），公司未来现金流的折现（right price），能力圈/不懂不做（right people相关），护城河（right business的一部分）。 ——五原则与三要素的映射关系
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/36-好生意好管理好价格.md
+    concepts:
+    - 好生意好管理好价格
+    usage:
+    - concept_page
+  - text: 如果有目标企业，非常看好它的管理层、商业模式，但价格太高，从十年后看回来如果价格还是高的话，那就等着。 ——好价格需要用十年视角检验
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/36-好生意好管理好价格.md
+    concepts:
+    - 好生意好管理好价格
+    usage:
+    - concept_page
+  自由现金流:
+  - text: 公司未来现金流的折现就是公司的内在价值。应该在公司股价低于其内在价值时买入。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/37-自由现金流.md
+    concepts:
+    - 自由现金流
+    usage:
+    - concept_page
+  - text: 未来现金流的折现不是算法，是思维方式，不要企图拿计算器去算出来。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/37-自由现金流.md
+    concepts:
+    - 自由现金流
+    usage:
+    - concept_page
+  - text: 计算价值只和未来总的现金流折现有关。其实净资产只是产生未来现金流的因素之一。不能产生现金流的净资产其实没有价值（有时还可能是负价值）。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/37-自由现金流.md
+    concepts:
+    - 自由现金流
+    usage:
+    - concept_page
+  - text: 好多公司看起来赚很多钱，现金流却一直在减少。那就有危险了。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/37-自由现金流.md
+    concepts:
+    - 自由现金流
+    usage:
+    - concept_page
+  - text: 我看财报主要用于排除公司，比较在意的数字是几个：负债、净现金、现金流、开销合理性、真实利润、扣除商誉的净资产。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/37-自由现金流.md
+    concepts:
+    - 自由现金流
+    usage:
+    - concept_page
+  便宜与贵:
+  - text: 我一般的目标是买我认为价值被低估50%或以上，价值应该是现在的净值加上未来利润总和的折现。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/38-便宜与贵.md
+    concepts:
+    - 便宜与贵
+    usage:
+    - concept_page
+  - text: 我只有一个标准，就是自己觉得便宜才买。比方说我认为GE值20，我可能到15才开始买一点，但到10块以下就下手重很多了。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/38-便宜与贵.md
+    concepts:
+    - 便宜与贵
+    usage:
+    - concept_page
+  - text: 便宜与否是相对于未来现金流折现而言的，不是相对于历史价格而言的。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/38-便宜与贵.md
+    concepts:
+    - 便宜与贵
+    usage:
+    - concept_page
+  - text: 不能单靠PE去推测公司未来的收益，不然会中招的。GM的PE一直都很低（以前老在5倍左右），但债务很高，结果破产了。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/38-便宜与贵.md
+    concepts:
+    - 便宜与贵
+    usage:
+    - concept_page
+  - text: 毛估估。意思就是5分钟就能算明白的东西，一定要够便宜。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/38-便宜与贵.md
+    concepts:
+    - 便宜与贵
+    usage:
+    - concept_page
+  管理层:
+  - text: 我当CEO的时候我就不太管，都是让他们做决定。所以他们接过来也是很顺。放权是要很长时间的。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/39-管理层.md
+    concepts:
+    - 管理层
+    usage:
+    - concept_page
+  - text: 他们是CEO，他们做决策，一定不要想阿段会怎么做。你要那么想我们就完了，我们早就完了。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/39-管理层.md
+    concepts:
+    - 管理层
+    usage:
+    - concept_page
+  - text: 找对的人其实也是通过时间来的。不对的人你慢慢把他淘汰掉。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/39-管理层.md
+    concepts:
+    - 管理层
+    usage:
+    - concept_page
+  - text: 我们一直都说我们有两种人：一个叫'同道中人'，一个叫'同行中人'。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/39-管理层.md
+    concepts:
+    - 管理层
+    usage:
+    - concept_page
+  - text: 你喜欢一家公司，你就是在跟管理层做朋友。我不想跟他做朋友，哪怕给我钱我也不干。所以我没有那么喜欢这件事情（特斯拉）。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/39-管理层.md
+    concepts:
+    - 管理层
+    usage:
+    - concept_page
+  品牌:
+  - text: 我们做Brand（品牌）我们做得很好啊，我们企业也不比他们做得小啊。我们不是靠代工跟他竞争的。
+    speaker: 段永平
+    date: 2011-11
+    source: duanyongping-kb/01-投资概念/40-品牌.md
+    concepts:
+    - 品牌
+    usage:
+    - concept_page
+  - text: 我们不做代工。代工对我们来讲是不合适的。所以我们就Stop，任何人来找我们做代工的生意，我们就很简单，就不做。
+    speaker: 段永平
+    date: 2011-11
+    source: duanyongping-kb/01-投资概念/40-品牌.md
+    concepts:
+    - 品牌
+    usage:
+    - concept_page
+  - text: 品牌不是广告打出来的，是你把产品做好了，服务做好了，消费者认可了你，你自然就有品牌了。
+    speaker: 段永平
+    date: 2011-11
+    source: duanyongping-kb/01-投资概念/40-品牌.md
+    concepts:
+    - 品牌
+    usage:
+    - concept_page
+  - text: 苹果大概永远都不会专门做所谓的廉价手机市场。做最好的产品，让前面的产品做入门级以及提高级的产品。
+    speaker: 段永平
+    date: 2011-11
+    source: duanyongping-kb/01-投资概念/40-品牌.md
+    concepts:
+    - 品牌
+    usage:
+    - concept_page
+  - text: 品牌是你不在的时候，消费者怎么评价你。
+    speaker: 段永平
+    date: 2011-11
+    source: duanyongping-kb/01-投资概念/40-品牌.md
+    concepts:
+    - 品牌
+    usage:
+    - concept_page
+  复利:
+  - text: 巴菲特这样总结自己的成功秘诀：'人生就像滚雪球，重要的是发现很湿的雪和很长的坡。'——很湿的雪比喻年收益率很高，很长的坡比喻复利增值的时间很长。
+    speaker: 段永平
+    date: 2011-11
+    source: duanyongping-kb/01-投资概念/41-复利.md
+    concepts:
+    - 复利
+    usage:
+    - concept_page
+  - text: 这个问题通常应该是问自己的问题：这个企业如何才能获得复利式的成长呢？如果你能找到答案，那么恭喜你，你就知道该如何做决策了。
+    speaker: 段永平
+    date: 2011-11
+    source: duanyongping-kb/01-投资概念/41-复利.md
+    concepts:
+    - 复利
+    usage:
+    - concept_page
+  - text: 想学习巴菲特滚雪球，你找到很湿的雪和很长的坡了吗？
+    speaker: 段永平
+    date: 2011-11
+    source: duanyongping-kb/01-投资概念/41-复利.md
+    concepts:
+    - 复利
+    usage:
+    - concept_page
+  - text: 我觉得如果你懂得投资，你不需要追求太高的回报率，时间足够长，复利的力量是很吓人的。
+    speaker: 段永平
+    date: 2011-11
+    source: duanyongping-kb/01-投资概念/41-复利.md
+    concepts:
+    - 复利
+    usage:
+    - concept_page
+  - text: 我都买了保险，你肯定比我懂保险...保险就是一个复利3.5的理财保险。
+    speaker: 段永平
+    date: 2011-11
+    source: duanyongping-kb/01-投资概念/41-复利.md
+    concepts:
+    - 复利
+    usage:
+    - concept_page
+  贪婪恐惧:
+  - text: 当大家都很恐惧的时候，你买就是了。但实际上做起来很不容易的。第一你手里要有钱，第二你真的懂你买的东西。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/42-贪婪恐惧.md
+    concepts:
+    - 贪婪恐惧
+    usage:
+    - concept_page
+  - text: 巴菲特说'别人恐惧时贪婪，别人贪婪时恐惧'，这句话说起来很容易，做起来非常难。因为当别人恐惧的时候，你大概率也是在恐惧的。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/42-贪婪恐惧.md
+    concepts:
+    - 贪婪恐惧
+    usage:
+    - concept_page
+  - text: 我买网易的时候，大家都觉得这个公司要完蛋了。但我觉得他们大概率是有机会挣钱的，刚好我账上有点现金，我是满仓买了网易。然后6个月涨了20倍。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/42-贪婪恐惧.md
+    concepts:
+    - 贪婪恐惧
+    usage:
+    - concept_page
+  - text: 保持理性是一件很难的事情。如果我只有那么多钱，我还真保不住我也可能卖掉。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/42-贪婪恐惧.md
+    concepts:
+    - 贪婪恐惧
+    usage:
+    - concept_page
+  - text: 你如果不想拥有一家公司十年，你甚至不要拥有一分钟。老巴有些话越想越不简单。
+    speaker: 段永平
+    date: 2010-05
+    source: duanyongping-kb/01-投资概念/42-贪婪恐惧.md
+    concepts:
+    - 贪婪恐惧
+    usage:
+    - concept_page
+  市场先生:
+  - text: 实际上，我买的时候是不考虑是不是有人从我手里买的。我要假设如果这不是个上市企业这个价钱我还买不买。你如果明白这点了，价值投资的最基本的概念就有了。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/43-市场先生.md
+    concepts:
+    - 市场先生
+    usage:
+    - concept_page
+  - text: 华尔街没什么错，华尔街永远是对的，它永远代表不同人的想法。但是你要自己知道自己在干什么，你如果自己没了主见，你要听华尔街的，你就乱了。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/43-市场先生.md
+    concepts:
+    - 市场先生
+    usage:
+    - concept_page
+  - text: 如果一个人不能理解市场先生，他永远也做不好价值投资。市场先生每天都会给你报价，你要学会利用他，而不是被他利用。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/43-市场先生.md
+    concepts:
+    - 市场先生
+    usage:
+    - concept_page
+  - text: 我对市场涨跌没有任何看法。我只关心我买的公司是不是好公司，是不是便宜。便宜就买，不便宜就不买。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/43-市场先生.md
+    concepts:
+    - 市场先生
+    usage:
+    - concept_page
+  - text: 我什么时候讲市场？什么时候我在雪球上说今天要涨了、明天要掉了？那你肯定是不懂。你如果懂了以后，你就不会受市场影响。
+    speaker: 段永平
+    date: 2010-03
+    source: duanyongping-kb/01-投资概念/43-市场先生.md
+    concepts:
+    - 市场先生
+    usage:
+    - concept_page
+  收藏品:
+  - text: 有些好红酒也有这个特性的。很多波尔多和勃艮第的酒存30年以上会更好喝。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/44-收藏品.md
+    concepts:
+    - 收藏品
+    usage:
+    - concept_page
+  - text: 茅台也是有收藏价值的，越陈越香。但这不等于说茅台是收藏品，茅台首先是消费品。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/44-收藏品.md
+    concepts:
+    - 收藏品
+    usage:
+    - concept_page
+  - text: 艺术品投资我不懂，也没有兴趣。我投资的是能产生现金流的东西。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/44-收藏品.md
+    concepts:
+    - 收藏品
+    usage:
+    - concept_page
+  - text: 艺术品的价格是由人类的虚荣心决定的，很难估值。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/44-收藏品.md
+    concepts:
+    - 收藏品
+    usage:
+    - concept_page
+  - text: 好的东西往往是需要时间的。但是投资和收藏是两回事。投资你要看现金流，收藏你看的是稀缺性。
+    speaker: 段永平
+    date: '2010'
+    source: duanyongping-kb/01-投资概念/44-收藏品.md
+    concepts:
+    - 收藏品
+    usage:
+    - concept_page

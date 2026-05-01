@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git rm *)",
+      "Bash(rm -rf duanyongping/01-core/duan-main/.git duanyongping/99-references/ai-skill/.git)",
+      "Bash(git add *)"
+    ]
+  }
+}

@@ -1,0 +1,385 @@
+meta:
+  purpose: 企业页案例研究数据，用于把企业从档案改造成思想验证案例。
+  core_companies:
+  - 网易/NetEase
+  - 苹果/Apple
+  - 茅台/Moutai
+  - 拼多多/PDD
+  - 通用电气/GE
+  generated_at: '2026-05-01'
+companies:
+  步步高 (BBK):
+    category: 经营企业
+    relationship: founder
+    first_seen: '1995'
+    last_seen: '2026'
+    mentioned_count: 203
+    core_for_timeline: false
+    case_role: 企业文化、本分、授权和 Stop Doing List 的源头案例。
+    timeline:
+    - period: 1995年
+      event: 段永平在东莞创立步步高电子公司
+    - period: 1999年
+      event: 步步高已形成完整的业务体系和核心团队，《亚洲周刊》采访
+    - period: 2001年
+      event: 段永平移居美国，退出一线管理，授权沈炜、陈明永等运营
+    - period: 2001年（推测）
+      event: 步步高企业文化文件正式成型（本分、诚信、团队、品质、消费者导向）
+    - period: 2005年
+      event: 步步高十周年记念文艺晚会，段永平发表著名讲话
+    - period: 2015年
+      event: 步步高（vivo）20周年，沈炜讲话回顾"阿段"的创始贡献
+    - period: 2025年
+      event: 步步高30周年庆，段永平及老同事重聚
+    - period: 至今
+      event: 步步高体系发展为vivo、OPPO、小天才等独立品牌，总营收超万亿
+    validated_concepts:
+    - 本分
+    - 平常心
+    - 更健康更长久
+    - Stop Doing List
+    - 敢为天下后
+    - 企业文化
+    related_people:
+    - 沈炜
+    - 陈明永
+    - 黄峥
+    representative_quotes:
+    - 我们企业的愿景目标就是让企业：**更健康、更长久的生存下去**。有别于很多企业讲的"要做大"、"要做500强"。 ——2005年步步高十周年记念文艺晚会
+    - 我们之所以能够走到今天，最重要的一个原因就是我们犯的错误比竞争对手要少。我们在做对的事情上，做得比竞争对手要好。 ——2005年步步高十周年讲话
+    - 核心价值观就是**"本分、诚信"**，还有**"团队、品质和以消费者为导向"**。 ——2005年步步高十周年讲话
+    - 如果一个记者问我"50年以后报纸头版登一条关于你们公司的消息，你最希望是什么消息？"我说"任何消息"。哪怕坏消息，只要有任何消息，就表示我们还存在。 ——2005年步步高十周年讲话，99年底《亚洲周刊》采访
+    source_card: duanyongping-kb/03-企业与品牌/01-步步高-BBK.md
+  OPPO:
+    category: 经营企业
+    relationship: co-founder / mentor
+    first_seen: '2004'
+    last_seen: '2026'
+    mentioned_count: 90
+    core_for_timeline: false
+    case_role: 本分、消费者导向、不做代工与长期经营纪律的实践样本。
+    timeline:
+    - period: 2004年
+      event: OPPO成立，陈明永担任CEO
+    - period: 2008年
+      event: OPPO进入手机市场
+    - period: 2011年前后
+      event: OPPO转向智能手机
+    - period: 2016年
+      event: OPPO成为中国市场领先品牌
+    - period: 2018年
+      event: 段永平斯坦福交流，详细阐述OPPO的Stop Doing List
+    - period: 2020年（推测）
+      event: OPPO企业文化文件发布
+    - period: 至今
+      event: OPPO为全球前五大智能手机品牌之一
+    validated_concepts:
+    - Stop Doing List
+    - 敢为天下后
+    - 产品差异化
+    - 本分
+    - 企业文化
+    - 平常心
+    related_people:
+    - 陈明永
+    - 段永平
+    - 沈炜
+    representative_quotes:
+    - OPPO跟苹果比，我们在做对的事情上是一样的，但是在把事情做对上可能有些差距。但我们有积累。我们比大多数公司厉害。 ——2018年斯坦福交流
+    - OPPO/vivo的Stop Doing List：没有销售部；不单独和客户谈价钱；不代工；没有有息贷款。 ——2018年斯坦福交流
+    - 公司成功不是偶然的，坚持自己的"Stop Doing List"，筛合伙人，筛供货商，慢慢地就会攒下好圈子。 ——2018年斯坦福交流
+    - 我不希望给公众留下我掌控公司的印象，抢了CEO的成就感。不抢他们的功劳，这很重要，因为事实上我本人已经10多年没有在一线了，如果我还是CEO的话，公司很可能做不了这么好。 ——2018年斯坦福交流
+    source_card: duanyongping-kb/03-企业与品牌/02-OPPO.md
+  vivo:
+    category: 经营企业
+    relationship: co-founder / mentor
+    first_seen: '2012'
+    last_seen: '2026'
+    mentioned_count: 82
+    core_for_timeline: false
+    case_role: 本分、差异化、长期投入和全球化表达的实践样本。
+    timeline:
+    - period: 1995年
+      event: 步步高通信公司成立（vivo前身），沈炜负责
+    - period: 1995-2005年
+      event: 做有绳电话、无绳电话求生存的第一个十年
+    - period: 2005-2015年
+      event: 做功能机和智能机求发展的第二个十年
+    - period: 2012年初
+      event: 启用vivo品牌切入智能手机，曾面临关门危机
+    - period: 2012-2015年
+      event: vivo加速发展，营业额增长近7倍
+    - period: 2015年
+      event: 步步高（vivo）20周年，沈炜发表长篇讲话
+    - period: 2025年
+      event: 步步高（vivo）30周年，沈炜发表"坚守本分 基业长青"讲话，确认vivo已进入全球市场
+    validated_concepts:
+    - 本分
+    - 平常心
+    - 埋头种因
+    - 消费者导向
+    - 基业长青
+    - 敢为天下后
+    related_people:
+    - 沈炜
+    - 段永平
+    - 陈明永
+    representative_quotes:
+    - 因为他们是CEO，我赞不赞成不影响他们做不做决定。当初就是沈炜觉得我们应该做手机。我那时候觉得我们做手机可能做不过松下、索尼、摩托罗拉。他说服我的是"手机其实是一个个性化非常强的东西"。 ——2025年雪球访谈，回顾vivo做手机决策
+    - 我们过去的大部分竞争对手都消失了，我们还健在，道理也许就在此（不贷款、不用margin、做对的事）。 ——2018年斯坦福交流
+    - 从功能机到智能机是被逼的。功能机卖不动了，我们差点都死在上面了。现金消耗得非常快，账面有七八十亿现金，看着往下掉，掉到最后就快到底了，又开始回来。如果我们要倒的话，不要倒得太难看。 ——2025年雪球访谈，回顾vivo生死危机
+    - 我那时候还专门回去过，我投资这一块一直都没有动，就相当于我们的后备役部队一样。反正弟兄们也真的是很争气，做回来了。 ——2025年雪球访谈
+    source_card: duanyongping-kb/03-企业与品牌/03-vivo.md
+  苹果/Apple:
+    category: 投资企业
+    relationship: major-investment
+    first_seen: '2011'
+    last_seen: '2026'
+    mentioned_count: 376
+    core_for_timeline: true
+    case_role: 验证好生意、护城河、企业文化、集中投资和长期持有。
+    timeline:
+    - period: 2011年
+      event: 开始投资苹果（乔布斯去世前后，市场恐慌期）
+    - period: 2012-2013年
+      event: 持续加仓，深入研究苹果生态闭环和护城河
+    - period: 2013年
+      event: 苹果开始大规模分红和回购计划（段永平投资逻辑兑现）
+    - period: 2016年
+      event: 巴菲特开始买入苹果（验证了段永平的判断）
+    - period: 2021年
+      event: 雪球上明确表示"苹果是非卖品"
+    - period: 2024年
+      event: 巴菲特股东大会称苹果是比可乐和美国运通"更好的企业"
+    - period: 2024年
+      event: 段永平开始在高位卖call（持有=买入的纠结）
+    - period: 2025年
+      event: 方三文对话中确认苹果仍是个人最大仓位
+    validated_concepts:
+    - 买股票就是买公司
+    - 护城河
+    - 企业文化
+    - 未来现金流折现
+    - 长期持有
+    related_people:
+    - 巴菲特
+    - 乔布斯
+    - 蒂姆·库克
+    representative_quotes:
+    - '**详细投资案例分析请参见：** [01-投资概念/27-苹果.md](../01-投资概念/27-苹果.md)'
+    - 好公司是不需要卖的！
+    - 我是2011年买的苹果，那现在都2025年了，差不多刚好14年了。你对这个生意理解不了，对文化理解不了，对商业模式理解不了，早就跑了，也不可能留到现在。
+    - 我2018年跟巴菲特聊苹果。我说苹果的生意模式比可口可乐好。你看百事可乐一半的价钱你就喝百事了。安卓手机和苹果价钱差多少？真正用苹果的人没有人在乎。巴菲特说"I got it"，四年后他介绍我时说"他告诉我苹果的生意模式比可口可乐好，所以我买了很多苹果。"
+    source_card: duanyongping-kb/03-企业与品牌/04-苹果-Apple.md
+  茅台/Moutai:
+    category: 投资企业
+    relationship: major-investment
+    first_seen: '2012'
+    last_seen: '2026'
+    mentioned_count: 870
+    core_for_timeline: true
+    case_role: 验证确定性、好价格、品牌和十年视角。
+    timeline:
+    - period: ~2013年
+      event: 开始持有茅台（塑化剂危机+反腐双重利空期间）
+    - period: 2013年9月
+      event: 系统分析茅台生意模式五大优势（稀缺性、定价权、财务健康、渠道优化、存货不跌价）
+    - period: 2013-2016年
+      event: 塑化剂危机和反腐风暴中持续加仓
+    - period: 2021年
+      event: 茅台涨至2600-2700元时曾考虑卖出（"因为觉得相对来讲那个时点是贵的"）
+    - period: 2024-2025年
+      event: 持续增持，确认"蛮多茅台"
+    - period: 2025年
+      event: 方三文对话中确认"A股我就只是买了茅台"
+    validated_concepts:
+    - 买股票就是买公司
+    - 护城河
+    - 能力圈
+    - 未来现金流折现
+    - 长期持有
+    - 集中投资
+    related_people:
+    - 巴菲特
+    representative_quotes:
+    - '**详细投资案例分析请参见：** [01-投资概念/28-茅台.md](../01-投资概念/28-茅台.md)'
+    - 茅台就是中国人所到之处，很多人喝茅台。喜欢喝茅台的人，他们一直在喝，只要他们能喝，喝得起，有条件喝。
+    - 茅台这个公司就是不要变，就怕来个新的CEO，他就东搞搞西搞搞。你不要把53度飞天给变了，这个就惨了。
+    - 喜欢的人，他喜欢茅台，他喜欢那个口味，他习惯。你跟不喝酒的人说茅台不是好怪吗？你跟鱼讲，路上行走的乐趣，如何讲？
+    source_card: duanyongping-kb/03-企业与品牌/05-茅台-Moutai.md
+  拼多多/PDD:
+    category: 投资企业
+    relationship: VC investment / mentor
+    first_seen: '2015'
+    last_seen: '2026'
+    mentioned_count: 362
+    core_for_timeline: true
+    case_role: 验证早期判断、创始人理解、商业模式与不确定性边界。
+    timeline:
+    - period: ~2015年
+      event: 拼好货阶段认识黄峥
+    - period: ~2016-2017年
+      event: 拼多多初创阶段，段永平进行早期投资（"有一天通电话，问他在干嘛，他说在做这个"）
+    - period: 2018年
+      event: 拼多多上市；斯坦福演讲中公开评价黄峥和拼多多企业文化
+    - period: 2018年9月
+      event: 在斯坦福表达前瞻判断——"短时间看拼多多会有机会也有问题，时间会是他做企业遇到的最大问题"
+    - period: 2024-2025年
+      event: 仍有增仓，但仓位对比苹果/茅台仍然较小
+    - period: 2025年
+      event: 方三文对话中明确拼多多定位仍为"风投"
+    validated_concepts:
+    - 风投
+    - 敢为天下后
+    - 本分
+    - 看懂与不懂
+    - 集中投资
+    related_people:
+    - 黄峥
+    - 段永平
+    representative_quotes:
+    - '**详细投资案例分析请参见：** [01-投资概念/29-拼多多.md](../01-投资概念/29-拼多多.md)'
+    - 拼多多是很特殊了，因为我在早期的时候，初创阶段的时候就已经投了。我投的钱其实比重很少，赚的钱确实很多。严格意义上其实都不算，因为我不是说我看懂了往里投，我是稀里糊涂投的。
+    - 我其实曾经卖掉过很大的部分，我又差不多都买回来了，我觉得这公司还是有点意思，但是是有风险的，我不推荐别人买。
+    - 我觉得大概率他们应该活得还不错，但是不是百分之一百。我觉得苹果我可以说，我很肯定地知道苹果还会活得很好，拼多多我没有那么清晰。
+    source_card: duanyongping-kb/03-企业与品牌/06-拼多多-PDD.md
+  网易/NetEase:
+    category: 投资企业
+    relationship: major-investment (100x return)
+    first_seen: '2001'
+    last_seen: '2025'
+    mentioned_count: 266
+    core_for_timeline: true
+    case_role: 从极端低估到百倍回报，验证买公司、能力圈与安全边际。
+    timeline:
+    - period: 2001年底
+      event: 开始以1美元左右价格大量买进网易股票
+    - period: 2002年
+      event: 斥资200万美元以均价0.16美元买入约5%的网易股票
+    - period: 2003年
+      event: 网易网游《大话西游》爆发，股价开始飙升
+    - period: 2003-2004年
+      event: 股价涨至40美元，开始减持大部分持仓（"卖股票和成本无关"）
+    - period: ~2005-2006年
+      event: 股价继续涨至70-80美元，仍持有部分仓位（澄清未全部卖出）
+    - period: 2009年Q1
+      event: 仍持有超400万股网易股票（当时股价约291美元）
+    - period: 2025年
+      event: 方三文对话中回顾，坦诚当时的"懂"是程度上的事
+    validated_concepts:
+    - 买股票就是买公司
+    - 能力圈
+    - 安全边际
+    - 毛估估
+    - 集中投资
+    - 长期持有
+    related_people:
+    - 丁磊
+    - 巴菲特
+    representative_quotes:
+    - '**详细投资案例分析请参见：** [01-投资概念/26-网易.md](../01-投资概念/26-网易.md)'
+    - 我本身做游戏出身，我跟他们游戏团队聊聊，觉得他们是一帮很热爱游戏的人，他们真的很认真。这个商业模式，我看着觉得它很有道理，加上当时它的现金比市值高。
+    - 你说我看懂了吗？我要看懂了，我应该把整个网易买下来。我大致上是觉得他们是能挣钱的，我觉得我的投资风险不会特别大。
+    - 我当年投网易那也是，几个月赚了二十几倍，真算二十几倍啊，而且我是全仓的。那人家说那你真厉害，你再来一次，我说这个不会，你碰上了。
+    source_card: duanyongping-kb/03-企业与品牌/07-网易-NetEase.md
+  腾讯/Tencent:
+    category: 投资企业
+    relationship: investment (but didn't invest early)
+    first_seen: '2010'
+    last_seen: '2026'
+    mentioned_count: 451
+    core_for_timeline: false
+    case_role: 互联网平台商业模式和机会成本的观察样本。
+    timeline:
+    - period: 2010年
+      event: 预言腾讯会成为中国最早千亿美金市值公司
+    - period: 2010-2020年
+      event: 讨论腾讯但未见大规模建仓
+    - period: 2021年
+      event: 雪球上表示持有腾讯
+    - period: 2024-2025年
+      event: 在雪球频繁讨论腾讯，有时增持有时减持
+    - period: 2025年
+      event: 在雪球访谈中确认"三只股票：苹果、腾讯、茅台"，并提到腾讯在AI时代的增量
+    validated_concepts:
+    - 不懂不做
+    - 能力圈
+    - 集中投资
+    - 商业模式
+    - 企业文化
+    related_people:
+    - 马化腾
+    - 段永平
+    representative_quotes:
+    - 我一般跟大家讲，我就三只股票：苹果、腾讯、茅台。差不多真是这样。 ——2025年雪球访谈
+    - 我猜若干年后阿里巴巴集团或腾讯会是中国最早到500亿，甚至1000亿美金市值的民营上市公司。 ——2010年2月9日雪球发言，彼时远早于市场共识
+    - 腾讯我现在其实还可以吧。 ——2025年雪球访谈，被问及持仓中的打孔位
+    - AI开始用了以后，广告效率等很多东西一下就起来了。腾讯这些公司都明显有增量。 ——2025年雪球访谈，谈AI对腾讯的影响
+    source_card: duanyongping-kb/03-企业与品牌/08-腾讯-Tencent.md
+  通用电气/GE:
+    category: 学习案例
+    relationship: learning-case (caught the falling knife)
+    first_seen: '2009'
+    last_seen: '2025'
+    mentioned_count: 99
+    core_for_timeline: true
+    case_role: 作为纠错案例，说明赚钱的投资也可能是错的。
+    timeline:
+    - period: 2008年9月
+      event: 巴菲特以22.25美元行权价买入GE 30亿美元永久性优先股
+    - period: 2009年3月
+      event: 段永平出手抄底GE，最低拿到6.2美元，均价约8-9美元
+    - period: 约2011-2012年
+      event: GE更换CEO，段永平发现官网不再强调"诚信"文化，决定卖出
+    - period: 卖出时GE市值约4000亿美元
+      event: '**卖出时GE市值约4000亿美元**'
+    - period: 2025年
+      event: 段永平回顾GE案例，明确表示"按今天的想法不会投GE"，并指出GE市值已远低于当时
+    validated_concepts:
+    - 安全边际
+    - 能力圈
+    - 商业模式
+    - 企业文化
+    - 犯错与纠错
+    - 毛估估
+    related_people:
+    - 杰克·韦尔奇
+    - 巴菲特
+    representative_quotes:
+    - 通用电气没有那么算。通用电气就是在2008年危机时，确实投了一下。但他们换CEO以后，我很快就退出了。按今天的想法，我是不会投通用电气的，我觉得通用电气的商业模式并不好。我那个时候还没有现在的水平。 ——2025年雪球访谈
+    - 以前我觉得是在企业文化上（看好GE），因为商业模式其实我一直就没看懂，但企业文化我以前喜欢它们说的——"时代在变，唯一不变的是诚信"。后来我去看他们主页，我找不到这句话了。从找不到那句话开始，我就决定卖了。 ——2025年雪球访谈
+    - 最早我是因为受杰克·韦尔奇的影响，觉得这家公司好神奇，后来发现其实也没有谁是神奇的。还好是卖了呀。我卖的那个时候4000多亿市值，现在可能都不到了。你想，我要是把那个换成苹果，多大差别啊。 ——2025年雪球访谈
+    - 犯错误有时候也是会挣钱的，我觉得那是一个错误，回到今天我是不会买。它当然是个错误，因为它不符合我后来决定的，要符合商业模式和企业文化这两个过滤器。 ——2025年雪球访谈
+    source_card: duanyongping-kb/03-企业与品牌/09-GE-通用电气.md
+  富国银行/Wells Fargo:
+    category: 学习案例
+    relationship: learning-case (follow Buffett / copy homework)
+    first_seen: '2009'
+    last_seen: '2019'
+    mentioned_count: 75
+    core_for_timeline: false
+    case_role: 金融企业风险与企业文化变化的警示样本。
+    timeline:
+    - period: 2009年
+      event: 金融危机期间，跟随巴菲特买入富国银行。段永平的买入价格比巴菲特更低
+    - period: 2010年
+      event: 公开表示"不懂银行业"，富国银行是唯一的例外，因为跟着巴菲特
+    - period: 2011年
+      event: 跟随巴菲特买入美国银行（美银），同在"学习过程"中
+    - period: 2019年
+      event: 雪球上有人讨论富国银行时，段永平转发了关于"富国银行仍是一家强大的银行，没有失去任何客户"的讨论，未表示卖出
+    validated_concepts:
+    - 不懂不做
+    - 抄作业
+    - 能力圈
+    - 安全边际
+    - 金融股
+    related_people:
+    - 巴菲特
+    - 芒格
+    representative_quotes:
+    - 我不了解银行业，所以只买了巴菲特了解的富国银行，如果他卖我就卖了，他不卖我也可能卖如果我能有更了解更便宜的目标的话。 ——2010年雪球发言汇总
+    - 2009年，他跟随巴菲特买进了自己没有研究的富国银行。"金融危机垮下去的时候确实遍地是黄金，但我不知道哪个是地雷哪个是黄金。反正他也看过了，反正他也懂这个行当。" ——2010年人物报道
+    - 同样是便宜，AIG从四五十块钱跌到5块钱，段永平也毫不动心。"为什么？巴菲特对保险业这么懂，他不买，我就不买。" ——2010年人物报道
+    - 我始终没完全搞懂银行的业务的风险到底在哪儿。美国的一些大银行隔个10年8年就来一次大动荡，还没明白是怎么回事。 ——雪球发言，对银行股的长期态度
+    source_card: duanyongping-kb/03-企业与品牌/10-富国银行-Wells-Fargo.md

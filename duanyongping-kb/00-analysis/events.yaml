@@ -1,0 +1,304 @@
+meta:
+  purpose: 思想年表主数据，用于首页横向时间轴、滚动叙事章节和年份详情页。
+  range: 1995-2025
+  generated_at: '2026-05-01'
+chapters:
+- id: origin
+  title: 企业文化的源头
+  years: 1995-2000
+- id: investor
+  title: 从企业家到投资人
+  years: 2001-2005
+- id: buy-company
+  title: 买公司这条主线
+  years: 2006-2010
+- id: risk
+  title: 风险纪律成形
+  years: 2008-2010
+- id: good-business
+  title: 好生意的验证
+  years: 2011-2016
+- id: culture
+  title: 企业文化外化
+  years: 2015-2025
+- id: sdl
+  title: 不为清单成为方法论
+  years: '2018'
+- id: new-cases
+  title: 新案例与旧框架
+  years: 2023-2025
+- id: return-to-essence
+  title: 回到本质
+  years: 2020-2025
+events:
+- year: 1995
+  title: 创立步步高
+  summary: 离开小霸王后在东莞创立步步高，企业文化和长期主义实践开始成形。
+  chapter: 企业文化的源头
+  concepts:
+  - 本分
+  - 企业文化
+  - 消费者导向
+  companies:
+  - 步步高 (BBK)
+  people:
+  - 陈明永 / Tony Chen
+  - 沈炜 / Shen Wei
+  sources:
+  - duanyongping-kb/03-企业与品牌/01-步步高-BBK.md
+- year: 1999
+  title: 提出更健康、更长久
+  summary: 步步高早期愿景不是做大，而是更健康、更长久地活下去。
+  chapter: 企业文化的源头
+  concepts:
+  - 本分
+  - 平常心
+  - 做对的事情 把事情做对
+  companies:
+  - 步步高 (BBK)
+  sources:
+  - duanyongping/01-core/duan-main/【文章目录】/1-核心-公司里程碑/01-1999-段永平-二十一世纪来了.md
+- year: 2000
+  title: 销售手册前言与焦点法则
+  summary: 围绕本分、诚信、消费者导向、焦点法则，形成经营层面的不做清单雏形。
+  chapter: 企业文化的源头
+  concepts:
+  - 本分
+  - 焦点法则
+  - 不赚快钱
+  - 不盲目扩张
+  companies:
+  - 步步高 (BBK)
+  - OPPO
+  sources:
+  - duanyongping/01-core/duan-main/【文章目录】/1-核心-公司里程碑/08-2000-段永平给营销人员讲话（销售手册前言）.md
+- year: 2001
+  title: 移居美国，投资视角转向公司本质
+  summary: 离开一线经营后，开始系统接触巴菲特思想，并从企业家视角理解投资。
+  chapter: 从企业家到投资人
+  concepts:
+  - 买股票就是买公司
+  - 企业文化与投资
+  - 价值投资
+  people:
+  - 沃伦·巴菲特 / Warren Buffett
+  - 本杰明·格雷厄姆 / Benjamin Graham
+  sources:
+  - duanyongping-kb/04-关键人物/01-巴菲特.md
+- year: 2002
+  title: 投资网易
+  summary: 在网易极低估值时买入，成为“买公司而非买股票”的代表性案例。
+  chapter: 从企业家到投资人
+  concepts:
+  - 买股票就是买公司
+  - 能力圈
+  - 安全边际
+  - 贪婪恐惧
+  companies:
+  - 网易/NetEase
+  people:
+  - 丁磊 / William Ding
+  sources:
+  - duanyongping-kb/01-投资概念/26-网易.md
+  - duanyongping-kb/03-企业与品牌/07-网易-NetEase.md
+- year: 2004
+  title: 公开谈企业诚信与价值投资
+  summary: 在访谈和演讲中持续把企业经营原则与投资原则连接起来。
+  chapter: 从企业家到投资人
+  concepts:
+  - 本分
+  - 价值投资
+  - 企业文化与投资
+  sources:
+  - duanyongping/01-core/duan-main/【文章目录】/2-对外演讲、采访/01-2004-万科财富人生-对话段永平.md
+  - duanyongping/01-core/duan-main/【文章目录】/2-对外演讲、采访/02-2004（左右）-段永平北大总裁班演讲：企业的诚信意识.md
+- year: 2005
+  title: 步步高十周年讲话
+  summary: 系统表达本分、诚信、团队、品质、消费者导向，以及少犯错的重要性。
+  chapter: 企业文化的源头
+  concepts:
+  - 本分
+  - 企业文化
+  - 犯错与纠错
+  - 发现错了马上改
+  companies:
+  - 步步高 (BBK)
+  people:
+  - 陈明永 / Tony Chen
+  - 沈炜 / Shen Wei
+  sources:
+  - duanyongping/01-core/duan-main/【文章目录】/1-核心-公司里程碑/04-2005-段永平-步步高十周年记念文艺晚会讲话.md
+- year: 2006
+  title: 巴菲特午餐
+  summary: 以 62.01 万美元拍下巴菲特午餐，强化“买股票就是买公司”和不用杠杆等原则。
+  chapter: 买公司这条主线
+  concepts:
+  - 买股票就是买公司
+  - 不借钱
+  - 不懂不做
+  - 长期持有
+  people:
+  - 沃伦·巴菲特 / Warren Buffett
+  sources:
+  - duanyongping/01-core/duan-main/【文章目录】/2-对外演讲、采访/05-2006-网易财经专访段永平-谈和巴菲特共进午餐.md
+- year: 2008
+  title: 金融危机与 GE
+  summary: 危机中关注 GE，后来把 GE 视为“赚钱但仍可能是错”的纠错案例。
+  chapter: 风险纪律成形
+  concepts:
+  - 安全边际
+  - 犯错与纠错
+  - 企业文化与投资
+  companies:
+  - 通用电气/GE
+  sources:
+  - duanyongping-kb/03-企业与品牌/09-GE-通用电气.md
+- year: 2010
+  title: 系统提出“买股票就是买公司”
+  summary: 在博客、访谈和问答中反复把投资定义为买公司的未来现金流。
+  chapter: 买公司这条主线
+  concepts:
+  - 买股票就是买公司
+  - 未来现金流折现
+  - 能力圈
+  - 市场先生
+  sources:
+  - duanyongping/01-core/duan-main/【文章目录】/2-对外演讲、采访/08-2010-网易财经-对话段永平.md
+- year: 2011
+  title: 苹果进入核心视野
+  summary: 苹果逐渐成为商业模式、护城河、企业文化和长期持有的核心案例。
+  chapter: 好生意的验证
+  concepts:
+  - 护城河
+  - 商业模式
+  - 长期持有
+  - 分红回购
+  companies:
+  - 苹果/Apple
+  sources:
+  - duanyongping-kb/01-投资概念/27-苹果.md
+  - duanyongping-kb/03-企业与品牌/04-苹果-Apple.md
+- year: 2013
+  title: 茅台危机中的理解
+  summary: 塑化剂、反腐等冲击中重新审视茅台的生意属性、确定性和好价格。
+  chapter: 好生意的验证
+  concepts:
+  - 确定性
+  - 好价格
+  - 商业模式
+  - 贪婪恐惧
+  companies:
+  - 茅台/Moutai
+  sources:
+  - duanyongping-kb/01-投资概念/28-茅台.md
+  - duanyongping-kb/03-企业与品牌/05-茅台-Moutai.md
+- year: 2015
+  title: vivo 二十周年与本分再阐释
+  summary: 沈炜系统阐述本分的多重维度，企业文化成为理解步步高系的关键入口。
+  chapter: 企业文化外化
+  concepts:
+  - 本分
+  - 企业文化
+  - 消费者导向
+  - 差异化
+  companies:
+  - vivo
+  - OPPO
+  people:
+  - 沈炜 / Shen Wei
+  sources:
+  - duanyongping/01-core/duan-main/【文章目录】/1-核心-公司里程碑/05-2015-沈炜-步步高（vivo）20周年.md
+- year: 2016
+  title: 苹果重仓逻辑被反复讨论
+  summary: 苹果成为高确定性、强护城河、好生意和集中投资的综合样本。
+  chapter: 好生意的验证
+  concepts:
+  - 护城河
+  - 集中投资
+  - 好生意好管理好价格
+  - 确定性
+  companies:
+  - 苹果/Apple
+  sources:
+  - duanyongping-kb/01-投资概念/27-苹果.md
+- year: 2018
+  title: 斯坦福 Stop Doing List
+  summary: Stop Doing List 被公开讲成统一方法论：不做错事，才能长期做对事。
+  chapter: 不为清单成为方法论
+  concepts:
+  - Stop Doing List (不为清单)
+  - 做对的事情 把事情做对
+  - 本分
+  - 平常心
+  sources:
+  - duanyongping/01-core/duan-main/【文章目录】/2-对外演讲、采访/09-2018-段永平斯坦福交流.md
+  - duanyongping/02-supplement/web-articles-md/2018-斯坦福Stop-Doing-List.md
+- year: 2020
+  title: 疫情时期回到企业内在价值
+  summary: 市场剧烈波动中，思想主线继续回到公司、现金流和长期确定性。
+  chapter: 回到本质
+  concepts:
+  - 10年视角
+  - 长期持有
+  - 平常心
+  - 市场先生
+  companies:
+  - 苹果/Apple
+  - 茅台/Moutai
+  - 腾讯/Tencent
+  sources:
+  - duanyongping/01-core/xueqiu-timeline/2020-03_@大道无形我有型.md
+- year: 2021
+  title: 茅台波动与持有等于买入
+  summary: 在价格大幅波动中，讨论持有是否等于重新买入，以及机会成本问题。
+  chapter: 回到本质
+  concepts:
+  - 持有等于买入
+  - 好价格
+  - 10年视角
+  - 确定性
+  companies:
+  - 茅台/Moutai
+  sources:
+  - duanyongping-kb/01-投资概念/25-持有等于买入.md
+- year: 2023
+  title: 拼多多成为新案例
+  summary: 拼多多更多被放在早期判断、商业模式、创始人和不确定性的框架下讨论。
+  chapter: 新案例与旧框架
+  concepts:
+  - 商业模式
+  - 管理层
+  - 确定性
+  - 能力圈
+  companies:
+  - 拼多多/PDD
+  people:
+  - 黄峥 / Colin Huang
+  sources:
+  - duanyongping-kb/01-投资概念/29-拼多多.md
+  - duanyongping-kb/03-企业与品牌/06-拼多多-PDD.md
+- year: 2024
+  title: 公益与长期价值观延续
+  summary: 再捐 10 亿等事件强化了长期、平常心和价值观一致性的外部叙事。
+  chapter: 回到本质
+  concepts:
+  - 本分
+  - 平常心
+  - 长期持有
+  sources:
+  - duanyongping/02-supplement/web-articles-md/2024-再捐10亿.md
+- year: 2025
+  title: 方三文对话与 AI 时代思考
+  summary: 系统回顾步步高系三十年、投资框架、Stop Doing List，并讨论 AI 对商业和投资的影响。
+  chapter: 新案例与旧框架
+  concepts:
+  - Stop Doing List (不为清单)
+  - 10年视角
+  - 商业模式
+  - 能力圈
+  people:
+  - 方三文
+  - 王石
+  sources:
+  - duanyongping/01-core/duan-main/【文章目录】/2-对外演讲、采访/11-2025-雪球-方三文对话段永平.md
+  - duanyongping/01-core/duan-main/【文章目录】/2-对外演讲、采访/12-2025-王石对话段永平.md

@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "bdc9cb15e6d3b6b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d49231faeec331ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "007a22bc3c28c281",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "duanyongping/EXECUTION-PLAN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EXECUTION-PLAN"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "50f07768f541aa41",
+    "type": "split",
+    "children": [
+      {
+        "id": "5560991345a7380b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "936db26c2ec5cce2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "43fbcb1e1da55ae7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c59477e9f884c7e6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0a1840a7a94d73a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "b530315d53c66e0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbdea8f4372d1829",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "duanyongping/EXECUTION-PLAN.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for EXECUTION-PLAN"
+            }
+          },
+          {
+            "id": "00d61bb1e6046ef0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "duanyongping/EXECUTION-PLAN.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from EXECUTION-PLAN"
+            }
+          },
+          {
+            "id": "ad33ef8a26241675",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4d65fe4713e96cd7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e2a90a6e90235836",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "duanyongping/EXECUTION-PLAN.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of EXECUTION-PLAN"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "007a22bc3c28c281",
+  "lastOpenFiles": [
+    "site/__pycache__/build.cpython-313.pyc",
+    "site/__pycache__",
+    "site/sources/index.html",
+    "site/sources/wangshi-b1f3aae2.html",
+    "site/sources/fangsanwen-94025f13.html",
+    "site/sources/段永平支持浙大-再捐10亿-e8bfd639.html",
+    "site/sources/雪球-雪球时间线-2020年3月-3f42267b.html",
+    "site/sources/在斯坦福对话段永平-stop-doing-list-附学习笔记-8b120a20.html",
+    "site/sources/段永平斯坦福交流-9046bf85.html",
+    "site/sources/shenwei-6c037701.html",
+    "site/sources/网易财经-对话段永平-f981a81f.html",
+    "duanyongping-kb/00-analysis/validation-report.md",
+    "duanyongping-kb/00-analysis/narrative-outline.md",
+    "duanyongping-kb/00-analysis/data-methodology.md",
+    "duanyongping-kb/00-analysis/README.md",
+    "duanyongping/CLEANING-PLAN.md",
+    "duanyongping-kb/02-Stop-Doing-List/02-不借钱.md",
+    "duanyongping-kb/01-投资概念/38-便宜与贵.md",
+    "2025-雪球-方三文对话段永平.md",
+    "duanyongping-kb/01-投资概念/06-长期持有.md",
+    "duanyongping-kb/01-投资概念/03-能力圈.md",
+    "duanyongping-kb/01-投资概念/02-未来现金流折现.md",
+    "duanyongping-kb/01-投资概念/01-买股票就是买公司.md"
+  ]
+}
