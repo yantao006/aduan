@@ -751,7 +751,8 @@ def page(title: str, body: str, active: str = "", current_path: str = "index.htm
       <img class="brand-mark" src="{prefix}assets/logo.svg" alt="" width="46" height="46">
       <span><strong>段永平投资知识库</strong><small>理解本质，做时间的朋友</small></span>
     </a>
-    <nav class="top-nav">{nav_html}</nav>
+    <button class="hamburger" aria-label="菜单" onclick="document.getElementById('mobile-nav').classList.toggle('open'); this.classList.toggle('active')"><span></span><span></span><span></span></button>
+    <nav class="top-nav" id="mobile-nav">{nav_html}</nav>
     {search_box()}
   </header>
   <main>{body}</main>
