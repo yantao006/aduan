@@ -1173,6 +1173,11 @@ th {
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
   }
+  .timeline-track {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    min-width: 640px;
+  }
   .year-rail {
     display: flex;
     flex-wrap: nowrap;
@@ -1202,6 +1207,24 @@ th {
   }
   .event-card {
     padding: 16px;
+  }
+  .graph-tools {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .graph-tools input {
+    min-width: 100%;
+  }
+  .graph-tabs {
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .graph-tabs button {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 6px;
+    min-height: 40px;
   }
 }
 
@@ -1278,11 +1301,13 @@ th {
   }
   .graph-tabs {
     width: 100%;
+    flex-wrap: nowrap;
   }
   .graph-tabs button {
     flex: 1;
     text-align: center;
     font-size: 13px;
-    padding: 8px 10px;
+    padding: 8px 6px;
+    min-height: 40px;
   }
 }
