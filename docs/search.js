@@ -13,7 +13,8 @@
 
   function loadIndex() {
     if (index) return Promise.resolve(index);
-    return fetch("search-index.json")
+    var BASE = document.querySelector('script[src$="search.js"]').src.replace(/search\.js$/, '');
+    return fetch(BASE + "search-index.json")
       .then((response) => response.json())
       .then((data) => {
         index = data;

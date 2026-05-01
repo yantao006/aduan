@@ -720,7 +720,7 @@ def search_box() -> str:
 
 def page(title: str, body: str, active: str = "", current_path: str = "index.html") -> str:
     depth = len(Path(current_path).parent.parts)
-    base_href = "./" if depth == 0 else "../" * depth
+    prefix = "" if depth == 0 else "../" * depth
     nav = [
         ("index.html", "首页", "home"),
         ("timeline.html", "思想年表", "timeline"),
@@ -731,23 +731,24 @@ def page(title: str, body: str, active: str = "", current_path: str = "index.htm
         ("graph.html", "知识图谱", "graph"),
     ]
     nav_html = "".join(
-        f'<a class="nav-link {"active" if key == active else ""}" href="{href}">{label}</a>'
+        f'<a class="nav-link {"active" if key == active else ""}" href="{prefix}{href}">{label}</a>'
         for href, label, key in nav
     )
+    if prefix:
+        body = re.sub(r'(href|src)="(?!https?://|#|\.\.\/)([^"]*)"', r'\1="' + prefix + r'\2"', body)
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(title)} · 段永平投资知识库</title>
-  <base href="{base_href}">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{prefix}style.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html">
-      <img class="brand-mark" src="assets/logo.svg" alt="" width="46" height="46">
+    <a class="brand" href="{prefix}index.html">
+      <img class="brand-mark" src="{prefix}assets/logo.svg" alt="" width="46" height="46">
       <span><strong>段永平投资知识库</strong><small>理解本质，做时间的朋友</small></span>
     </a>
     <nav class="top-nav">{nav_html}</nav>
@@ -757,7 +758,7 @@ def page(title: str, body: str, active: str = "", current_path: str = "index.htm
   <footer class="site-footer">
     <span>基于公开演讲、博客、访谈、雪球问答整理。频次统计仅作线索，不构成投资建议。</span>
   </footer>
-  <script src="search.js"></script>
+  <script src="{prefix}search.js"></script>
 </body>
 </html>"""
 

@@ -120,7 +120,8 @@
     }).join('') || '<p class="empty-state">没有匹配结果。</p>';
   }
 
-  fetch('knowledge-graph.json')
+  var BASE = document.querySelector('script[src$="graph.js"]').src.replace(/graph\.js$/, '');
+  fetch(BASE + 'knowledge-graph.json')
     .then((response) => response.json())
     .then((data) => {
       const nodes = data.nodes.map((node) => ({ ...node, kind: nodeKind(node) }))
