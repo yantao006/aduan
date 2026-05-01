@@ -738,12 +738,13 @@ def page(title: str, body: str, active: str = "") -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(title)} · 段永平投资知识库</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="/">
-      <span class="brand-mark">段</span>
+      <img class="brand-mark" src="/assets/logo.svg" alt="" width="46" height="46">
       <span><strong>段永平投资知识库</strong><small>理解本质，做时间的朋友</small></span>
     </a>
     <nav class="top-nav">{nav_html}</nav>

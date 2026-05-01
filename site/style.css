@@ -6,7 +6,9 @@
   --muted: #8a7a64;
   --line: #d8c7a8;
   --gold: #b8860b;
+  --logo-gold: #c6923e;
   --gold-dark: #8a6408;
+  --logo-ink: #3a2418;
   --brown: #5a3f24;
   --green: #4f6f64;
   --shadow: 0 12px 36px rgba(83, 61, 35, .10);
@@ -47,22 +49,22 @@ a:hover { text-decoration: underline; }
 
 .brand {
   display: flex;
-  gap: 12px;
+  gap: 13px;
   align-items: center;
   color: var(--text);
 }
 .brand:hover { text-decoration: none; }
 .brand-mark {
-  display: grid;
-  place-items: center;
-  width: 42px;
-  height: 42px;
-  border: 1px solid var(--gold);
-  color: var(--gold-dark);
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 1;
-  background: rgba(255,255,255,.28);
+  display: block;
+  width: 46px;
+  height: 46px;
+  flex: 0 0 46px;
+  border-radius: 9px;
+  transition: transform .22s ease, filter .22s ease;
+}
+.brand:hover .brand-mark {
+  transform: translateY(-1px);
+  filter: saturate(1.08) contrast(1.04);
 }
 .brand strong {
   display: block;
@@ -1066,6 +1068,20 @@ th {
   }
   .site-header {
     padding: 12px 14px;
+  }
+  .brand {
+    gap: 10px;
+  }
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+  }
+  .brand strong {
+    font-size: 17px;
+  }
+  .brand small {
+    font-size: 11px;
   }
   h1,
   .page-hero.compact h1 {

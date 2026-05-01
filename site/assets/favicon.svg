@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="段永平投资知识库">
+  <defs>
+    <style>
+      :root {
+        --logo-ink: #3a2418;
+        --logo-gold: #c6923e;
+        --logo-paper: #f6eedc;
+      }
+      .book { fill: var(--logo-ink); }
+      .line { fill: none; stroke: var(--logo-paper); stroke-width: 5.5; stroke-linecap: round; stroke-linejoin: round; }
+      .gold { fill: none; stroke: var(--logo-gold); stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; }
+      .dot { fill: var(--logo-gold); stroke: var(--logo-paper); stroke-width: 2; }
+      .stamp { fill: none; stroke: var(--logo-gold); stroke-width: 1.4; }
+      .stamp-text {
+        fill: var(--logo-gold);
+        font: 700 10px "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+      }
+    </style>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#f6eedc"/>
+  <path class="book" d="M9 13c15-2 25 2 30 9v32c-6-5-16-8-30-5V13Z"/>
+  <path class="book" d="M40 22c5-7 15-10 25-8v35c-10-2-19 0-25 5V22Z"/>
+  <path class="book" d="M37.5 22h4v33h-4z"/>
+  <path class="line" d="M8 42c8-7 16-9 27-8 8 0 12-6 18-8 5-2 9-3 13-3"/>
+  <path class="gold" d="M8 42c8-7 16-9 27-8 8 0 12-6 18-8 5-2 9-3 13-3"/>
+  <circle class="dot" cx="23" cy="36" r="3.9"/>
+  <circle class="dot" cx="43" cy="29" r="3"/>
+  <g transform="translate(15 18)">
+    <rect class="stamp" width="13" height="13" rx="2"/>
+    <text class="stamp-text" x="6.5" y="9.7" text-anchor="middle">段</text>
+  </g>
+</svg>

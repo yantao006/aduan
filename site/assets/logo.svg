@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">段永平投资知识库 Logo</title>
+  <desc id="desc">打开的书页、长期时间线和段字印章组成的知识库标志。</desc>
+  <defs>
+    <style>
+      :root {
+        --logo-ink: #3a2418;
+        --logo-ink-soft: #4a2f1f;
+        --logo-gold: #c6923e;
+        --logo-paper: #f6eedc;
+        --logo-line: #efe0c3;
+      }
+      .book { fill: var(--logo-ink); }
+      .book-soft { fill: var(--logo-ink-soft); opacity: .82; }
+      .paper-line { fill: none; stroke: var(--logo-paper); stroke-linecap: round; stroke-linejoin: round; }
+      .gold-stroke { fill: none; stroke: var(--logo-gold); stroke-linecap: round; stroke-linejoin: round; }
+      .node { fill: var(--logo-gold); stroke: var(--logo-paper); stroke-width: 7; }
+      .stamp { fill: none; stroke: var(--logo-gold); stroke-width: 5; }
+      .stamp-text {
+        fill: var(--logo-gold);
+        font: 700 34px "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+      }
+    </style>
+    <filter id="softShadow" x="-18%" y="-18%" width="136%" height="136%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#3a2418" flood-opacity=".16"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <path class="book" d="M32 44c58-6 99 8 118 33v134c-23-22-62-31-118-22V44Z"/>
+    <path class="book-soft" d="M151 78c19-26 61-38 106-32v143c-46-8-84 1-106 22V78Z"/>
+    <path class="book" d="M145 80h12v133h-12z"/>
+
+    <path class="paper-line" stroke-width="17" d="M28 164c28-24 57-31 96-30 38 0 58-14 78-30 20-15 38-20 58-22"/>
+    <path class="gold-stroke" stroke-width="3" d="M28 164c28-24 57-31 96-30 38 0 58-14 78-30 20-15 38-20 58-22"/>
+    <path class="gold-stroke" stroke-width="3" d="M226 91l28-8"/>
+
+    <circle class="node" cx="66" cy="145" r="13"/>
+    <circle class="node" cx="132" cy="132" r="10"/>
+    <circle class="node" cx="190" cy="105" r="10"/>
+    <circle class="node" cx="229" cy="91" r="8"/>
+
+    <path class="paper-line" stroke-width="6" opacity=".7" d="M32 190c39-8 79-3 118 21"/>
+    <path class="paper-line" stroke-width="6" opacity=".7" d="M151 211c35-22 70-28 106-22"/>
+  </g>
+
+  <g transform="translate(51 61)">
+    <rect class="stamp" x="0" y="0" width="45" height="45" rx="7"/>
+    <text class="stamp-text" x="22.5" y="33" text-anchor="middle">段</text>
+  </g>
+</svg>
